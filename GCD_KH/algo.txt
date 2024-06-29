@@ -1,0 +1,45 @@
+assume that x > y then
+x = a * y + r
+if r = 0 GCD(x, y) = y
+if r != 0 GCD(x, y) = gcd(y, r)
+
+
+algorithm 1
+int x, y, r;
+while(1){
+    while(Start_i){
+        if(x_i >= y_i){
+            x= x_i;
+            y = y_i;
+        }else{
+            x = y_i;
+            y = x_i;
+        }
+
+    }
+    while(y != 0){
+        r = x % y;
+        x = y;
+        y = r;
+    }
+    GCD_o = x;
+    Done_o = '1';
+}
+
+algorithm 2
+int x, y;
+while(1){
+    while(Start_i){
+        x = x_i;
+        y = y_i;
+        while(x != y){
+            if(x < y){
+                y = y - x;
+            }else{
+                x = x - y;
+            }
+        }
+        Dont_o = '1';
+        GCD_o = x;
+    }
+}
