@@ -16,6 +16,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity GCD
 -- Compiling architecture rtl of GCD
 
+} {} {}} D:/Workspace/VHDL/GCD_KH/GCD_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Workspace/VHDL/GCD_KH/GCD_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MyLib
+-- Compiling entity GCD_tb
+-- Compiling architecture BEV of GCD_tb
+
 } {} {}} D:/Workspace/VHDL/GCD_KH/Datapath.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Workspace/VHDL/GCD_KH/Datapath.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -28,16 +38,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity Datapath
 -- Compiling architecture RTL of Datapath
 
-} {} {}} D:/Workspace/VHDL/GCD_KH/GCD_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Workspace/VHDL/GCD_KH/GCD_tb.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package MyLib
--- Compiling entity GCD_tb
--- Compiling architecture BEV of GCD_tb
-
 } {} {}} D:/Workspace/VHDL/GCD_KH/Regn.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Workspace/VHDL/GCD_KH/Regn.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -46,14 +46,5 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package NUMERIC_STD
 -- Compiling entity Regn
 -- Compiling architecture rtl of Regn
-
-} {} {}} D:/Workspace/VHDL/GCD_KH/Controller.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Workspace/VHDL/GCD_KH/Controller.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity Controller
--- Compiling architecture rtl of Controller
 
 } {} {}}
