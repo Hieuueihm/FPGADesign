@@ -1,0 +1,20 @@
+int x, y, r;
+while(1){
+    while(!Start_i)
+        
+    if(x_i >= y_i){
+        x= x_i;
+        y = y_i;
+    }else{
+        x = y_i;
+        y = x_i;
+    }
+    
+    while(y != 0){
+        r = x % y;
+        x = y;
+        y = r;
+    }
+    GCD_o = x;
+    Done_o = '1';
+}

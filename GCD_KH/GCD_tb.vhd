@@ -38,7 +38,6 @@ END PROCESS;
 --stimulus
 Stimulus: PROCESS
 BEGIN
-	Done_o <= '0';
 	Start_i <= '0';
 	RST <= '1';
 	wait for 10 ns;

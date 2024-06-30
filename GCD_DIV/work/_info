@@ -1,0 +1,330 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Workspace/VHDL/GCD_KH
+Econtroller
+Z0 w1719718702
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dD:/Workspace/VHDL/GCD_DIV
+Z5 8D:/Workspace/VHDL/GCD_DIV/Controller.vhd
+Z6 FD:/Workspace/VHDL/GCD_DIV/Controller.vhd
+l0
+L5
+V;UZ9EcOB@U?R:MToJC6aN1
+!s100 oa2K<;Thjb=C5=9l8BHig1
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1719721065
+!i10b 1
+Z9 !s108 1719721065.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Workspace/VHDL/GCD_DIV/Controller.vhd|
+Z11 !s107 D:/Workspace/VHDL/GCD_DIV/Controller.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+DEx4 work 10 controller 0 22 ;UZ9EcOB@U?R:MToJC6aN1
+l21
+L17
+V2_V0ZR:_a6b8lX2Q]NjbT0
+!s100 P=l5WD4UK[9;HKddR63Td2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Edatapath
+Z14 w1719716454
+Z15 DPx4 work 5 mylib 0 22 iBmmbZ6_9`Ri:kQe?Yc1[3
+Z16 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z17 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
+R2
+R3
+R4
+Z18 8D:/Workspace/VHDL/GCD_DIV/Datapath.vhd
+Z19 FD:/Workspace/VHDL/GCD_DIV/Datapath.vhd
+l0
+L7
+VCdMBbWe6E`7A_c0>^<DDj0
+!s100 VK>:?am4_@OL>XN?V:^T22
+R7
+32
+R8
+!i10b 1
+R9
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Workspace/VHDL/GCD_DIV/Datapath.vhd|
+Z21 !s107 D:/Workspace/VHDL/GCD_DIV/Datapath.vhd|
+!i113 1
+R12
+R13
+Artl
+R15
+R16
+R17
+R1
+R2
+R3
+DEx4 work 8 datapath 0 22 CdMBbWe6E`7A_c0>^<DDj0
+l25
+L21
+VnZ?SfjN7ha]P5:0g8h?dH3
+!s100 N[SoYDBZ^7?mV;n<C=>H60
+R7
+32
+R8
+!i10b 1
+R9
+R20
+R21
+!i113 1
+R12
+R13
+Edivider
+Z22 w1719717842
+R1
+R2
+R3
+R4
+Z23 8D:/Workspace/VHDL/GCD_DIV/Divider.vhd
+Z24 FD:/Workspace/VHDL/GCD_DIV/Divider.vhd
+l0
+L5
+Vb:ijl@1b@[nE2X;0K3j^O1
+!s100 PiIXfjz;zbTKaQAUofPaR3
+R7
+32
+R8
+!i10b 1
+R9
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Workspace/VHDL/GCD_DIV/Divider.vhd|
+Z26 !s107 D:/Workspace/VHDL/GCD_DIV/Divider.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+Z27 DEx4 work 7 divider 0 22 b:ijl@1b@[nE2X;0K3j^O1
+l18
+L16
+V7P=immdU5P6aYJHf9C>zV2
+!s100 MaFz;oWLB^`QXEAzVRD[b1
+R7
+32
+R8
+!i10b 1
+R9
+R25
+R26
+!i113 1
+R12
+R13
+Edivider_tb
+Z28 w1719717484
+R1
+R2
+R3
+R4
+Z29 8D:/Workspace/VHDL/GCD_DIV/Divider_tb.vhd
+Z30 FD:/Workspace/VHDL/GCD_DIV/Divider_tb.vhd
+l0
+L5
+VGMPEe:2EG<Z:=8D0kYM5P1
+!s100 <Pnzcj7f7;RChBj^;3C6c0
+R7
+32
+R8
+!i10b 1
+R9
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Workspace/VHDL/GCD_DIV/Divider_tb.vhd|
+Z32 !s107 D:/Workspace/VHDL/GCD_DIV/Divider_tb.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R27
+R1
+R2
+R3
+DEx4 work 10 divider_tb 0 22 GMPEe:2EG<Z:=8D0kYM5P1
+l17
+L8
+VGcYH:U:3;DkZ3h^EVN:7[2
+!s100 ZCnhBGnFTF@zCDU;M69VL3
+R7
+32
+R8
+!i10b 1
+R9
+R31
+R32
+!i113 1
+R12
+R13
+Egcd
+Z33 w1719716737
+R15
+R1
+R2
+R3
+R4
+Z34 8D:/Workspace/VHDL/GCD_DIV/GCD.vhd
+Z35 FD:/Workspace/VHDL/GCD_DIV/GCD.vhd
+l0
+L7
+V3IlHLKLjRkYl^i[Re2edi2
+!s100 6T_JB8cKMT@O:I?N86a?a2
+R7
+32
+R8
+!i10b 1
+R9
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Workspace/VHDL/GCD_DIV/GCD.vhd|
+Z37 !s107 D:/Workspace/VHDL/GCD_DIV/GCD.vhd|
+!i113 1
+R12
+R13
+Artl
+R15
+R1
+R2
+R3
+DEx4 work 3 gcd 0 22 3IlHLKLjRkYl^i[Re2edi2
+l23
+L18
+V`>Y658>aOSJGPma=zzQ[G0
+!s100 ^2]^0kPBO;FRc7fg>ldO93
+R7
+32
+R8
+!i10b 1
+R9
+R36
+R37
+!i113 1
+R12
+R13
+Egcd_tb
+Z38 w1719721013
+R15
+R1
+R2
+R3
+R4
+Z39 8D:/Workspace/VHDL/GCD_DIV/GCD_tb.vhd
+Z40 FD:/Workspace/VHDL/GCD_DIV/GCD_tb.vhd
+l0
+L7
+VH[SVF101zOQmj:C2=`B<42
+!s100 Dk6V_h?z<7gf:aWTVi`6H1
+R7
+32
+Z41 !s110 1719721066
+!i10b 1
+Z42 !s108 1719721066.000000
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Workspace/VHDL/GCD_DIV/GCD_tb.vhd|
+Z44 !s107 D:/Workspace/VHDL/GCD_DIV/GCD_tb.vhd|
+!i113 1
+R12
+R13
+Abev
+R15
+R1
+R2
+R3
+DEx4 work 6 gcd_tb 0 22 H[SVF101zOQmj:C2=`B<42
+l17
+L10
+V4IRIdI0@Fb5lU^SQEe>[O1
+!s100 zaFbE@ZDm67gWHnE:e_Q;1
+R7
+32
+R41
+!i10b 1
+R42
+R43
+R44
+!i113 1
+R12
+R13
+Pmylib
+R1
+R2
+R3
+w1719716826
+R4
+8D:/Workspace/VHDL/GCD_DIV/MyLib.vhd
+FD:/Workspace/VHDL/GCD_DIV/MyLib.vhd
+l0
+L6
+ViBmmbZ6_9`Ri:kQe?Yc1[3
+!s100 W95oo>2T@R_QV3<dMX0Vj3
+R7
+32
+!s110 1719721070
+!i10b 1
+!s108 1719721070.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Workspace/VHDL/GCD_DIV/MyLib.vhd|
+!s107 D:/Workspace/VHDL/GCD_DIV/MyLib.vhd|
+!i113 1
+R12
+R13
+Eregn
+Z45 w1719715036
+R1
+R2
+R3
+R4
+Z46 8D:/Workspace/VHDL/GCD_DIV/Regn.vhd
+Z47 FD:/Workspace/VHDL/GCD_DIV/Regn.vhd
+l0
+L5
+VEB2^b045L>nVDcQ9MCdh43
+!s100 [1fZaL1MTSAQZbGQI[H^g0
+R7
+32
+R8
+!i10b 1
+R9
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Workspace/VHDL/GCD_DIV/Regn.vhd|
+Z49 !s107 D:/Workspace/VHDL/GCD_DIV/Regn.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 4 regn 0 22 EB2^b045L>nVDcQ9MCdh43
+l16
+L14
+VP]Dfol^=68Fj^I;ZIVhnW1
+!s100 UdcdfZ@7?_B`;n58bHz110
+R7
+32
+R8
+!i10b 1
+R9
+R48
+R49
+!i113 1
+R12
+R13

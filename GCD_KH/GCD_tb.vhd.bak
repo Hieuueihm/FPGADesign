@@ -49,7 +49,7 @@ BEGIN
 	X_i <= X"0C";
 	Y_i <= X"04";
 	Start_i <= '1';
-	WAIT until Done_o <= '1';
+	WAIT until Done_o = '1';
 	Start_i <= '0';
 	wait;
 

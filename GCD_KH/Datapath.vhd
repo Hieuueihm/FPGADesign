@@ -2,7 +2,7 @@ LIBRARY IEEE;
 USE IEEE.std_logic_1164.ALL;
 USE IEEE.numeric_std.ALL;
 USE IEEE.std_logic_arith.ALL;
-USE IEEE.std_logic_unsigned.all;
+USE IEEE.std_logic_unsigned.ALL;
 
 USE work.MyLib.ALL;
 

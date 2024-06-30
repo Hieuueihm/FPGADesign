@@ -1,0 +1,38 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.NUMERIC_STD.ALL;
+
+ENTITY Divider IS
+    GENERIC (
+        DATA_WIDTH : INTEGER
+    );
+    PORT (
+        X : IN STD_LOGIC_VECTOR(DATA_WIDTH - 1 DOWNTO 0);
+        Y : IN STD_LOGIC_VECTOR(DATA_WIDTH - 1 DOWNTO 0);
+        R : OUT STD_LOGIC_VECTOR(DATA_WIDTH - 1 DOWNTO 0)
+    );
+END Divider;
+
+ARCHITECTURE Behavioral OF Divider IS
+    SIGNAL X_int : unsigned(DATA_WIDTH - 1 DOWNTO 0);
+    SIGNAL Y_int : unsigned(DATA_WIDTH - 1 DOWNTO 0);
+    SIGNAL R_int : unsigned(DATA_WIDTH - 1 DOWNTO 0);
+BEGIN
+    PROCESS (X, Y)
+    BEGIN
+        -- Chuyển đổi STD_LOGIC_VECTOR sang unsigned
+        X_int <= unsigned(X);
+        Y_int <= unsigned(Y);
+
+        IF Y_int = 0 THEN
+            -- Trường hợp Y = 0, phần dư không xác định
+            R_int <= (OTHERS => 'X');
+        ELSE
+            -- Thực hiện phép chia và lấy phần dư
+            R_int <= X_int MOD Y_int;
+        END IF;
+    END PROCESS;
+
+    -- Chuyển đổi phần dư từ unsigned sang STD_LOGIC_VECTOR
+    R <= STD_LOGIC_VECTOR(R_int);
+END Behavioral;
