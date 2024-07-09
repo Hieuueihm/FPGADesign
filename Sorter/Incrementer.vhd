@@ -1,0 +1,19 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;
+USE IEEE.numeric_std.ALL;
+
+ENTITY Incrementer IS
+    GENERIC (DATA_LENGTH : INTEGER);
+    PORT (
+        INP : IN STD_LOGIC_VECTOR(DATA_LENGTH - 1 DOWNTO 0);
+        OUTP : OUT STD_LOGIC_VECTOR(DATA_LENGTH - 1 DOWNTO 0)
+    );
+END ENTITY Incrementer;
+
+ARCHITECTURE behavior OF Incrementer IS
+BEGIN
+    PROCESS (INP)
+    BEGIN
+        OUTP <= STD_LOGIC_VECTOR(unsigned(INP) + 1);
+    END PROCESS;
+END ARCHITECTURE behavior;

@@ -1,0 +1,1035 @@
+# Loading project GCD_DIV
+quit -sim
+# reading /home/hieu/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project Sorter
+# Compile of Datapath.vhd was successful.
+# Compile of Counter_tb.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Incrementer.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Regn.vhd was successful.
+# Compile of Sorter.vhd was successful.
+# Compile of Sorter_tb.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+vsim work.sorter_tb
+# vsim work.sorter_tb 
+# Start time: 01:37:53 on Jul 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.sorter_tb(bev)
+# Loading work.sorter(rtl)
+# Loading work.datapath(rtl)
+# Loading work.memory(rtl)
+# Loading work.counter(rtl)
+# Loading work.incrementer(behavior)
+# Loading work.regn(rtl)
+# Loading work.controller(rtl)
+add wave *
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 990 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Datapath.vhd was successful.
+# Compile of Counter_tb.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Incrementer.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Regn.vhd was successful.
+# Compile of Sorter.vhd was successful.
+# Compile of Sorter_tb.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+vsim work.sorter_tb
+# End time: 01:41:59 on Jul 09,2024, Elapsed time: 0:04:06
+# Errors: 0, Warnings: 11
+# vsim work.sorter_tb 
+# Start time: 01:41:59 on Jul 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.sorter_tb(bev)
+# Loading work.sorter(rtl)
+# Loading work.datapath(rtl)
+# Loading work.memory(rtl)
+# Loading work.counter(rtl)
+# Loading work.incrementer(behavior)
+# Loading work.regn(rtl)
+# Loading work.controller(rtl)
+run -over
+add wave *
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave *
+add wave *
+add wave -position insertpoint  \
+sim:/sorter_tb/DUT/A_gt_B \
+sim:/sorter_tb/DUT/Addr_in \
+sim:/sorter_tb/DUT/Addr_sel \
+sim:/sorter_tb/DUT/ADDR_WIDTH \
+sim:/sorter_tb/DUT/CLK \
+sim:/sorter_tb/DUT/Data_in \
+sim:/sorter_tb/DUT/DATA_LENGTH \
+sim:/sorter_tb/DUT/Data_out \
+sim:/sorter_tb/DUT/DATA_WIDTH \
+sim:/sorter_tb/DUT/Done \
+sim:/sorter_tb/DUT/En_A \
+sim:/sorter_tb/DUT/En_B \
+sim:/sorter_tb/DUT/En_i \
+sim:/sorter_tb/DUT/En_j \
+sim:/sorter_tb/DUT/Int_RE \
+sim:/sorter_tb/DUT/Int_WE \
+sim:/sorter_tb/DUT/K \
+sim:/sorter_tb/DUT/LD_i \
+sim:/sorter_tb/DUT/LD_j \
+sim:/sorter_tb/DUT/Min_sel \
+sim:/sorter_tb/DUT/RE \
+sim:/sorter_tb/DUT/RST \
+sim:/sorter_tb/DUT/Start \
+sim:/sorter_tb/DUT/WE \
+sim:/sorter_tb/DUT/Zi \
+sim:/sorter_tb/DUT/Zj
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1070 ns  Iteration: 2  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1110 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1170 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1210 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1270 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1310 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1370 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1410 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1470 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1510 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1570 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1610 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1670 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1710 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1770 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1810 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1870 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1910 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1970 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2010 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2070 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2110 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2170 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2210 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2270 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2310 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2370 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2410 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2470 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2510 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2570 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2610 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2670 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2710 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2770 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2810 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2870 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2910 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2970 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3010 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3070 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3110 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3170 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run -continue
+vsim work.sorter_tb
+# End time: 01:43:59 on Jul 09,2024, Elapsed time: 0:02:00
+# Errors: 0, Warnings: 47
+# vsim work.sorter_tb 
+# Start time: 01:43:59 on Jul 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.sorter_tb(bev)
+# Loading work.sorter(rtl)
+# Loading work.datapath(rtl)
+# Loading work.memory(rtl)
+# Loading work.counter(rtl)
+# Loading work.incrementer(behavior)
+# Loading work.regn(rtl)
+# Loading work.controller(rtl)
+add wave *
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1070 ns  Iteration: 2  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1110 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1170 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1210 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1270 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1310 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1370 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1410 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1470 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1510 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1570 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1610 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1670 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1710 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1770 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1810 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1870 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1910 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1970 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2010 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2070 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2110 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2170 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2210 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2270 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2310 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2370 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2410 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2470 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2510 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2570 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2610 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2670 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2710 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2770 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2810 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2870 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2910 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2970 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3010 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3070 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3110 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3170 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3210 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3270 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3310 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3370 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3410 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3470 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3510 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3570 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3610 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3670 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3710 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3770 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3810 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3870 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3910 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3970 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4010 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4070 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4110 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4170 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4210 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4270 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4310 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4370 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4410 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4470 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4510 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4570 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4610 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4670 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4710 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4770 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4810 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4870 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4910 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 4970 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5010 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 5070 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5110 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 5170 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5210 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 5270 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5310 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 5370 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5410 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 5470 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5510 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 5570 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5610 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 5670 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5710 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 5770 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5810 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 5870 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5910 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 5970 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6010 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 6070 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6110 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 6170 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6210 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 6270 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6310 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 6370 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6410 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 6470 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6510 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 6570 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6610 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 6670 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# Compile of Datapath.vhd was successful.
+# Compile of Counter_tb.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Incrementer.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Regn.vhd was successful.
+# Compile of Sorter.vhd was successful.
+# Compile of Sorter_tb.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+vsim work.sorter_tb
+# End time: 01:47:28 on Jul 09,2024, Elapsed time: 0:03:29
+# Errors: 0, Warnings: 118
+# vsim work.sorter_tb 
+# Start time: 01:47:28 on Jul 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.sorter_tb(bev)
+# Loading work.sorter(rtl)
+# Loading work.datapath(rtl)
+# Loading work.memory(rtl)
+# Loading work.counter(rtl)
+# Loading work.incrementer(behavior)
+# Loading work.regn(rtl)
+# Loading work.controller(rtl)
+add wave *
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1070 ns  Iteration: 2  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1110 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1170 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1210 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1270 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1310 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1370 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1410 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1470 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1510 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1570 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1610 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1670 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1710 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1770 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1810 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1870 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1910 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1970 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2010 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2070 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2110 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2170 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2210 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2270 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# Compile of Datapath.vhd was successful.
+# Compile of Counter_tb.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Incrementer.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Regn.vhd was successful.
+# Compile of Sorter.vhd was successful.
+# Compile of Sorter_tb.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+vsim work.sorter_tb
+# End time: 01:50:23 on Jul 09,2024, Elapsed time: 0:02:55
+# Errors: 0, Warnings: 30
+# vsim work.sorter_tb 
+# Start time: 01:50:23 on Jul 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.sorter_tb(bev)
+# Loading work.sorter(rtl)
+# Loading work.datapath(rtl)
+# Loading work.memory(rtl)
+# Loading work.counter(rtl)
+# Loading work.incrementer(behavior)
+# Loading work.regn(rtl)
+# Loading work.controller(rtl)
+add wave *
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1070 ns  Iteration: 2  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1110 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1170 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1210 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1270 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1310 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1370 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1410 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1470 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1510 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1570 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1610 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1670 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1710 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1770 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1810 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1870 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1910 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1970 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# Compile of Datapath.vhd was successful.
+# Compile of Counter_tb.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Incrementer.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Regn.vhd was successful.
+# Compile of Sorter.vhd was successful.
+# Compile of Sorter_tb.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+vsim work.sorter_tb
+# End time: 01:51:22 on Jul 09,2024, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 24
+# vsim work.sorter_tb 
+# Start time: 01:51:22 on Jul 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.sorter_tb(bev)
+# Loading work.sorter(rtl)
+# Loading work.datapath(rtl)
+# Loading work.memory(rtl)
+# Loading work.counter(rtl)
+# Loading work.incrementer(behavior)
+# Loading work.regn(rtl)
+# Loading work.controller(rtl)
+add wave *
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1070 ns  Iteration: 2  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1110 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1170 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1210 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1270 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1310 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1370 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1410 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1470 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1510 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1570 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1610 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1670 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1710 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1770 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1810 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1870 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1910 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1970 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+vsim work.sorter_tb
+# End time: 01:53:55 on Jul 09,2024, Elapsed time: 0:02:33
+# Errors: 0, Warnings: 23
+# vsim work.sorter_tb 
+# Start time: 01:53:55 on Jul 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.sorter_tb(bev)
+# Loading work.sorter(rtl)
+# Loading work.datapath(rtl)
+# Loading work.memory(rtl)
+# Loading work.counter(rtl)
+# Loading work.incrementer(behavior)
+# Loading work.regn(rtl)
+# Loading work.controller(rtl)
+add wave *
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1070 ns  Iteration: 2  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1110 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1170 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1210 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1270 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1310 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1370 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+force -freeze sim:/sorter_tb/WE 0 0
+force -freeze sim:/sorter_tb/Addr_in 0111 0
+vsim -gui work.sorter_tb
+# End time: 10:38:29 on Jul 09,2024, Elapsed time: 8:44:34
+# Errors: 0, Warnings: 11
+# vsim -gui work.sorter_tb 
+# Start time: 10:38:29 on Jul 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.sorter_tb(bev)
+# Loading work.sorter(rtl)
+# Loading work.datapath(rtl)
+# Loading work.memory(rtl)
+# Loading work.counter(rtl)
+# Loading work.incrementer(behavior)
+# Loading work.regn(rtl)
+# Loading work.controller(rtl)
+add wave *
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1070 ns  Iteration: 2  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1110 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1170 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1210 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1270 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1310 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1370 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1410 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1470 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1510 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1570 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1610 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1670 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1710 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1770 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1810 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1870 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1910 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1970 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2010 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2070 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2110 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2170 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2210 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2270 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2310 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2370 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2410 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2470 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J

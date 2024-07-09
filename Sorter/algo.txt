@@ -1,0 +1,20 @@
+initialize input data
+wait for start = '1'
+Done = '0';
+for i = 0 to k - 2 do   
+    A = Mi
+    for j = i + 1 to k - 1 do
+        B = Mj
+        if A > B then
+        -- swap
+            Mi = B
+            Mj = A
+            A = Mi 
+        end if
+    end for
+end for
+Done = '1'
+wait start = '0'
+go to beginning
+end
+

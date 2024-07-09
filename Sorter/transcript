@@ -1,0 +1,1274 @@
+# Loading project Sorter
+# Compile of Datapath.vhd was successful.
+# Compile of Counter_tb.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Incrementer.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Regn.vhd was successful.
+# Compile of Sorter.vhd was successful.
+# Compile of Sorter_tb.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui work.sorter_tb
+# vsim -gui work.sorter_tb 
+# Start time: 10:44:34 on Jul 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.sorter_tb(bev)
+# Loading work.sorter(rtl)
+# Loading work.datapath(rtl)
+# Loading work.memory(rtl)
+# Loading work.counter(rtl)
+# Loading work.incrementer(behavior)
+# Loading work.regn(rtl)
+# Loading work.controller(rtl)
+add wave *
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1070 ns  Iteration: 2  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1110 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1170 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1210 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1270 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1310 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1370 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1410 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1470 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1510 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1570 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1610 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1670 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1710 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1770 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# Compile of Datapath.vhd was successful.
+# Compile of Counter_tb.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Incrementer.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Regn.vhd was successful.
+# Compile of Sorter.vhd was successful.
+# Compile of Sorter_tb.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui work.sorter_tb
+# End time: 10:46:49 on Jul 09,2024, Elapsed time: 0:02:15
+# Errors: 0, Warnings: 21
+# vsim -gui work.sorter_tb 
+# Start time: 10:46:49 on Jul 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.sorter_tb(bev)
+# Loading work.sorter(rtl)
+# Loading work.datapath(rtl)
+# Loading work.memory(rtl)
+# Loading work.counter(rtl)
+# Loading work.incrementer(behavior)
+# Loading work.regn(rtl)
+# Loading work.controller(rtl)
+add wave *
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1070 ns  Iteration: 2  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1110 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1170 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1230 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1290 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1350 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1410 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1470 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1530 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1590 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1650 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1710 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1770 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1830 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1890 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1950 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2010 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2070 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2130 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2190 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2250 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2310 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2370 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2430 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2490 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2550 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2610 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2670 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2730 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2790 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2850 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+vsim -gui work.sorter_tb
+# End time: 10:47:32 on Jul 09,2024, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 35
+# vsim -gui work.sorter_tb 
+# Start time: 10:47:32 on Jul 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.sorter_tb(bev)
+# Loading work.sorter(rtl)
+# Loading work.datapath(rtl)
+# Loading work.memory(rtl)
+# Loading work.counter(rtl)
+# Loading work.incrementer(behavior)
+# Loading work.regn(rtl)
+# Loading work.controller(rtl)
+add wave *
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1070 ns  Iteration: 2  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1110 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1170 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1230 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1290 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1350 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1410 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1470 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1530 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1590 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1650 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1710 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1770 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1830 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1890 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1950 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2010 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2070 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2130 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2190 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2250 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2310 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2370 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# WARNING: No extended dataflow license exists
+# Compile of Datapath.vhd was successful.
+# Compile of Counter_tb.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Incrementer.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Regn.vhd was successful.
+# Compile of Sorter.vhd was successful.
+# Compile of Sorter_tb.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui work.sorter_tb
+# End time: 10:50:25 on Jul 09,2024, Elapsed time: 0:02:53
+# Errors: 0, Warnings: 28
+# vsim -gui work.sorter_tb 
+# Start time: 10:50:25 on Jul 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.sorter_tb(bev)
+# Loading work.sorter(rtl)
+# Loading work.datapath(rtl)
+# Loading work.memory(rtl)
+# Loading work.counter(rtl)
+# Loading work.incrementer(behavior)
+# Loading work.regn(rtl)
+# Loading work.controller(rtl)
+add wave *
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1070 ns  Iteration: 2  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1110 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1170 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1230 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1290 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1350 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1410 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1470 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1530 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1590 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1650 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1710 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1770 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1830 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1890 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1950 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2010 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2070 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2130 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2190 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2250 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2310 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2370 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2430 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2490 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# WARNING: No extended dataflow license exists
+# Compile of Datapath.vhd was successful.
+# Compile of Counter_tb.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Incrementer.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Regn.vhd was successful.
+# Compile of Sorter.vhd was successful.
+# Compile of Sorter_tb.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui work.sorter_tb
+# End time: 10:54:46 on Jul 09,2024, Elapsed time: 0:04:21
+# Errors: 0, Warnings: 30
+# vsim -gui work.sorter_tb 
+# Start time: 10:54:46 on Jul 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.sorter_tb(bev)
+# Loading work.sorter(rtl)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.datapath(rtl)
+# Loading work.memory(rtl)
+# Loading work.counter(rtl)
+# Loading work.incrementer(behavior)
+# Loading work.regn(rtl)
+# Loading work.controller(rtl)
+add wave *
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1070 ns  Iteration: 2  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1110 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1170 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1230 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1290 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1350 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1410 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1470 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1530 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1590 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1650 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1710 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1770 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1830 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1890 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1950 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2010 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2070 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2130 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2190 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2250 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2310 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2370 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2430 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2490 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2550 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2610 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2670 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2730 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2790 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2850 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# Compile of Datapath.vhd was successful.
+# Compile of Counter_tb.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Incrementer.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Regn.vhd was successful.
+# Compile of Sorter.vhd was successful.
+# Compile of Sorter_tb.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+
+
+vsim -gui work.sorter_tb
+# End time: 10:59:49 on Jul 09,2024, Elapsed time: 0:05:03
+# Errors: 0, Warnings: 36
+# vsim -gui work.sorter_tb 
+# Start time: 10:59:49 on Jul 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.sorter_tb(bev)
+# Loading work.sorter(rtl)
+# Loading work.datapath(rtl)
+# Loading work.memory(rtl)
+# Loading work.counter(rtl)
+# Loading work.incrementer(behavior)
+# Loading work.regn(rtl)
+# Loading work.controller(rtl)
+add wave *
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Compile of Datapath.vhd was successful.
+# Compile of Counter_tb.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd failed with 4 errors.
+# Compile of Incrementer.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Regn.vhd was successful.
+# Compile of Sorter.vhd was successful.
+# Compile of Sorter_tb.vhd was successful.
+# 10 compiles, 1 failed with 4 errors.
+# Compile of Datapath.vhd was successful.
+# Compile of Counter_tb.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd failed with 8 errors.
+# Compile of Incrementer.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Regn.vhd was successful.
+# Compile of Sorter.vhd was successful.
+# Compile of Sorter_tb.vhd was successful.
+# 10 compiles, 1 failed with 8 errors.
+# Compile of Datapath.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Datapath.vhd was successful.
+# Compile of Counter_tb.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Incrementer.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Regn.vhd was successful.
+# Compile of Sorter.vhd was successful.
+# Compile of Sorter_tb.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui work.counter_tb
+# End time: 11:31:07 on Jul 09,2024, Elapsed time: 0:31:18
+# Errors: 0, Warnings: 9
+# vsim -gui work.counter_tb 
+# Start time: 11:31:07 on Jul 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.counter_tb(behavior)
+# Loading work.counter(rtl)
+add wave *
+run
+run
+run
+run
+run
+run
+run
+run
+vsim -gui work.sorter_tb
+# End time: 11:32:02 on Jul 09,2024, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 1
+# vsim -gui work.sorter_tb 
+# Start time: 11:32:02 on Jul 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.sorter_tb(bev)
+# Loading work.sorter(rtl)
+# Loading work.datapath(rtl)
+# Loading work.memory(rtl)
+# Loading work.counter(rtl)
+# Loading work.incrementer(behavior)
+# Loading work.regn(rtl)
+# Loading work.controller(rtl)
+add wave *
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1030 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1110 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1170 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1230 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1290 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1350 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1410 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1470 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1530 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1590 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1650 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1710 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1770 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1830 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/Memory_ins
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1890 ns  Iteration: 1  Instance: /sorter_tb/DUT/DATAPATH_UNIT/COUNTER_J
+# Compile of Datapath.vhd failed with 1 errors.
+# Compile of Counter_tb.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Incrementer.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd failed with 1 errors.
+# Compile of Regn.vhd was successful.
+# Compile of Sorter.vhd failed with 8 errors.
+# Compile of Sorter_tb.vhd was successful.
+# 10 compiles, 3 failed with 10 errors.
+# Compile of MyLib.vhd failed with 1 errors.
+# Compile of Datapath.vhd failed with 1 errors.
+# Compile of Sorter.vhd failed with 8 errors.
+# Compile of Datapath.vhd failed with 4 errors.
+# Compile of MyLib.vhd failed with 1 errors.
+# Compile of MyLib.vhd was successful.
+# Compile of Datapath.vhd was successful.
+# Compile of Sorter.vhd was successful.
+# Compile of Datapath.vhd was successful.
+# Compile of Counter_tb.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Incrementer.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Regn.vhd was successful.
+# Compile of Sorter.vhd was successful.
+# Compile of Sorter_tb.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui work.sorter_tb
+# End time: 12:08:52 on Jul 09,2024, Elapsed time: 0:36:50
+# Errors: 0, Warnings: 30
+# vsim -gui work.sorter_tb 
+# Start time: 12:08:52 on Jul 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.sorter_tb(bev)
+# Loading work.sorter(rtl)
+# Loading work.datapath(rtl)
+# Loading work.memory(rtl)
+# Loading work.counter(rtl)
+# Loading work.incrementer(behavior)
+# Loading work.regn(rtl)
+# Loading work.controller(rtl)
+add wave *
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Compile of Datapath.vhd was successful.
+# Compile of Counter_tb.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Incrementer.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Regn.vhd was successful.
+# Compile of Sorter.vhd was successful.
+# Compile of Sorter_tb.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui work.sorter_tb
+# End time: 12:25:57 on Jul 09,2024, Elapsed time: 0:17:05
+# Errors: 0, Warnings: 6
+# vsim -gui work.sorter_tb 
+# Start time: 12:25:57 on Jul 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.sorter_tb(bev)
+# Loading work.sorter(rtl)
+# Loading work.datapath(rtl)
+# Loading work.memory(rtl)
+# Loading work.counter(rtl)
+# Loading work.incrementer(behavior)
+# Loading work.regn(rtl)
+# Loading work.controller(rtl)
+add wave *
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Datapath.vhd was successful.
+# Compile of Counter_tb.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Incrementer.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Regn.vhd was successful.
+# Compile of Sorter.vhd was successful.
+# Compile of Sorter_tb.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui work.sorter_tb
+# End time: 12:30:39 on Jul 09,2024, Elapsed time: 0:04:42
+# Errors: 0, Warnings: 6
+# vsim -gui work.sorter_tb 
+# Start time: 12:30:39 on Jul 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.sorter_tb(bev)
+# Loading work.sorter(rtl)
+# Loading work.datapath(rtl)
+# Loading work.memory(rtl)
+# Loading work.counter(rtl)
+# Loading work.incrementer(behavior)
+# Loading work.regn(rtl)
+# Loading work.controller(rtl)
+# Compile of Datapath.vhd was successful.
+# Compile of Counter_tb.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Incrementer.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Regn.vhd was successful.
+# Compile of Sorter.vhd was successful.
+# Compile of Sorter_tb.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui work.sorter_tb
+# End time: 12:30:47 on Jul 09,2024, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 2
+# vsim -gui work.sorter_tb 
+# Start time: 12:30:47 on Jul 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.sorter_tb(bev)
+# Loading work.sorter(rtl)
+# Loading work.datapath(rtl)
+# Loading work.memory(rtl)
+# Loading work.counter(rtl)
+# Loading work.incrementer(behavior)
+# Loading work.regn(rtl)
+# Loading work.controller(rtl)
+add wave *
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Compile of Datapath.vhd was successful.
+# Compile of Counter_tb.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Incrementer.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Regn.vhd was successful.
+# Compile of Sorter.vhd was successful.
+# Compile of Sorter_tb.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+# Compile of Datapath.vhd was successful.
+# Compile of Counter_tb.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Incrementer.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Regn.vhd was successful.
+# Compile of Sorter.vhd was successful.
+# Compile of Sorter_tb.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui work.sorter_tb
+# End time: 12:32:41 on Jul 09,2024, Elapsed time: 0:01:54
+# Errors: 0, Warnings: 7
+# vsim -gui work.sorter_tb 
+# Start time: 12:32:41 on Jul 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.sorter_tb(bev)
+# Loading work.sorter(rtl)
+# Loading work.datapath(rtl)
+# Loading work.memory(rtl)
+# Loading work.counter(rtl)
+# Loading work.incrementer(behavior)
+# Loading work.regn(rtl)
+# Loading work.controller(rtl)
+add wave *
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sorter_tb/DUT/DATAPATH_UNIT
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Break key hit
+# Break key hit
+# Break key hit
