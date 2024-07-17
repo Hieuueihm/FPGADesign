@@ -1,0 +1,122 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/hieu/intelFPGA/20.1/modelsim_ase/bin
+Ei2c_master
+Z0 w1721222157
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 42
+Z4 d/home/hieu/Documents/Workspace/VHDL_prj/I2C_master
+Z5 8/home/hieu/Documents/Workspace/VHDL_prj/I2C_master/I2C_Master.vhd
+Z6 F/home/hieu/Documents/Workspace/VHDL_prj/I2C_master/I2C_Master.vhd
+l0
+L6 1
+VX972]3O:=F>?cINnZc31D3
+!s100 hEFV>XHEmO[B6k[oa373^2
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1721223647
+!i10b 1
+Z9 !s108 1721223647.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/hieu/Documents/Workspace/VHDL_prj/I2C_master/I2C_Master.vhd|
+Z11 !s107 /home/hieu/Documents/Workspace/VHDL_prj/I2C_master/I2C_Master.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+DEx4 work 10 i2c_master 0 22 X972]3O:=F>?cINnZc31D3
+!i122 42
+l37
+L25 135
+V5gaJo7TTPg[1^@?@=7oRT2
+!s100 lQ:QdoERjz=1c8inXR9j82
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ei2c_master_tb
+Z14 w1721223636
+Z15 DPx4 work 5 mylib 0 22 R1Nz2LaGLHL[QhMo<7zf;2
+R1
+R2
+R3
+!i122 43
+R4
+Z16 8/home/hieu/Documents/Workspace/VHDL_prj/I2C_master/I2C_Master_tb.vhd
+Z17 F/home/hieu/Documents/Workspace/VHDL_prj/I2C_master/I2C_Master_tb.vhd
+l0
+L7 1
+VV;L1H`F`fUNk8Te4381]F1
+!s100 2Am@N6QDPDfeaTmf3b=Zz0
+R7
+32
+Z18 !s110 1721223648
+!i10b 1
+R9
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/hieu/Documents/Workspace/VHDL_prj/I2C_master/I2C_Master_tb.vhd|
+Z20 !s107 /home/hieu/Documents/Workspace/VHDL_prj/I2C_master/I2C_Master_tb.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R15
+R1
+R2
+R3
+DEx4 work 13 i2c_master_tb 0 22 V;L1H`F`fUNk8Te4381]F1
+!i122 43
+l30
+L10 75
+VXOj>7@WQcJ2Jm<mBalGAN2
+!s100 8l@dfM4PM?RUVFTXNmCl]2
+R7
+32
+R18
+!i10b 1
+R9
+R19
+R20
+!i113 1
+R12
+R13
+Pmylib
+R1
+R2
+R3
+!i122 44
+w1721222239
+R4
+8/home/hieu/Documents/Workspace/VHDL_prj/I2C_master/MyLib.vhd
+F/home/hieu/Documents/Workspace/VHDL_prj/I2C_master/MyLib.vhd
+l0
+L4 1
+VR1Nz2LaGLHL[QhMo<7zf;2
+!s100 ooJnD4F`8Z7VP^d=L>z?`1
+R7
+32
+R18
+!i10b 1
+!s108 1721223648.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/hieu/Documents/Workspace/VHDL_prj/I2C_master/MyLib.vhd|
+!s107 /home/hieu/Documents/Workspace/VHDL_prj/I2C_master/MyLib.vhd|
+!i113 1
+R12
+R13
