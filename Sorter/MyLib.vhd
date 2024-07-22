@@ -19,13 +19,13 @@ PACKAGE MyLib IS
     -- Data length is maxmimum length of count 
     -- ex: 40 -> data length = 6 : 2^6 = 64
     COMPONENT Counter IS
-        GENERIC (DATA_LENGTH : INTEGER);
+        GENERIC (ADDR_WIDTH : INTEGER);
         PORT (
             RST, CLK : IN STD_LOGIC;
             En : IN STD_LOGIC;
             LD_o, LD_i : IN STD_LOGIC;
-            D : IN STD_LOGIC_VECTOR(DATA_LENGTH - 1 DOWNTO 0); -- Data input for loading
-            Q : OUT STD_LOGIC_VECTOR(DATA_LENGTH - 1 DOWNTO 0) -- Counter output
+            D : IN STD_LOGIC_VECTOR(ADDR_WIDTH - 1 DOWNTO 0); -- Data input for loading
+            Q : OUT STD_LOGIC_VECTOR(ADDR_WIDTH - 1 DOWNTO 0) -- Counter output
         );
     END COMPONENT;
     -- memory
@@ -33,9 +33,7 @@ PACKAGE MyLib IS
         GENERIC (
             DATA_WIDTH : INTEGER;
             ADDR_WIDTH : INTEGER); -- Width of the address bus
-
         PORT (
-
             Din : IN STD_LOGIC_VECTOR(DATA_WIDTH - 1 DOWNTO 0);
             ADDR : IN STD_LOGIC_VECTOR(ADDR_WIDTH - 1 DOWNTO 0); -- Address input
             WE, RE : IN STD_LOGIC;
@@ -46,10 +44,10 @@ PACKAGE MyLib IS
 
     -- Incrementer 
     COMPONENT Incrementer IS
-        GENERIC (DATA_LENGTH : INTEGER);
+        GENERIC (ADDR_WIDTH : INTEGER);
         PORT (
-            INP : IN STD_LOGIC_VECTOR(DATA_LENGTH - 1 DOWNTO 0);
-            OUTP : OUT STD_LOGIC_VECTOR(DATA_LENGTH - 1 DOWNTO 0)
+            INP : IN STD_LOGIC_VECTOR(ADDR_WIDTH - 1 DOWNTO 0);
+            OUTP : OUT STD_LOGIC_VECTOR(ADDR_WIDTH - 1 DOWNTO 0)
         );
     END COMPONENT;
     -- Datapath 
@@ -58,7 +56,6 @@ PACKAGE MyLib IS
         GENERIC (
             DATA_WIDTH : INTEGER;
             ADDR_WIDTH : INTEGER;
-            DATA_LENGTH : INTEGER;
             K : INTEGER
         );
         PORT (
@@ -91,7 +88,6 @@ PACKAGE MyLib IS
         GENERIC (
             DATA_WIDTH : INTEGER;
             ADDR_WIDTH : INTEGER;
-            DATA_LENGTH : INTEGER;
             K : INTEGER
         );
         PORT (

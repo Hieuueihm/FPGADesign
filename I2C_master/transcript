@@ -1,0 +1,753 @@
+# Loading project I2C
+quit -sim
+# reading /home/hieu/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project MatrixMul
+# Compile of Memory.vhd was successful.
+# Compile of Counter.vhd failed with 1 errors.
+# Compile of Counter.vhd failed with 2 errors.
+# Compile of Counter.vhd was successful.
+# Compile of MyLib.vhd failed with 1 errors.
+# Compile of MyLib.vhd was successful.
+# Compile of Counter.vhd failed with 2 errors.
+# Compile of Counter.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Datapath.vhd failed with 15 errors.
+# Compile of Datapath.vhd failed with 11 errors.
+# Compile of Datapath.vhd failed with 5 errors.
+# Compile of Datapath.vhd failed with 5 errors.
+# Compile of Datapath.vhd failed with 5 errors.
+# Compile of Datapath.vhd failed with 3 errors.
+# Compile of Datapath.vhd failed with 1 errors.
+# Compile of Datapath.vhd failed with 1 errors.
+# Compile of Datapath.vhd failed with 1 errors.
+# Compile of Datapath.vhd was successful.
+# Compile of Datapath.vhd was successful.
+# Compile of Controller.vhd failed with 1 errors.
+# Compile of Controller.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of MatrixMul.vhd failed with 16 errors.
+# Compile of MatrixMul.vhd failed with 16 errors.
+# Compile of MatrixMul.vhd failed with 28 errors.
+# Compile of MatrixMul.vhd failed with 1 errors.
+# Compile of MatrixMul.vhd failed with 1 errors.
+# Compile of MatrixMul.vhd failed with 1 errors.
+# Compile of MatrixMul.vhd was successful.
+# Compile of MatrixMul.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of MatrixMul_tb.vhd failed with 1 errors.
+# Compile of MatrixMul_tb.vhd failed with 1 errors.
+# Compile of MatrixMul_tb.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Datapath.vhd was successful.
+# Compile of MatrixMul.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of MatrixMul_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.MatrixMul_tb
+# vsim -gui work.MatrixMul_tb 
+# Start time: 06:54:39 on Jul 22,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.matrixmul_tb(behavior)
+# Loading work.matrixmul(rtl)
+# Loading work.datapath(rtl)
+# Loading work.counter(rtl)
+# Loading work.memory(rtl)
+# Loading work.controller(rtl)
+# ** Warning: (vsim-8683) Uninitialized out port /matrixmul_tb/uut/CONTROL_UNIT/LDI_i has no driver.
+# This port will contribute value (U) to the signal network.
+add wave *
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 4 (3 downto 0). Right is 8 (7 downto 0).
+#    Time: 0 ps  Iteration: 0  Process: /matrixmul_tb/uut/DATAPATH_UNIT/line__54 File: /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd
+# Fatal error in Architecture rtl at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd line 54
+# 
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Datapath.vhd was successful.
+# Compile of MatrixMul.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of MatrixMul_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.MatrixMul_tb
+# End time: 06:58:01 on Jul 22,2024, Elapsed time: 0:03:22
+# Errors: 1, Warnings: 49
+# vsim -gui work.MatrixMul_tb 
+# Start time: 06:58:01 on Jul 22,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.matrixmul_tb(behavior)
+# Loading work.matrixmul(rtl)
+# Loading work.datapath(rtl)
+# Loading work.counter(rtl)
+# Loading work.memory(rtl)
+# Loading work.controller(rtl)
+# ** Warning: (vsim-8683) Uninitialized out port /matrixmul_tb/uut/CONTROL_UNIT/LDI_i has no driver.
+# This port will contribute value (U) to the signal network.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Datapath.vhd was successful.
+# Compile of MatrixMul.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of MatrixMul_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.MatrixMul_tb
+# End time: 06:58:10 on Jul 22,2024, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 3
+# vsim -gui work.MatrixMul_tb 
+# Start time: 06:58:10 on Jul 22,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.matrixmul_tb(behavior)
+# Loading work.matrixmul(rtl)
+# Loading work.datapath(rtl)
+# Loading work.counter(rtl)
+# Loading work.memory(rtl)
+# Loading work.controller(rtl)
+# ** Warning: (vsim-8683) Uninitialized out port /matrixmul_tb/uut/CONTROL_UNIT/LDI_i has no driver.
+# This port will contribute value (U) to the signal network.
+add wave *
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 4 (3 downto 0). Right is 8 (7 downto 0).
+#    Time: 0 ps  Iteration: 0  Process: /matrixmul_tb/uut/DATAPATH_UNIT/line__54 File: /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd
+# Fatal error in Architecture rtl at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd line 54
+# 
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Datapath.vhd was successful.
+# Compile of MatrixMul.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of MatrixMul_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.MatrixMul_tb
+# End time: 06:59:34 on Jul 22,2024, Elapsed time: 0:01:24
+# Errors: 1, Warnings: 6
+# vsim -gui work.MatrixMul_tb 
+# Start time: 06:59:34 on Jul 22,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.matrixmul_tb(behavior)
+# Loading work.matrixmul(rtl)
+# Loading work.datapath(rtl)
+# Loading work.counter(rtl)
+# Loading work.memory(rtl)
+# Loading work.controller(rtl)
+# ** Warning: (vsim-8683) Uninitialized out port /matrixmul_tb/uut/CONTROL_UNIT/LDI_i has no driver.
+# This port will contribute value (U) to the signal network.
+add wave *
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 4 (3 downto 0). Right is 8 (7 downto 0).
+#    Time: 0 ps  Iteration: 0  Process: /matrixmul_tb/uut/DATAPATH_UNIT/line__54 File: /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd
+# Fatal error in Architecture rtl at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd line 54
+# 
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Datapath.vhd was successful.
+# Compile of MatrixMul.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of MatrixMul_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.MatrixMul_tb
+# End time: 07:00:15 on Jul 22,2024, Elapsed time: 0:00:41
+# Errors: 1, Warnings: 6
+# vsim -gui work.MatrixMul_tb 
+# Start time: 07:00:15 on Jul 22,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.matrixmul_tb(behavior)
+# Loading work.matrixmul(rtl)
+# Loading work.datapath(rtl)
+# Loading work.counter(rtl)
+# Loading work.memory(rtl)
+# Loading work.controller(rtl)
+# ** Warning: (vsim-8683) Uninitialized out port /matrixmul_tb/uut/CONTROL_UNIT/LDI_i has no driver.
+# This port will contribute value (U) to the signal network.
+add wave *
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 4 (3 downto 0). Right is 8 (7 downto 0).
+#    Time: 0 ps  Iteration: 0  Process: /matrixmul_tb/uut/DATAPATH_UNIT/line__53 File: /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd
+# Fatal error in Architecture rtl at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd line 53
+# 
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 53 Architecture rtl
+# 
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Datapath.vhd was successful.
+# Compile of MatrixMul.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of MatrixMul_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.MatrixMul_tb
+# End time: 07:02:19 on Jul 22,2024, Elapsed time: 0:02:04
+# Errors: 1, Warnings: 6
+# vsim -gui work.MatrixMul_tb 
+# Start time: 07:02:19 on Jul 22,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.matrixmul_tb(behavior)
+# Loading work.matrixmul(rtl)
+# Loading work.datapath(rtl)
+# Loading work.counter(rtl)
+# Loading work.memory(rtl)
+# Loading work.controller(rtl)
+# ** Warning: (vsim-8683) Uninitialized out port /matrixmul_tb/uut/CONTROL_UNIT/LDI_i has no driver.
+# This port will contribute value (U) to the signal network.
+add wave *
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 4 (3 downto 0). Right is 8 (7 downto 0).
+#    Time: 0 ps  Iteration: 0  Process: /matrixmul_tb/uut/DATAPATH_UNIT/line__51 File: /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd
+# Fatal error in Architecture rtl at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd line 51
+# 
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 51 Architecture rtl
+# 
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Datapath.vhd was successful.
+# Compile of MatrixMul.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of MatrixMul_tb.vhd failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Datapath.vhd was successful.
+# Compile of MatrixMul.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of MatrixMul_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.MatrixMul_tb
+# End time: 07:05:09 on Jul 22,2024, Elapsed time: 0:02:50
+# Errors: 1, Warnings: 7
+# vsim -gui work.MatrixMul_tb 
+# Start time: 07:05:09 on Jul 22,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.matrixmul_tb(behavior)
+# Loading work.matrixmul(rtl)
+# Loading work.datapath(rtl)
+# Loading work.counter(rtl)
+# Loading work.memory(rtl)
+# Loading work.controller(rtl)
+# ** Warning: (vsim-8683) Uninitialized out port /matrixmul_tb/uut/CONTROL_UNIT/LDI_i has no driver.
+# This port will contribute value (U) to the signal network.
+add wave *
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 6 (5 downto 0). Right is 12 (11 downto 0).
+#    Time: 0 ps  Iteration: 0  Process: /matrixmul_tb/uut/DATAPATH_UNIT/line__54 File: /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd
+# Fatal error in Architecture rtl at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd line 54
+# 
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Datapath.vhd was successful.
+# Compile of MatrixMul.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of MatrixMul_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.MatrixMul_tb
+# End time: 07:06:33 on Jul 22,2024, Elapsed time: 0:01:24
+# Errors: 1, Warnings: 6
+# vsim -gui work.MatrixMul_tb 
+# Start time: 07:06:33 on Jul 22,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.matrixmul_tb(behavior)
+# Loading work.matrixmul(rtl)
+# Loading work.datapath(rtl)
+# Loading work.counter(rtl)
+# Loading work.memory(rtl)
+# Loading work.controller(rtl)
+# ** Warning: (vsim-8683) Uninitialized out port /matrixmul_tb/uut/CONTROL_UNIT/LDI_i has no driver.
+# This port will contribute value (U) to the signal network.
+add wave *
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 6 (5 downto 0). Right is 12 (11 downto 0).
+#    Time: 0 ps  Iteration: 0  Process: /matrixmul_tb/uut/DATAPATH_UNIT/line__54 File: /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd
+# Fatal error in Architecture rtl at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd line 54
+# 
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 54 Architecture rtl
+# 
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Datapath.vhd was successful.
+# Compile of MatrixMul.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of MatrixMul_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.MatrixMul_tb
+# End time: 07:09:31 on Jul 22,2024, Elapsed time: 0:02:58
+# Errors: 1, Warnings: 6
+# vsim -gui work.MatrixMul_tb 
+# Start time: 07:09:31 on Jul 22,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.matrixmul_tb(behavior)
+# Loading work.matrixmul(rtl)
+# Loading work.datapath(rtl)
+# Loading work.counter(rtl)
+# Loading work.memory(rtl)
+# Loading work.controller(rtl)
+# ** Warning: (vsim-8683) Uninitialized out port /matrixmul_tb/uut/CONTROL_UNIT/LDI_i has no driver.
+# This port will contribute value (U) to the signal network.
+add wave *
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 6 (5 downto 0). Right is 12 (11 downto 0).
+#    Time: 0 ps  Iteration: 0  Process: /matrixmul_tb/uut/DATAPATH_UNIT/line__56 File: /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd
+# Fatal error in Architecture rtl at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd line 56
+# 
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 56 Architecture rtl
+# 
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Datapath.vhd was successful.
+# Compile of MatrixMul.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of MatrixMul_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.MatrixMul_tb
+# End time: 07:12:01 on Jul 22,2024, Elapsed time: 0:02:30
+# Errors: 1, Warnings: 6
+# vsim -gui work.MatrixMul_tb 
+# Start time: 07:12:01 on Jul 22,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.matrixmul_tb(behavior)
+# Loading work.matrixmul(rtl)
+# Loading work.datapath(rtl)
+# Loading work.counter(rtl)
+# Loading work.memory(rtl)
+# Loading work.controller(rtl)
+# ** Warning: (vsim-8683) Uninitialized out port /matrixmul_tb/uut/CONTROL_UNIT/LDI_i has no driver.
+# This port will contribute value (U) to the signal network.
+add wave *
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 18 (17 downto 0). Right is 12 (11 downto 0).
+#    Time: 0 ps  Iteration: 0  Process: /matrixmul_tb/uut/DATAPATH_UNIT/line__53 File: /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd
+# Fatal error in Architecture rtl at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd line 53
+# 
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 53 Architecture rtl
+# 
+vsim -gui work.MatrixMul_tb
+# End time: 07:13:43 on Jul 22,2024, Elapsed time: 0:01:42
+# Errors: 1, Warnings: 5
+# vsim -gui work.MatrixMul_tb 
+# Start time: 07:13:43 on Jul 22,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.matrixmul_tb(behavior)
+# Loading work.matrixmul(rtl)
+# Loading work.datapath(rtl)
+# Loading work.counter(rtl)
+# Loading work.memory(rtl)
+# Loading work.controller(rtl)
+# ** Warning: (vsim-8683) Uninitialized out port /matrixmul_tb/uut/CONTROL_UNIT/LDI_i has no driver.
+# This port will contribute value (U) to the signal network.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Datapath.vhd was successful.
+# Compile of MatrixMul.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of MatrixMul_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.MatrixMul_tb
+# End time: 07:13:52 on Jul 22,2024, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 3
+# vsim -gui work.MatrixMul_tb 
+# Start time: 07:13:52 on Jul 22,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.matrixmul_tb(behavior)
+# Loading work.matrixmul(rtl)
+# Loading work.datapath(rtl)
+# Loading work.counter(rtl)
+# Loading work.memory(rtl)
+# Loading work.controller(rtl)
+# ** Warning: (vsim-8683) Uninitialized out port /matrixmul_tb/uut/CONTROL_UNIT/LDI_i has no driver.
+# This port will contribute value (U) to the signal network.
+add wave *
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 32 (31 downto 0). Right is 64 (63 downto 0).
+#    Time: 0 ps  Iteration: 0  Process: /matrixmul_tb/uut/DATAPATH_UNIT/line__47 File: /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd
+# Fatal error in Architecture rtl at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd line 47
+# 
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 47 Architecture rtl
+# 
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Datapath.vhd failed with 3 errors.
+# Compile of MatrixMul.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of MatrixMul_tb.vhd was successful.
+# 7 compiles, 1 failed with 3 errors.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Datapath.vhd was successful.
+# Compile of MatrixMul.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of MatrixMul_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.MatrixMul_tb
+# End time: 07:15:07 on Jul 22,2024, Elapsed time: 0:01:15
+# Errors: 1, Warnings: 7
+# vsim -gui work.MatrixMul_tb 
+# Start time: 07:15:07 on Jul 22,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.matrixmul_tb(behavior)
+# Loading work.matrixmul(rtl)
+# Loading work.datapath(rtl)
+# Loading work.counter(rtl)
+# Loading work.memory(rtl)
+# Loading work.controller(rtl)
+# ** Warning: (vsim-8683) Uninitialized out port /matrixmul_tb/uut/CONTROL_UNIT/LDI_i has no driver.
+# This port will contribute value (U) to the signal network.
+add wave *
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut/DATAPATH_UNIT
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 32 (31 downto 0). Right is 64 (63 downto 0).
+#    Time: 0 ps  Iteration: 0  Process: /matrixmul_tb/uut/DATAPATH_UNIT/line__46 File: /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd
+# Fatal error in Architecture rtl at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd line 47
+# 
+# HDL call sequence:
+# Stopped at /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd 47 Architecture rtl
+# 
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Datapath.vhd was successful.
+# Compile of MatrixMul.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of MatrixMul_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.MatrixMul_tb
+# End time: 07:16:46 on Jul 22,2024, Elapsed time: 0:01:39
+# Errors: 1, Warnings: 6
+# vsim -gui work.MatrixMul_tb 
+# Start time: 07:16:46 on Jul 22,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.matrixmul_tb(behavior)
+# ** Error: (vsim-13) Recompile work.matrixmul because work.mylib has changed.
+# ** Error (suppressible): (vsim-12) Recompile work.matrixmul(rtl) after work.matrixmul is recompiled.
+# ** Error: (vsim-13) Recompile work.matrixmul(rtl) because work.mylib has changed.
+# Load interrupted
+# Error loading design
+# End time: 07:16:46 on Jul 22,2024, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 1
+vsim -gui work.MatrixMul_tb
+# vsim -gui work.MatrixMul_tb 
+# Start time: 07:16:51 on Jul 22,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.matrixmul_tb(behavior)
+# ** Error: (vsim-13) Recompile work.matrixmul because work.mylib has changed.
+# ** Error (suppressible): (vsim-12) Recompile work.matrixmul(rtl) after work.matrixmul is recompiled.
+# ** Error: (vsim-13) Recompile work.matrixmul(rtl) because work.mylib has changed.
+# Load interrupted
+# Error loading design
+# End time: 07:16:51 on Jul 22,2024, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 1
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Datapath.vhd was successful.
+# Compile of MatrixMul.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of MatrixMul_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.MatrixMul_tb
+# vsim -gui work.MatrixMul_tb 
+# Start time: 07:16:58 on Jul 22,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.matrixmul_tb(behavior)
+# Loading work.matrixmul(rtl)
+# ** Fatal: (vsim-3348) Port length (64) does not match actual length (32) for port "/matrixmul_tb/uut/Data_out".
+#    Time: 0 ps  Iteration: 0  Instance: /matrixmul_tb/uut File: /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MatrixMul.vhd Line: 25
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 07:16:59 on Jul 22,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Datapath.vhd was successful.
+# Compile of MatrixMul.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd failed with 1 errors.
+# Compile of MatrixMul_tb.vhd was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of Controller.vhd was successful.
+# Compile of Counter.vhd was successful.
+# Compile of Datapath.vhd was successful.
+# Compile of MatrixMul.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of MatrixMul_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.MatrixMul_tb
+# vsim -gui work.MatrixMul_tb 
+# Start time: 07:19:04 on Jul 22,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.matrixmul_tb(behavior)
+# ** Error: (vsim-13) Recompile work.matrixmul because work.mylib has changed.
+# ** Error (suppressible): (vsim-12) Recompile work.matrixmul(rtl) after work.matrixmul is recompiled.
+# ** Error: (vsim-13) Recompile work.matrixmul(rtl) because work.mylib has changed.
+# Load interrupted
+# Error loading design
+# End time: 07:19:04 on Jul 22,2024, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 3
+quit -sim,
+# unknown switch: -sim,
+quit -sim
+# reading /home/hieu/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project Sorter
+# Quit canceled

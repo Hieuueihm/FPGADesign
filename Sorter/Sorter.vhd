@@ -6,7 +6,6 @@ ENTITY Sorter IS
     GENERIC (
         DATA_WIDTH : INTEGER;
         ADDR_WIDTH : INTEGER;
-        DATA_LENGTH : INTEGER;
         K : INTEGER
     );
     PORT (
@@ -28,7 +27,6 @@ BEGIN
     GENERIC MAP(
         DATA_WIDTH,
         ADDR_WIDTH,
-        DATA_LENGTH,
         K)
     PORT MAP(
         WE => WE,

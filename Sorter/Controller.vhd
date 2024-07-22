@@ -8,7 +8,6 @@ ENTITY Controller IS
         RST, CLK : IN STD_LOGIC;
         Start : IN STD_LOGIC;
         A_gt_B, Zi, Zj : IN STD_LOGIC;
-
         Min_sel, Addr_sel, En_i, En_j, LDO_i, LDI_i, LDO_j, LDI_j, Int_WE, Int_RE, En_A, En_B : OUT STD_LOGIC;
         Done : OUT STD_LOGIC
     );

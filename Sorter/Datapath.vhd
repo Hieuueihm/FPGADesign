@@ -8,7 +8,6 @@ ENTITY Datapath IS
     GENERIC (
         DATA_WIDTH : INTEGER;
         ADDR_WIDTH : INTEGER;
-        DATA_LENGTH : INTEGER;
         K : INTEGER
     );
     -- input port: WE, RE, RST, CLK, Data_in, Addr-in, Start
@@ -29,8 +28,8 @@ ARCHITECTURE RTL OF Datapath IS
     -- ??m ??n 16
     SIGNAL A, B, Min_sel_value, D_in_m, Value_i_j, D_out : STD_LOGIC_VECTOR(DATA_WIDTH - 1 DOWNTO 0);
     SIGNAL Addr_in_m : STD_LOGIC_VECTOR(ADDR_WIDTH - 1 DOWNTO 0);
-    SIGNAL I, J : STD_LOGIC_VECTOR(DATA_LENGTH - 1 DOWNTO 0) := (OTHERS => '0');
-    SIGNAL ZERO, Incrementer_OUT : STD_LOGIC_VECTOR(DATA_LENGTH - 1 DOWNTO 0) := (OTHERS => '0');
+    SIGNAL I, J : STD_LOGIC_VECTOR(ADDR_WIDTH - 1 DOWNTO 0) := (OTHERS => '0');
+    SIGNAL ZERO, Incrementer_OUT : STD_LOGIC_VECTOR(ADDR_WIDTH - 1 DOWNTO 0) := (OTHERS => '0');
 
     SIGNAL internal_WE, internal_RE : STD_LOGIC;
 
@@ -68,7 +67,7 @@ BEGIN
         Addr_in;
     -- counter I
     COUNTER_I : Counter
-    GENERIC MAP(DATA_LENGTH => DATA_LENGTH)
+    GENERIC MAP(ADDR_WIDTH => ADDR_WIDTH)
     PORT MAP(
         RST, CLK,
         En => En_i,
@@ -79,7 +78,7 @@ BEGIN
     );
     -- incrementer I J
     INCREMENTER_I_J : Incrementer
-    GENERIC MAP(DATA_LENGTH => DATA_LENGTH)
+    GENERIC MAP(ADDR_WIDTH => ADDR_WIDTH)
     PORT MAP(
         INP => I,
         OUTP => Incrementer_OUT
@@ -87,7 +86,7 @@ BEGIN
     );
     -- counter J
     COUNTER_J : Counter
-    GENERIC MAP(DATA_LENGTH => DATA_LENGTH)
+    GENERIC MAP(ADDR_WIDTH => ADDR_WIDTH)
 
     PORT MAP(
         RST, CLK,

@@ -12,7 +12,6 @@ ARCHITECTURE BEV OF sorter_tb IS
     -- Constants for the test
     CONSTANT DATA_WIDTH : INTEGER := 4;
     CONSTANT ADDR_WIDTH : INTEGER := 4;
-    CONSTANT DATA_LENGTH : INTEGER := 4;
     CONSTANT K : INTEGER := 8;
 
     -- Signals to interface with the DUT
@@ -37,7 +36,6 @@ BEGIN
     GENERIC MAP(
         DATA_WIDTH => DATA_WIDTH,
         ADDR_WIDTH => ADDR_WIDTH,
-        DATA_LENGTH => DATA_LENGTH,
         K => K
     )
     PORT MAP(
