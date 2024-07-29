@@ -14,7 +14,7 @@ Z0 w1721604869
 Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 508
+!i122 538
 Z4 d/home/hieu/Documents/Workspace/VHDL_prj/Sorter
 Z5 8/home/hieu/Documents/Workspace/VHDL_prj/Sorter/Controller.vhd
 Z6 F/home/hieu/Documents/Workspace/VHDL_prj/Sorter/Controller.vhd
@@ -24,9 +24,9 @@ V7jIa81dFHX@70Sn]dcYZ<0
 !s100 JQ;JT4D76kU9<BE><aa?g0
 Z7 OV;C;2020.1;71
 32
-Z8 !s110 1721607799
+Z8 !s110 1722258791
 !i10b 1
-Z9 !s108 1721607799.000000
+Z9 !s108 1722258791.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/hieu/Documents/Workspace/VHDL_prj/Sorter/Controller.vhd|
 Z11 !s107 /home/hieu/Documents/Workspace/VHDL_prj/Sorter/Controller.vhd|
 !i113 1
@@ -37,7 +37,7 @@ R1
 R2
 R3
 DEx4 work 10 controller 0 22 7jIa81dFHX@70Sn]dcYZ<0
-!i122 508
+!i122 538
 l19
 L15 109
 V]<9Fz62]hT0l=k?X@FBV03
@@ -57,7 +57,7 @@ Z14 w1721607778
 R1
 R2
 R3
-!i122 509
+!i122 539
 R4
 Z15 8/home/hieu/Documents/Workspace/VHDL_prj/Sorter/Counter.vhd
 Z16 F/home/hieu/Documents/Workspace/VHDL_prj/Sorter/Counter.vhd
@@ -80,7 +80,7 @@ R1
 R2
 R3
 DEx4 work 7 counter 0 22 55fYINoJeKlmnO>:4ZARN1
-!i122 509
+!i122 539
 l19
 L16 28
 V1g5b`k<eUV404fjZhA<bX3
@@ -100,7 +100,7 @@ Z19 w1721031701
 R1
 R2
 R3
-!i122 510
+!i122 540
 R4
 Z20 8/home/hieu/Documents/Workspace/VHDL_prj/Sorter/Counter_tb.vhd
 Z21 F/home/hieu/Documents/Workspace/VHDL_prj/Sorter/Counter_tb.vhd
@@ -123,7 +123,7 @@ R1
 R2
 R3
 DEx4 work 10 counter_tb 0 22 ST]SlaMR7@RbCSbELR[Y42
-!i122 510
+!i122 540
 l35
 L9 84
 VCo4SFaX1j9bF4OYfc03N93
@@ -144,7 +144,7 @@ Z25 DPx4 work 5 mylib 0 22 fS807YOPP;T;]@SR^@A_11
 R1
 R2
 R3
-!i122 511
+!i122 541
 R4
 Z26 8/home/hieu/Documents/Workspace/VHDL_prj/Sorter/Datapath.vhd
 Z27 F/home/hieu/Documents/Workspace/VHDL_prj/Sorter/Datapath.vhd
@@ -168,7 +168,7 @@ R1
 R2
 R3
 DEx4 work 8 datapath 0 22 :<LO>1JKn0znGWY_P;]=o1
-!i122 511
+!i122 541
 l36
 L27 105
 VaD=@O33FYZT<M1OVA9hlU1
@@ -188,7 +188,7 @@ Z30 w1721607706
 R1
 R2
 R3
-!i122 512
+!i122 542
 R4
 Z31 8/home/hieu/Documents/Workspace/VHDL_prj/Sorter/Incrementer.vhd
 Z32 F/home/hieu/Documents/Workspace/VHDL_prj/Sorter/Incrementer.vhd
@@ -211,7 +211,7 @@ R1
 R2
 R3
 DEx4 work 11 incrementer 0 22 Z<VM12?O]N7_C8jjbRB`J1
-!i122 512
+!i122 542
 l14
 L13 7
 V_M@gj_7ZYWaW;;7lR_ja:1
@@ -231,7 +231,7 @@ R19
 R1
 R2
 R3
-!i122 513
+!i122 543
 R4
 Z35 8/home/hieu/Documents/Workspace/VHDL_prj/Sorter/Memory.vhd
 Z36 F/home/hieu/Documents/Workspace/VHDL_prj/Sorter/Memory.vhd
@@ -254,7 +254,7 @@ R1
 R2
 R3
 DEx4 work 6 memory 0 22 ;gh=^W`V[aD;`9VVBE4PQ2
-!i122 513
+!i122 543
 l22
 L19 17
 VWb7FTRk_;>L_PMjCU?IXk3
@@ -273,7 +273,7 @@ Pmylib
 R1
 R2
 R3
-!i122 514
+!i122 544
 w1721607747
 R4
 8/home/hieu/Documents/Workspace/VHDL_prj/Sorter/MyLib.vhd
@@ -297,7 +297,7 @@ R19
 R1
 R2
 R3
-!i122 515
+!i122 545
 R4
 Z39 8/home/hieu/Documents/Workspace/VHDL_prj/Sorter/Regn.vhd
 Z40 F/home/hieu/Documents/Workspace/VHDL_prj/Sorter/Regn.vhd
@@ -320,7 +320,7 @@ R1
 R2
 R3
 DEx4 work 4 regn 0 22 QCNLiF39CKX^Znhc2U4^m1
-!i122 515
+!i122 545
 l21
 L19 15
 Vcn=>@A:Pdj32L@HCOX@RF2
@@ -341,7 +341,7 @@ R25
 R1
 R2
 R3
-!i122 516
+!i122 546
 R4
 Z44 8/home/hieu/Documents/Workspace/VHDL_prj/Sorter/Sorter.vhd
 Z45 F/home/hieu/Documents/Workspace/VHDL_prj/Sorter/Sorter.vhd
@@ -365,7 +365,7 @@ R1
 R2
 R3
 DEx4 work 6 sorter 0 22 YJhT3mV]Fae1:7;Y8SD7U1
-!i122 516
+!i122 546
 l25
 L22 58
 VRHNRza<9PbFV=dF>h@_X63
@@ -381,12 +381,12 @@ R47
 R12
 R13
 Esorter_tb
-Z48 w1721607773
+Z48 w1722258750
 R25
 R1
 R2
 R3
-!i122 517
+!i122 547
 R4
 Z49 8/home/hieu/Documents/Workspace/VHDL_prj/Sorter/Sorter_tb.vhd
 Z50 F/home/hieu/Documents/Workspace/VHDL_prj/Sorter/Sorter_tb.vhd
@@ -410,11 +410,11 @@ R1
 R2
 R3
 Z53 DEx4 work 9 sorter_tb 0 22 23lblzn@HQHYf?=hLY3>`2
-!i122 517
+!i122 547
 l34
-Z54 L10 106
-Z55 V6?<WeePhK4aY`zCT@Y?<d1
-Z56 !s100 d4cA4mR9Z_`oWEb7AfbT43
+L10 111
+V]gQj<jo5TDj=A>9aZGJAM2
+!s100 Q<i1No1DD2DkhPTn7n^R10
 R7
 32
 R8

@@ -74,17 +74,20 @@ BEGIN
 
         -- Load data into memory
         FOR i IN 0 TO K - 1 LOOP
-            WE <= '1';
             Addr_in <= STD_LOGIC_VECTOR(to_unsigned(TO_INTEGER(UNSIGNED(Addr_in_tmp)) + i, ADDR_WIDTH));
             Data_in <= input_array(i);
+            WAIT FOR 10 ns;
+            WE <= '1';
             WAIT FOR 20 ns;
             WE <= '0';
             WAIT FOR 20 ns;
         END LOOP;
         FOR i IN 0 TO K - 1 LOOP
+            Addr_in <= STD_LOGIC_VECTOR(to_unsigned(i, ADDR_WIDTH));
+            WAIT FOR 10 ns;
+
             RE <= '1';
 
-            Addr_in <= STD_LOGIC_VECTOR(to_unsigned(i, ADDR_WIDTH));
             WAIT FOR 20 ns;
             -- Display sorted data
             re <= '0';
@@ -101,9 +104,11 @@ BEGIN
         WAIT FOR 20 ns;
         -- Read sorted data
         FOR i IN 0 TO K - 1 LOOP
+            Addr_in <= STD_LOGIC_VECTOR(to_unsigned(i, ADDR_WIDTH));
+            WAIT FOR 10 ns;
+
             RE <= '1';
 
-            Addr_in <= STD_LOGIC_VECTOR(to_unsigned(i, ADDR_WIDTH));
             WAIT FOR 20 ns;
             -- Display sorted data
             re <= '0';

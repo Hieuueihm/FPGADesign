@@ -13,7 +13,7 @@ PACKAGE MyLib IS
             Din : IN STD_LOGIC_VECTOR(DATA_WIDTH - 1 DOWNTO 0);
             ADDR : IN STD_LOGIC_VECTOR(ADDR_WIDTH - 1 DOWNTO 0); -- Address input
             WE, RE : IN STD_LOGIC;
-            CLK : IN STD_LOGIC;
+            CLK, RST : IN STD_LOGIC;
             Dout : OUT STD_LOGIC_VECTOR(DATA_WIDTH - 1 DOWNTO 0) -- Data output
         );
     END COMPONENT;
@@ -52,7 +52,8 @@ PACKAGE MyLib IS
             En_k, En_i, En_j, LDI_k, LDI_j, LDI_i : IN STD_LOGIC;
             Din_C_sel : IN STD_LOGIC;
             Zk, Zi, Zj : OUT STD_LOGIC;
-            Data_out : OUT STD_LOGIC_VECTOR(DATA_WIDTH - 1 DOWNTO 0)
+            RE_A, RE_B : IN STD_LOGIC;
+            Data_out : OUT STD_LOGIC_VECTOR(2 * DATA_WIDTH - 1 DOWNTO 0)
         );
     END COMPONENT;
 
@@ -87,11 +88,12 @@ PACKAGE MyLib IS
             Data_A : IN STD_LOGIC_VECTOR(DATA_WIDTH - 1 DOWNTO 0);
             Data_B : IN STD_LOGIC_VECTOR(DATA_WIDTH - 1 DOWNTO 0);
             WE_A, WE_B : IN STD_LOGIC;
-            RE_C : IN STD_LOGIC;
+            RE_A, RE_B, RE_C : IN STD_LOGIC;
             Addr_A, Addr_B, Addr_C : IN STD_LOGIC_VECTOR(ADDR_WIDTH - 1 DOWNTO 0);
             Done : OUT STD_LOGIC;
-            Data_out : OUT STD_LOGIC_VECTOR(DATA_WIDTH - 1 DOWNTO 0)
+            Data_out : OUT STD_LOGIC_VECTOR(2 * DATA_WIDTH - 1 DOWNTO 0)
 
         );
     END COMPONENT;
+
 END PACKAGE MyLib;

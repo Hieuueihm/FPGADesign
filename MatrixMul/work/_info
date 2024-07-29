@@ -10,11 +10,11 @@ z2
 cModel Technology
 d/home/hieu/Documents/Workspace/VHDL_prj/I2C_master
 Econtroller
-Z0 w1721605325
+Z0 w1722256680
 Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 152
+!i122 641
 Z4 d/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul
 Z5 8/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Controller.vhd
 Z6 F/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Controller.vhd
@@ -24,9 +24,9 @@ Vg0ObkXc?^784JWGWca5ie2
 !s100 ]Q]en8VTim4PJG=FiZ_z_2
 Z7 OV;C;2020.1;71
 32
-Z8 !s110 1721607541
+Z8 !s110 1722258588
 !i10b 1
-Z9 !s108 1721607541.000000
+Z9 !s108 1722258588.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Controller.vhd|
 Z11 !s107 /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Controller.vhd|
 !i113 1
@@ -37,11 +37,11 @@ R1
 R2
 R3
 DEx4 work 10 controller 0 22 g0ObkXc?^784JWGWca5ie2
-!i122 152
+!i122 641
 l19
-L16 78
-V[?l;3Fn0Vm6f=;N0X[dQ;2
-!s100 RX`FGUI;:=>L<8_Bz0Lal0
+L16 84
+VAedDn0X^WD[AHBaIT=Cd02
+!s100 =F2;TAiL[a<n9;@3k8AFT3
 R7
 32
 R8
@@ -53,11 +53,11 @@ R11
 R12
 R13
 Ecounter
-Z14 w1721604273
+Z14 w1722223390
 R1
 R2
 R3
-!i122 153
+!i122 642
 R4
 Z15 8/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Counter.vhd
 Z16 F/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Counter.vhd
@@ -67,11 +67,11 @@ V15XzV[5CSXE?nFVSdb31I0
 !s100 6fPN7N09>8L=EGn:SQ6I22
 R7
 32
-Z17 !s110 1721607542
+R8
 !i10b 1
 R9
-Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Counter.vhd|
-Z19 !s107 /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Counter.vhd|
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Counter.vhd|
+Z18 !s107 /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Counter.vhd|
 !i113 1
 R12
 R13
@@ -80,176 +80,198 @@ R1
 R2
 R3
 DEx4 work 7 counter 0 22 15XzV[5CSXE?nFVSdb31I0
-!i122 153
+!i122 642
 l19
 L16 26
 VF0oo4TT<aBVH;0:=`<Wbj1
 !s100 gQC7B0G462cEg;boQ>D8h2
 R7
 32
-R17
+R8
 !i10b 1
 R9
+R17
 R18
-R19
 !i113 1
 R12
 R13
 Edatapath
-Z20 w1721607525
-Z21 DPx4 work 5 mylib 0 22 ^5[GUN<ddUJ9`7clTLE<i3
+Z19 w1722257301
+Z20 DPx4 work 5 mylib 0 22 W;A@ZT1?35H>z3OhB`K070
 R1
 R2
 R3
-!i122 154
+!i122 640
 R4
-Z22 8/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd
-Z23 F/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd
+Z21 8/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd
+Z22 F/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd
 l0
 L7 1
-VEX?Kj^6@LNCZK7BV6>STl3
-!s100 ]0WBLP7UL=fmJO1DdPi=G2
+V_9ed>MKL;MoJ<<C;a6oWW1
+!s100 Z1<4?iaUZ3[c7oh96RCJn1
 R7
 32
-R17
+R8
 !i10b 1
-Z24 !s108 1721607542.000000
-Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd|
-Z26 !s107 /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd|
+R9
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd|
+Z24 !s107 /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd|
 !i113 1
 R12
 R13
 Artl
-R21
+R20
 R1
 R2
 R3
-DEx4 work 8 datapath 0 22 EX?Kj^6@LNCZK7BV6>STl3
-!i122 154
-l38
-L31 106
-Vg=YCZF[zQRf8eQiHgCJ`U3
-!s100 12@PFZ]VlADQS?KPlJ??Z1
+DEx4 work 8 datapath 0 22 _9ed>MKL;MoJ<<C;a6oWW1
+!i122 640
+l40
+L32 115
+V96gUbZnJ^Ko0EIKi2b[zG3
+!s100 H871X2`FH6]UQKW3i^79_0
 R7
 32
-R17
+R8
 !i10b 1
+R9
+R23
 R24
-R25
-R26
 !i113 1
 R12
 R13
 Ematrixmul
-Z27 w1721607507
-R21
+Z25 w1722253753
+R20
 R1
 R2
 R3
-!i122 155
+!i122 643
 R4
-Z28 8/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MatrixMul.vhd
-Z29 F/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MatrixMul.vhd
+Z26 8/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MatrixMul.vhd
+Z27 F/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MatrixMul.vhd
 l0
 L5 1
-V_<mD1HdaC`:^m`BjKfEJb1
-!s100 gzj>[`MQWj@8VE:IE@fMP0
+V0C46;K0YB@]ZEOk6]6P?b2
+!s100 NHBYU?U4LXO@miS?z?3??0
 R7
 32
-R17
+R8
 !i10b 1
-R24
-Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MatrixMul.vhd|
-Z31 !s107 /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MatrixMul.vhd|
+R9
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MatrixMul.vhd|
+Z29 !s107 /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MatrixMul.vhd|
 !i113 1
 R12
 R13
 Artl
-R21
+R20
 R1
 R2
 R3
-DEx4 work 9 matrixmul 0 22 _<mD1HdaC`:^m`BjKfEJb1
-!i122 155
+DEx4 work 9 matrixmul 0 22 0C46;K0YB@]ZEOk6]6P?b2
+!i122 643
 l33
-L29 40
-VIQbQk7A]j2[2bDD^dN0173
-!s100 ed@La<XLMJOC3I01zRMHh3
+L29 67
+V=0zFf]n?AkQ:JkRc9j;5]2
+!s100 DOKBOO<;Xbab;`;a1Qa0O3
 R7
 32
-R17
+R8
 !i10b 1
-R24
-R30
-R31
+R9
+R28
+R29
 !i113 1
 R12
 R13
 Ematrixmul_tb
-Z32 w1721606702
-Z33 DPx4 work 5 mylib 0 22 `^CHE;Kci;icgMX3i2OVj2
+Z30 w1722258583
+R20
 R1
 R2
 R3
-!i122 158
+!i122 644
 R4
-Z34 8/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MatrixMul_tb.vhd
-Z35 F/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MatrixMul_tb.vhd
+Z31 8/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MatrixMul_tb.vhd
+Z32 F/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MatrixMul_tb.vhd
 l0
-L7 1
-V_J^4BUnfSO7e5lA0EAXU`3
-!s100 TF=2[EfTJLa^lldJ@YEP[3
+L8 1
+VM[RcA[KhHA7A=D?Kjn05M1
+!s100 B:IAkWn9jY;EnPCUMOcWm3
 R7
 32
-R17
+R8
 !i10b 1
-R24
-Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MatrixMul_tb.vhd|
-Z37 !s107 /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MatrixMul_tb.vhd|
+R9
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MatrixMul_tb.vhd|
+Z34 !s107 /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MatrixMul_tb.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R20
+R1
+R2
+R3
+DEx4 work 12 matrixmul_tb 0 22 M[RcA[KhHA7A=D?Kjn05M1
+!i122 644
+l42
+L11 171
+VA[jd<PzM=PWTnNYB3]o>>2
+!s100 [>DSW^Z7DDNkmJG6VAK240
+R7
+32
+R8
+!i10b 1
+R9
+R33
+R34
 !i113 1
 R12
 R13
 Abehavior
-R33
+DPx4 work 5 mylib 0 22 ^5[GUN<ddUJ9`7clTLE<i3
 R1
 R2
 R3
-Z38 DEx4 work 12 matrixmul_tb 0 22 _J^4BUnfSO7e5lA0EAXU`3
-!i122 158
+DEx4 work 12 matrixmul_tb 0 22 i0IUg::jG][^BgH:4kO>J1
+!i122 184
 l28
-Z39 L10 139
-Z40 VmUL=6jlB8^nQICGh`UGk13
-Z41 !s100 Ee^agc:o5Fd]2Fi>NlT7^3
+L10 139
+VmUL=6jlB8^nQICGh`UGk13
+!s100 Ee^agc:o5Fd]2Fi>NlT7^3
 R7
 32
-R17
+!s110 1722245231
 !i10b 1
-R24
-R36
-R37
+!s108 1722245231.000000
+R33
+R34
 !i113 1
 R12
 R13
+w1721607625
 Ememory
-Z42 w1721602946
+Z35 w1722255985
 R1
 R2
 R3
-!i122 156
+!i122 645
 R4
-Z43 8/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Memory.vhd
-Z44 F/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Memory.vhd
+Z36 8/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Memory.vhd
+Z37 F/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Memory.vhd
 l0
 L5 1
-V;gh=^W`V[aD;`9VVBE4PQ2
-!s100 @ioX_mZd__kN?zMX5F?1A0
+VDS:SZMkZ?fzAk1l7b[Aj`3
+!s100 [?EmV6Xm:_7PTRDDDCKF[2
 R7
 32
-R17
+R8
 !i10b 1
-R24
-Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Memory.vhd|
-Z46 !s107 /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Memory.vhd|
+R9
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Memory.vhd|
+Z39 !s107 /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Memory.vhd|
 !i113 1
 R12
 R13
@@ -257,19 +279,19 @@ Artl
 R1
 R2
 R3
-DEx4 work 6 memory 0 22 ;gh=^W`V[aD;`9VVBE4PQ2
-!i122 156
+DEx4 work 6 memory 0 22 DS:SZMkZ?fzAk1l7b[Aj`3
+!i122 645
 l22
 L19 17
 VWb7FTRk_;>L_PMjCU?IXk3
 !s100 UKMm1SV2Y1=TG;0<zPQ=H0
 R7
 32
-R17
+R8
 !i10b 1
-R24
-R45
-R46
+R9
+R38
+R39
 !i113 1
 R12
 R13
@@ -277,20 +299,20 @@ Pmylib
 R1
 R2
 R3
-!i122 157
-w1721607538
+!i122 646
+w1722255157
 R4
 8/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MyLib.vhd
 F/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MyLib.vhd
 l0
 L4 1
-V`^CHE;Kci;icgMX3i2OVj2
-!s100 MRRikbakmhRHTE5zDcc012
+VW;A@ZT1?35H>z3OhB`K070
+!s100 diKiEAPmOQ^Y@_5dKXmQE0
 R7
 32
-R17
+R8
 !i10b 1
-R24
+R9
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MyLib.vhd|
 !s107 /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MyLib.vhd|
 !i113 1

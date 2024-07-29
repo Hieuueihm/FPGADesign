@@ -1,0 +1,21 @@
+-- algorithm 
+-- ma trận kích thước MxN nhân với kích thước NxK => MxK với M là rowA, K là colB
+wait for start = '1'
+Done = '0'
+for i = 0 to rowA - 1 then 
+    for j = 0 to colB - 1 then  
+        for k = 0 to rowB - 1 then 
+            C[i][j] += A[i][k] * B[k][j]
+        end if
+    end if
+end if
+Done = '1'
+
+
+-- thay vì sử dụng mảng 2 chiều, ta sẽ chuyển đổi sang sử dụng mạng một chiều với thay đổi như sau
+
+C[i * colB + j] += A[i * colA + k] * B[k * colB + j]
+
+
+ f
+

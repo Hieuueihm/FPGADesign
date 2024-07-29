@@ -14,7 +14,7 @@ ENTITY Controller IS
 END ENTITY Controller;
 
 ARCHITECTURE rtl OF Controller IS
-    TYPE State_type IS (S0, S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13, S14);
+    TYPE State_type IS (S0, S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13, S14, S15, S16);
     SIGNAL STATE : State_type;
 BEGIN
     PROCESS (RST, CLK)
@@ -32,62 +32,68 @@ BEGIN
                         STATE <= S1;
                     END IF;
                 WHEN S2 =>
-                    IF Zi = '0' THEN
-                        STATE <= S3;
-                    ELSE
-                        STATE <= S13;
-                    END IF;
-                WHEN S3 =>
-                    IF Zj = '0' THEN
-                        STATE <= S4;
-                    ELSE
-                        STATE <= S12;
-                    END IF;
+                    STATE <= S3;
                 WHEN S4 =>
-                    IF Zk = '0' THEN
-                        STATE <= S5;
+                    STATE <= S4;
+                WHEN S4 =>
+                    IF Zi = '1' THEN
+                        STATE <= S15;
                     ELSE
-                        STATE <= S9;
+                        STATE <= S5;
                     END IF;
                 WHEN S5 =>
-                    STATE <= S6;
+                    IF Zj = '1' THEN
+                        STATE <= S14;
+                    ELSE
+                        STATE <= S6;
+                    END IF;
                 WHEN S6 =>
-                    STATE <= S7;
+                    IF Zk = '1' THEN
+                        STATE <= S11;
+                    ELSE
+                        STATE <= S7;
+                    END IF;
                 WHEN S7 =>
                     STATE <= S8;
-                WHEN S8 => STATE <= S4;
-                WHEN S9 => STATE <= S10;
-                WHEN S10 => STATE <= S11;
-                WHEN S11 => STATE <= S3;
-                WHEN S12 => STATE <= S2;
-                WHEN S13 => STATE <= S14;
-                WHEN S14 => STATE <= S0;
+                WHEN S8 =>
+                    STATE <= S9;
+                WHEN S9 =>
+                    STATE <= S10;
+                WHEN S10 => STATE <= S6;
+                WHEN S11 => STATE <= S12;
+                WHEN S12 => STATE <= S13;
+                WHEN S13 => STATE <= S5;
+                WHEN S14 => STATE <= S4;
+                WHEN S15 => STATE <= S16;
+                WHEN S16 => STATE <= S0;
                 WHEN OTHERS =>
                     STATE <= S0;
             END CASE;
         END IF;
     END PROCESS;
 
-    Int_RE_A <= '1' WHEN STATE <= S5 ELSE
+    Int_RE_A <= '1' WHEN STATE = S7 ELSE
         '0';
-    Int_RE_B <= '1' WHEN sTATE <= S5 ELSE
+    Int_RE_B <= '1' WHEN STATE = S7 ELSE
         '0';
-    Int_WE_C <= '1' WHEN (STATE <= S6 OR STATE <= S10) ELSE
+    Int_WE_C <= '1' WHEN (STATE = S8 OR STATE = S12 OR STATE = S2) ELSE
         '0';
-    Int_RE_C <= '1' WHEN (STATE <= S7 OR STATE <= S11) ELSE
+    Int_RE_C <= '1' WHEN (STATE = S9 OR STATE = S13 OR STATE = S3) ELSE
         '0';
-    En_k <= '1' WHEN STATE <= S8 ELSE
+    En_k <= '1' WHEN STATE = S10 ELSE
         '0';
-    En_j <= '1' WHEN STATE <= S9 ELSE
+    En_j <= '1' WHEN STATE = S11 ELSE
         '0';
-    LDI_k <= '1' WHEN STATE <= S9 ELSE
+    LDI_k <= '1' WHEN STATE = S11 ELSE
         '0';
-    Din_C_sel <= ''1 WHEN STATE <= S10 ELSE
+    Din_C_sel <= '1' WHEN STATE = S12 OR STATE = S2 ELSE
         '0';
-    En_i <= '1' WHEN STATE <= S12 ELSE
+    En_i <= '1' WHEN STATE = S14 ELSE
         '0';
-    LDI_j <= '1' WHEN STATE <= S12 ELSE
+    LDI_j <= '1' WHEN STATE = S14 ELSE
         '0';
-    Done <= '1' WHEN STATE <= S13 ELSE
+    Done <= '1' WHEN STATE = S15 ELSE
+        '0';
+    LDI_i <= '1' WHEN STATE = S1 ELSE
         '0';
 END ARCHITECTURE rtl;
