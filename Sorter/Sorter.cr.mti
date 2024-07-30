@@ -108,15 +108,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity Memory
 -- Compiling architecture rtl of Memory
 
-} {} {}} /home/hieu/Documents/Workspace/VHDL_prj/Sorter/Controller.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/hieu/Documents/Workspace/VHDL_prj/Sorter/Controller.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity Controller
--- Compiling architecture rtl of Controller
-
 } {} {}} /home/hieu/Documents/Workspace/VHDL_prj/Sorter/Regn.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/hieu/Documents/Workspace/VHDL_prj/Sorter/Regn.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -126,8 +117,17 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity Regn
 -- Compiling architecture rtl of Regn
 
-} {} {}} D:/Workspace/VHDL/Sorter/Counter_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Workspace/VHDL/Sorter/Counter_tb.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+} {} {}} /home/hieu/Documents/Workspace/VHDL_prj/Sorter/Controller.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/hieu/Documents/Workspace/VHDL_prj/Sorter/Controller.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Controller
+-- Compiling architecture rtl of Controller
+
+} {} {}} /home/hieu/Documents/Workspace/VHDL_prj/Sorter/Counter_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/hieu/Documents/Workspace/VHDL_prj/Sorter/Counter_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
@@ -135,8 +135,8 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity Counter_tb
 -- Compiling architecture behavior of Counter_tb
 
-} {} {}} /home/hieu/Documents/Workspace/VHDL_prj/Sorter/Counter_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/hieu/Documents/Workspace/VHDL_prj/Sorter/Counter_tb.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+} {} {}} D:/Workspace/VHDL/Sorter/Counter_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Workspace/VHDL/Sorter/Counter_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
@@ -153,14 +153,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity Incrementer
 -- Compiling architecture behavior of Incrementer
 
-} {} {}} /home/hieu/Documents/Workspace/VHDL/VHDL/Sorter/MyLib.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/hieu/Documents/Workspace/VHDL/VHDL/Sorter/MyLib.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling package MyLib
-
 } {} {}} /home/hieu/Documents/Workspace/VHDL_prj/Sorter/Datapath.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/hieu/Documents/Workspace/VHDL_prj/Sorter/Datapath.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -171,15 +163,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity Datapath
 -- Compiling architecture RTL of Datapath
 
-} {} {}} /home/hieu/Documents/Workspace/VHDL/VHDL/Sorter/Sorter.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/hieu/Documents/Workspace/VHDL/VHDL/Sorter/Sorter.vhd
+} {} {}} /home/hieu/Documents/Workspace/VHDL/VHDL/Sorter/MyLib.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/hieu/Documents/Workspace/VHDL/VHDL/Sorter/MyLib.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Loading package MyLib
--- Compiling entity Sorter
--- Compiling architecture rtl of Sorter
+-- Compiling package MyLib
 
 } {} {}} /home/hieu/Documents/Workspace/VHDL_prj/Sorter/Memory.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/hieu/Documents/Workspace/VHDL_prj/Sorter/Memory.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -189,5 +179,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package NUMERIC_STD
 -- Compiling entity Memory
 -- Compiling architecture rtl of Memory
+
+} {} {}} /home/hieu/Documents/Workspace/VHDL/VHDL/Sorter/Sorter.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/hieu/Documents/Workspace/VHDL/VHDL/Sorter/Sorter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MyLib
+-- Compiling entity Sorter
+-- Compiling architecture rtl of Sorter
 
 } {} {}}
