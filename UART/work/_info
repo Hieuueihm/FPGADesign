@@ -1,0 +1,210 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/hieu/Documents/Workspace/VHDL_prj/CLK_Divider
+Pmylib
+Z0 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 60
+w1722658550
+Z3 d/home/hieu/Documents/Workspace/VHDL_prj/UART
+8/home/hieu/Documents/Workspace/VHDL_prj/UART/MyLib.vhd
+F/home/hieu/Documents/Workspace/VHDL_prj/UART/MyLib.vhd
+l0
+L5 1
+Vc@Y1gIoZES3RIXlGmzOH93
+!s100 FO8CZAeTCIm^7C>U^XTZI1
+Z4 OV;C;2020.1;71
+32
+Z5 !s110 1722660042
+!i10b 1
+Z6 !s108 1722660042.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/hieu/Documents/Workspace/VHDL_prj/UART/MyLib.vhd|
+!s107 /home/hieu/Documents/Workspace/VHDL_prj/UART/MyLib.vhd|
+!i113 1
+Z7 o-work work -2002 -explicit
+Z8 tExplicit 1 CvgOpt 0
+Euart
+Z9 w1722658537
+Z10 DPx4 work 5 mylib 0 22 c@Y1gIoZES3RIXlGmzOH93
+R0
+R1
+R2
+!i122 61
+R3
+Z11 8/home/hieu/Documents/Workspace/VHDL_prj/UART/UART.vhd
+Z12 F/home/hieu/Documents/Workspace/VHDL_prj/UART/UART.vhd
+l0
+L7 1
+V0IHK[CfU@0jfRIeLM;5O`1
+!s100 Foz6cg@ZA[@CG4hf[1di^3
+R4
+32
+R5
+!i10b 1
+R6
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/hieu/Documents/Workspace/VHDL_prj/UART/UART.vhd|
+Z14 !s107 /home/hieu/Documents/Workspace/VHDL_prj/UART/UART.vhd|
+!i113 1
+R7
+R8
+Artl
+R10
+R0
+R1
+R2
+DEx4 work 4 uart 0 22 0IHK[CfU@0jfRIeLM;5O`1
+!i122 61
+l29
+L27 36
+V2l=Dh]]VjPk1>?gg2dc[U2
+!s100 YoN@h5[SSDN7K0YKHI7WQ3
+R4
+32
+R5
+!i10b 1
+R6
+R13
+R14
+!i113 1
+R7
+R8
+Euart_rx
+Z15 w1722660039
+R0
+R1
+R2
+!i122 62
+R3
+Z16 8/home/hieu/Documents/Workspace/VHDL_prj/UART/UART_RX.vhd
+Z17 F/home/hieu/Documents/Workspace/VHDL_prj/UART/UART_RX.vhd
+l0
+L6 1
+VHDmGhP]l`6iS8;Ec[h4953
+!s100 Uzcf<>@oW43X4z0^OQeZB1
+R4
+32
+R5
+!i10b 1
+R6
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/hieu/Documents/Workspace/VHDL_prj/UART/UART_RX.vhd|
+Z19 !s107 /home/hieu/Documents/Workspace/VHDL_prj/UART/UART_RX.vhd|
+!i113 1
+R7
+R8
+Artl
+R0
+R1
+R2
+DEx4 work 7 uart_rx 0 22 HDmGhP]l`6iS8;Ec[h4953
+!i122 62
+l30
+L21 77
+V<=I992_SEb;<W8gfcz68f3
+!s100 TNW>38VgW5`F?6JE>P9OY3
+R4
+32
+R5
+!i10b 1
+R6
+R18
+R19
+!i113 1
+R7
+R8
+Euart_tb
+Z20 w1722659962
+R10
+R0
+R1
+R2
+!i122 63
+R3
+Z21 8/home/hieu/Documents/Workspace/VHDL_prj/UART/UART_tb.vhd
+Z22 F/home/hieu/Documents/Workspace/VHDL_prj/UART/UART_tb.vhd
+l0
+L7 1
+VIFjz4l>6i5;E^bPX[fmbK0
+!s100 RBZgKKhojK@lff45N<SSS3
+R4
+32
+R5
+!i10b 1
+R6
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/hieu/Documents/Workspace/VHDL_prj/UART/UART_tb.vhd|
+Z24 !s107 /home/hieu/Documents/Workspace/VHDL_prj/UART/UART_tb.vhd|
+!i113 1
+R7
+R8
+Abev
+R10
+R0
+R1
+R2
+DEx4 work 7 uart_tb 0 22 IFjz4l>6i5;E^bPX[fmbK0
+!i122 63
+l24
+L11 70
+VnB;M8OI@VMaRBLQm`?@<^3
+!s100 7TlOKT`KP[mTf3?n7]CI22
+R4
+32
+R5
+!i10b 1
+R6
+R23
+R24
+!i113 1
+R7
+R8
+Euart_tx
+Z25 w1722660025
+R0
+R1
+R2
+!i122 64
+R3
+Z26 8/home/hieu/Documents/Workspace/VHDL_prj/UART/UART_TX.vhd
+Z27 F/home/hieu/Documents/Workspace/VHDL_prj/UART/UART_TX.vhd
+l0
+L4 1
+V?@Z=LKmT[ALVT9NG]:`aA0
+!s100 ]GL8zLmR^n=lICT;JdVB33
+R4
+32
+R5
+!i10b 1
+R6
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/hieu/Documents/Workspace/VHDL_prj/UART/UART_TX.vhd|
+Z29 !s107 /home/hieu/Documents/Workspace/VHDL_prj/UART/UART_TX.vhd|
+!i113 1
+R7
+R8
+Artl
+R0
+R1
+R2
+Z30 DEx4 work 7 uart_tx 0 22 ?@Z=LKmT[ALVT9NG]:`aA0
+!i122 64
+l31
+Z31 L21 87
+Z32 Vbl1^mAQKDCV]:9aS86_M:2
+Z33 !s100 TeNajicMHYDBcVY3_fdPX0
+R4
+32
+R5
+!i10b 1
+R6
+R28
+R29
+!i113 1
+R7
+R8
