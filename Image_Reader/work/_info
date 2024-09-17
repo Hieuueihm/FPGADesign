@@ -1,0 +1,140 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/WINDOWS/system32
+Ereadimage
+Z0 w1726563548
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 20
+Z4 dD:/Code/VHDL/Image_Reader
+Z5 8D:\Code\VHDL\Image_Reader\ReadImage.vhd
+Z6 FD:\Code\VHDL\Image_Reader\ReadImage.vhd
+l0
+L6 1
+VM43dNd^oX?oFLQTbJ?nGF0
+!s100 <02ZA@dJ<Lf61]=i<3U0T3
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1726563640
+!i10b 1
+Z9 !s108 1726563640.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Code\VHDL\Image_Reader\ReadImage.vhd|
+Z11 !s107 D:\Code\VHDL\Image_Reader\ReadImage.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+DEx4 work 9 readimage 0 22 M43dNd^oX?oFLQTbJ?nGF0
+!i122 20
+l45
+L24 35
+VV[b;J51`;DoiU;eXQ=>a<2
+!s100 =2`GQPC1=<V]^VSzJ:E9O0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ereadimage_tb
+Z14 w1726563618
+R1
+R2
+R3
+!i122 21
+R4
+Z15 8D:\Code\VHDL\Image_Reader\ReadImage_tb.vhd
+Z16 FD:\Code\VHDL\Image_Reader\ReadImage_tb.vhd
+l0
+L6 1
+V6D7gBZ9dd`P@<>5<S6AoO3
+!s100 Wf[=QBkJQ^Y[K0zJJzODI2
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Code\VHDL\Image_Reader\ReadImage_tb.vhd|
+Z18 !s107 D:\Code\VHDL\Image_Reader\ReadImage_tb.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R1
+R2
+R3
+DEx4 work 12 readimage_tb 0 22 6D7gBZ9dd`P@<>5<S6AoO3
+!i122 21
+l39
+Z19 L8 69
+V;;0EoFXaBg0WlKokWg]oS1
+!s100 QTNU]CWC_6_KJ0SjzBgkB2
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Etb_read_image_vhdl
+Z20 w1726563546
+R1
+R2
+R3
+!i122 19
+R4
+R15
+R16
+l0
+L6 1
+Vi35[9GCOaX=IbhDh^3cO73
+!s100 jX;1c8_RTIo2mMCdQ13V71
+R7
+32
+Z21 !s110 1726563564
+!i10b 1
+Z22 !s108 1726563564.000000
+R17
+R18
+!i113 1
+R12
+R13
+Abehavior
+R1
+R2
+R3
+DEx4 work 18 tb_read_image_vhdl 0 22 i35[9GCOaX=IbhDh^3cO73
+!i122 19
+l39
+R19
+V2hjjRTj<D7N<@96Y:g7fc3
+!s100 3Q1f?znnCg5[RGgO;EEgD0
+R7
+32
+R21
+!i10b 1
+R22
+R17
+R18
+!i113 1
+R12
+R13
