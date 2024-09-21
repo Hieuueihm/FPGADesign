@@ -111,7 +111,6 @@ BEGIN
         WE => WE_A,
         RE => Internal_RE_A,
         CLK => CLK,
-        RST => RST,
         Dout => A
     );
 
@@ -125,7 +124,6 @@ BEGIN
         WE => WE_B,
         RE => Internal_RE_B,
         CLK => CLK,
-        RST => RST,
         Dout => B
     );
 
@@ -139,7 +137,6 @@ BEGIN
         WE => Int_WE_C,
         RE => Internal_RE_C,
         CLK => CLK,
-        RST => RST,
         Dout => D_out
     );
     Data_out <= D_out;

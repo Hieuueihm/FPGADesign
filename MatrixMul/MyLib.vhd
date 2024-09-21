@@ -13,7 +13,7 @@ PACKAGE MyLib IS
             Din : IN STD_LOGIC_VECTOR(DATA_WIDTH - 1 DOWNTO 0);
             ADDR : IN STD_LOGIC_VECTOR(ADDR_WIDTH - 1 DOWNTO 0); -- Address input
             WE, RE : IN STD_LOGIC;
-            CLK, RST : IN STD_LOGIC;
+            CLK : IN STD_LOGIC;
             Dout : OUT STD_LOGIC_VECTOR(DATA_WIDTH - 1 DOWNTO 0) -- Data output
         );
     END COMPONENT;

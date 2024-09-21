@@ -97,7 +97,6 @@ BEGIN
                 data_a <= A(i, j);
                 WAIT FOR clk_period / 2;
                 we_a <= '1';
-
                 WAIT FOR clk_period;
                 we_a <= '0';
                 WAIT FOR clk_period;
@@ -124,11 +123,9 @@ BEGIN
         WAIT FOR clk_period;
         FOR i IN 0 TO RowA - 1 LOOP
             FOR j IN 0 TO ColA - 1 LOOP
-
                 addr_a <= STD_LOGIC_VECTOR(UNSIGNED(addr_a_tmp) + to_unsigned(i * ColA + j, ADDR_WIDTH));
                 WAIT FOR clk_period / 2;
                 re_a <= '1';
-
                 WAIT FOR clk_period;
                 re_a <= '0';
                 WAIT FOR clk_period;

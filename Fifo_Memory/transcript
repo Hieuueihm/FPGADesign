@@ -1,0 +1,558 @@
+# Compile of Fifo_Memory.vhd failed with 2 errors.
+# Compile of Memory_Array.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Read_Pointer.vhd failed with 5 errors.
+# Compile of Write_Pointer.vhd was successful with warnings.
+# Compile of Fifo_Memory_tb.vhd was successful.
+# Compile of Write_Pointer_tb.vhd was successful.
+# 7 compiles, 2 failed with 7 errors.
+# Compile of Fifo_Memory.vhd was successful with warnings.
+# Compile of Memory_Array.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Read_Pointer.vhd failed with 5 errors.
+# Compile of Write_Pointer.vhd was successful with warnings.
+# Compile of Fifo_Memory_tb.vhd was successful.
+# Compile of Write_Pointer_tb.vhd was successful.
+# 7 compiles, 1 failed with 5 errors.
+# Compile of Fifo_Memory.vhd was successful with warnings.
+# Compile of Memory_Array.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Read_Pointer.vhd was successful with warnings.
+# Compile of Write_Pointer.vhd was successful with warnings.
+# Compile of Fifo_Memory_tb.vhd was successful.
+# Compile of Write_Pointer_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.Write_Pointer_tb
+# vsim -gui work.Write_Pointer_tb 
+# Start time: 09:55:45 on Sep 21,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.write_pointer_tb(behavior)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.write_pointer(behavioral)
+add wave *
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Instance: /write_pointer_tb/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35 ns  Iteration: 1  Instance: /write_pointer_tb/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 65 ns  Iteration: 1  Instance: /write_pointer_tb/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 75 ns  Iteration: 1  Instance: /write_pointer_tb/uut
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 105 ns  Iteration: 1  Instance: /write_pointer_tb/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 115 ns  Iteration: 1  Instance: /write_pointer_tb/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 125 ns  Iteration: 1  Instance: /write_pointer_tb/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 135 ns  Iteration: 1  Instance: /write_pointer_tb/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 1  Instance: /write_pointer_tb/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 155 ns  Iteration: 1  Instance: /write_pointer_tb/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 165 ns  Iteration: 1  Instance: /write_pointer_tb/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 175 ns  Iteration: 1  Instance: /write_pointer_tb/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 185 ns  Iteration: 1  Instance: /write_pointer_tb/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 195 ns  Iteration: 1  Instance: /write_pointer_tb/uut
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 205 ns  Iteration: 1  Instance: /write_pointer_tb/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 215 ns  Iteration: 1  Instance: /write_pointer_tb/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 1  Instance: /write_pointer_tb/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 235 ns  Iteration: 1  Instance: /write_pointer_tb/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 245 ns  Iteration: 1  Instance: /write_pointer_tb/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 255 ns  Iteration: 1  Instance: /write_pointer_tb/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 265 ns  Iteration: 1  Instance: /write_pointer_tb/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 275 ns  Iteration: 1  Instance: /write_pointer_tb/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 285 ns  Iteration: 1  Instance: /write_pointer_tb/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 295 ns  Iteration: 1  Instance: /write_pointer_tb/uut
+# Compile of Fifo_Memory.vhd was successful with warnings.
+# Compile of Memory_Array.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Read_Pointer.vhd was successful with warnings.
+# Compile of Write_Pointer.vhd was successful with warnings.
+# Compile of Fifo_Memory_tb.vhd was successful.
+# Compile of Write_Pointer_tb.vhd failed with 2 errors.
+# 7 compiles, 1 failed with 2 errors.
+# Compile of Fifo_Memory.vhd was successful with warnings.
+# Compile of Memory_Array.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Read_Pointer.vhd was successful with warnings.
+# Compile of Write_Pointer.vhd was successful with warnings.
+# Compile of Fifo_Memory_tb.vhd was successful.
+# Compile of Write_Pointer_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.Write_Pointer_tb
+# End time: 09:59:17 on Sep 21,2024, Elapsed time: 0:03:32
+# Errors: 0, Warnings: 31
+# vsim -gui work.Write_Pointer_tb 
+# Start time: 09:59:17 on Sep 21,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.write_pointer_tb(behavior)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.write_pointer(behavioral)
+add wave *
+run
+# Compile of Fifo_Memory.vhd was successful with warnings.
+# Compile of Memory_Array.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Read_Pointer.vhd was successful with warnings.
+# Compile of Write_Pointer.vhd was successful.
+# Compile of Fifo_Memory_tb.vhd was successful.
+# Compile of Write_Pointer_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.Write_Pointer_tb
+# End time: 10:01:19 on Sep 21,2024, Elapsed time: 0:02:02
+# Errors: 0, Warnings: 2
+# vsim -gui work.Write_Pointer_tb 
+# Start time: 10:01:19 on Sep 21,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.write_pointer_tb(behavior)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.write_pointer(behavioral)
+run 
+add wave *
+run\
+run
+# Invalid time value: run
+restart -f
+run
+run
+run
+vsim -gui work.Fifo_Memory_vhd
+# End time: 10:04:00 on Sep 21,2024, Elapsed time: 0:02:41
+# Errors: 0, Warnings: 1
+# vsim -gui work.Fifo_Memory_vhd 
+# Start time: 10:04:00 on Sep 21,2024
+# ** Error: (vsim-3170) Could not find 'Fifo_Memory_vhd'.
+#         Searched libraries:
+#             D:/Code/VHDL/Fifo_Memory/work
+# Error loading design
+# End time: 10:04:00 on Sep 21,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vsim -gui work.Fifo_Memory_tb
+# vsim -gui work.Fifo_Memory_tb 
+# Start time: 10:04:03 on Sep 21,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.fifo_memory_tb(behavior)
+# Loading work.fifo_memory(behavioral)
+# Loading work.read_pointer(behavioral)
+# Loading work.write_pointer(behavioral)
+# Loading work.memory_array(behavioral)
+# Compile of Fifo_Memory.vhd was successful with warnings.
+# Compile of Memory_Array.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Read_Pointer.vhd failed with 2 errors.
+# Compile of Write_Pointer.vhd was successful.
+# Compile of Fifo_Memory_tb.vhd was successful.
+# Compile of Write_Pointer_tb.vhd was successful.
+# 7 compiles, 1 failed with 2 errors.
+# Compile of Fifo_Memory.vhd was successful with warnings.
+# Compile of Memory_Array.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Read_Pointer.vhd was successful.
+# Compile of Write_Pointer.vhd was successful.
+# Compile of Fifo_Memory_tb.vhd was successful.
+# Compile of Write_Pointer_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.Fifo_Memory_tb
+# End time: 10:04:33 on Sep 21,2024, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 3
+# vsim -gui work.Fifo_Memory_tb 
+# Start time: 10:04:33 on Sep 21,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.fifo_memory_tb(behavior)
+# Loading work.fifo_memory(behavioral)
+# Loading work.read_pointer(behavioral)
+# Loading work.write_pointer(behavioral)
+# Loading work.memory_array(behavioral)
+add wave *
+run
+# ** Note: === Simulation Ended ===
+#    Time: 40 ns  Iteration: 0  Instance: /fifo_memory_tb
+# ** Note: === Simulation Ended ===
+#    Time: 80 ns  Iteration: 0  Instance: /fifo_memory_tb
+vsim -gui work.Fifo_Memory_tb
+# End time: 10:06:22 on Sep 21,2024, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 1
+# vsim -gui work.Fifo_Memory_tb 
+# Start time: 10:06:22 on Sep 21,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.fifo_memory_tb(behavior)
+# Loading work.fifo_memory(behavioral)
+# Loading work.read_pointer(behavioral)
+# Loading work.write_pointer(behavioral)
+# Loading work.memory_array(behavioral)
+add wave *
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Can't move the Now cursor.
+add wave *
+vsim -gui work.Fifo_Memory_tb
+# End time: 10:07:07 on Sep 21,2024, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 1
+# vsim -gui work.Fifo_Memory_tb 
+# Start time: 10:07:07 on Sep 21,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.fifo_memory_tb(behavior)
+# Loading work.fifo_memory(behavioral)
+# Loading work.read_pointer(behavioral)
+# Loading work.write_pointer(behavioral)
+# Loading work.memory_array(behavioral)
+add wave *
+add wave *
+run
+run
+run
+run
+run
+run
+run
+run
+# WARNING: No extended dataflow license exists
+# Compile of Fifo_Memory.vhd was successful with warnings.
+# Compile of Memory_Array.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Read_Pointer.vhd was successful.
+# Compile of Write_Pointer.vhd was successful.
+# Compile of Fifo_Memory_tb.vhd was successful.
+# Compile of Write_Pointer_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.Fifo_Memory_tb
+# End time: 10:08:33 on Sep 21,2024, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 2
+# vsim -gui work.Fifo_Memory_tb 
+# Start time: 10:08:33 on Sep 21,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.fifo_memory_tb(behavior)
+# Loading work.fifo_memory(behavioral)
+# Loading work.read_pointer(behavioral)
+# Loading work.write_pointer(behavioral)
+# Loading work.memory_array(behavioral)
+add wave *
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Fifo_Memory.vhd was successful with warnings.
+# Compile of Memory_Array.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Read_Pointer.vhd was successful.
+# Compile of Write_Pointer.vhd was successful.
+# Compile of Fifo_Memory_tb.vhd was successful.
+# Compile of Write_Pointer_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.Fifo_Memory_tb
+# End time: 10:09:47 on Sep 21,2024, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 2
+# vsim -gui work.Fifo_Memory_tb 
+# Start time: 10:09:47 on Sep 21,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.fifo_memory_tb(behavior)
+# Loading work.fifo_memory(behavioral)
+# Loading work.read_pointer(behavioral)
+# Loading work.write_pointer(behavioral)
+# Loading work.memory_array(behavioral)
+add wave *
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Fifo_Memory.vhd failed with 2 errors.
+# Compile of Memory_Array.vhd was successful.
+# Compile of MyLib.vhd failed with 1 errors.
+# Compile of Read_Pointer.vhd was successful.
+# Compile of Write_Pointer.vhd was successful.
+# Compile of Fifo_Memory_tb.vhd failed with 2 errors.
+# Compile of Write_Pointer_tb.vhd was successful.
+# 7 compiles, 3 failed with 5 errors.
+# Compile of Fifo_Memory.vhd failed with 2 errors.
+# Compile of Memory_Array.vhd was successful.
+# Compile of MyLib.vhd failed with 1 errors.
+# Compile of Read_Pointer.vhd was successful.
+# Compile of Write_Pointer.vhd was successful.
+# Compile of Fifo_Memory_tb.vhd was successful.
+# Compile of Write_Pointer_tb.vhd was successful.
+# 7 compiles, 2 failed with 3 errors.
+# Compile of Fifo_Memory.vhd failed with 2 errors.
+# Compile of Memory_Array.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Read_Pointer.vhd was successful.
+# Compile of Write_Pointer.vhd was successful.
+# Compile of Fifo_Memory_tb.vhd was successful.
+# Compile of Write_Pointer_tb.vhd failed with 1 errors.
+# 7 compiles, 2 failed with 3 errors.
+# Compile of Fifo_Memory.vhd was successful with warnings.
+# Compile of Memory_Array.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Read_Pointer.vhd was successful.
+# Compile of Write_Pointer.vhd was successful.
+# Compile of Fifo_Memory_tb.vhd was successful.
+# Compile of Write_Pointer_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.fifo_memory_tb
+# End time: 10:49:10 on Sep 21,2024, Elapsed time: 0:39:23
+# Errors: 0, Warnings: 4
+# vsim -gui work.fifo_memory_tb 
+# Start time: 10:49:10 on Sep 21,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.fifo_memory_tb(behavior)
+# Loading work.fifo_memory(behavioral)
+# Loading work.read_pointer(behavioral)
+# Loading work.write_pointer(behavioral)
+# Loading work.memory_array(behavioral)
+add wave *
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim -gui work.fifo_memory_tb
+# End time: 10:49:35 on Sep 21,2024, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 2
+# vsim -gui work.fifo_memory_tb 
+# Start time: 10:49:35 on Sep 21,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.fifo_memory_tb(behavior)
+# Loading work.fifo_memory(behavioral)
+# Loading work.read_pointer(behavioral)
+# Loading work.write_pointer(behavioral)
+# Loading work.memory_array(behavioral)
+add wave *
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Fifo_Memory.vhd was successful with warnings.
+# Compile of Memory_Array.vhd was successful.
+# Compile of MyLib.vhd was successful.
+# Compile of Read_Pointer.vhd was successful.
+# Compile of Write_Pointer.vhd was successful.
+# Compile of Fifo_Memory_tb.vhd was successful.
+# Compile of Write_Pointer_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.fifo_memory_tb work.write_pointer_tb
+# End time: 10:51:12 on Sep 21,2024, Elapsed time: 0:01:37
+# Errors: 0, Warnings: 2
+# vsim -gui work.fifo_memory_tb work.write_pointer_tb 
+# Start time: 10:51:12 on Sep 21,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mylib
+# Loading work.fifo_memory_tb(behavior)
+# Loading work.write_pointer_tb(behavior)
+# Loading work.fifo_memory(behavioral)
+# Loading work.read_pointer(behavioral)
+# Loading work.write_pointer(behavioral)
+# Loading work.memory_array(behavioral)
+add wave *
+run -over
+run
+run
+# ** Note: === Simulation Ended ===
+#    Time: 40 us  Iteration: 0  Instance: /fifo_memory_tb
+# ** Note: === Simulation Ended ===
+#    Time: 80 us  Iteration: 0  Instance: /fifo_memory_tb
+# End time: 10:52:08 on Sep 21,2024, Elapsed time: 0:00:56
+# Errors: 0, Warnings: 1
