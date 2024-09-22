@@ -12,6 +12,8 @@ ENTITY Write_Pointer IS
         wr : IN STD_LOGIC;
         base_addr : IN STD_LOGIC_VECTOR(ADDR_WIDTH - 1 DOWNTO 0);
         wptr : OUT STD_LOGIC_VECTOR(ADDR_WIDTH - 1 DOWNTO 0);
+        fifo_full : IN STD_LOGIC;
+
         fifo_we : OUT STD_LOGIC
     );
 END ENTITY Write_Pointer;
@@ -24,7 +26,7 @@ BEGIN
 
     wptr <= write_addr;
     fifo_we <= we;
-    we <= wr;
+    we <= (NOT fifo_full) AND wr;
 
     PROCESS (clk) BEGIN
         IF (rising_edge(clk)) THEN

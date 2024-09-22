@@ -31,7 +31,7 @@ BEGIN
     PORT MAP(
         clk => clk,
         rd => rd,
-        -- fifo_empty => fifo_empty,
+        fifo_empty => fifo_empty,
         base_addr => base_addr,
         fifo_re => fifo_re,
         rptr => read_addr
@@ -42,7 +42,7 @@ BEGIN
     )
     PORT MAP(
         clk => clk,
-        -- fifo_full => fifo_full,
+        fifo_full => fifo_full,
         base_addr => base_addr,
         wr => wr,
         wptr => write_addr,
@@ -61,6 +61,19 @@ BEGIN
         wptr => write_addr,
         data_in => data_in,
         data_out => Dout
+    );
+    Status_Signal_Unit : Status_Signal
+    GENERIC MAP(
+        ADDR_WIDTH => ADDR_WIDTH
+    )
+    PORT MAP(
+        clk => clk,
+        fifo_we => fifo_we,
+        fifo_re => fifo_re,
+        wptr => write_addr,
+        rptr => read_addr,
+        fifo_full => fifo_full,
+        fifo_empty => fifo_empty
     );
     data_out <= Dout;
 END ARCHITECTURE behavioral;

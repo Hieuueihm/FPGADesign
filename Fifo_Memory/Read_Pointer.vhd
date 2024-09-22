@@ -11,6 +11,7 @@ ENTITY Read_Pointer IS
         clk : IN STD_LOGIC;
         rd : IN STD_LOGIC;
         base_addr : IN STD_LOGIC_VECTOR(ADDR_WIDTH - 1 DOWNTO 0);
+        fifo_empty : IN STD_LOGIC;
         fifo_re : OUT STD_LOGIC;
         rptr : OUT STD_LOGIC_VECTOR(ADDR_WIDTH - 1 DOWNTO 0)
     );
@@ -21,7 +22,7 @@ ARCHITECTURE behavioral OF Read_Pointer IS
     SIGNAL initialized : BOOLEAN := FALSE; -- To track initialization state
 
 BEGIN
-    re <= rd;
+    re <= (NOT fifo_empty) AND rd;
     fifo_re <= re;
     rptr <= read_addr;
     PROCESS (clk)

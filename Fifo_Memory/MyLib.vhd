@@ -9,7 +9,7 @@ PACKAGE MyLib IS
         PORT (
             clk : IN STD_LOGIC;
             rd : IN STD_LOGIC;
-            -- fifo_empty : IN STD_LOGIC;
+            fifo_empty : IN STD_LOGIC;
             base_addr : IN STD_LOGIC_VECTOR(ADDR_WIDTH - 1 DOWNTO 0);
             fifo_re : OUT STD_LOGIC;
 
@@ -26,7 +26,7 @@ PACKAGE MyLib IS
             -- fifo_full : IN STD_LOGIC;
             wr : IN STD_LOGIC;
             base_addr : IN STD_LOGIC_VECTOR(ADDR_WIDTH - 1 DOWNTO 0);
-
+            fifo_full : IN STD_LOGIC;
             wptr : OUT STD_LOGIC_VECTOR(ADDR_WIDTH - 1 DOWNTO 0);
             fifo_we : OUT STD_LOGIC
         );
@@ -62,14 +62,14 @@ PACKAGE MyLib IS
         );
     END COMPONENT;
 
-    COMPONENT Controller IS
+    COMPONENT Status_Signal IS
         GENERIC (
             ADDR_WIDTH : INTEGER := 4
         );
         PORT (
             clk : IN STD_LOGIC;
             fifo_we : IN STD_LOGIC;
-            fifo_rd : IN STD_LOGIC;
+            fifo_re : IN STD_LOGIC;
             wptr : IN STD_LOGIC_VECTOR(ADDR_WIDTH - 1 DOWNTO 0);
             rptr : IN STD_LOGIC_VECTOR(ADDR_WIDTH - 1 DOWNTO 0);
             fifo_full : OUT STD_LOGIC;
