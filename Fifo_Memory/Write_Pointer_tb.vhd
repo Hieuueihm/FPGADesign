@@ -13,7 +13,7 @@ ARCHITECTURE behavior OF Write_Pointer_tb IS
     SIGNAL wr : STD_LOGIC := '0';
     SIGNAL base_addr : STD_LOGIC_VECTOR(3 DOWNTO 0) := "0000";
     SIGNAL fifo_full : STD_LOGIC;
-SIGAL fifo_empty: STD_LOGIC;
+SIGNAL fifo_empty: STD_LOGIC;
     SIGNAL wptr : STD_LOGIC_VECTOR(3 DOWNTO 0);
     SIGNAL fifo_we : STD_LOGIC;
 
@@ -25,6 +25,7 @@ BEGIN
     uut : Write_Pointer PORT MAP(
         clk => clk,
         wr => wr,
+	fifo_empty => fifo_empty,
         fifo_full => fifo_full,
         base_addr => base_addr,
         wptr => wptr,

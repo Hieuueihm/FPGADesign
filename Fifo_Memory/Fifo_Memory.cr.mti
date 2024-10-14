@@ -1,12 +1,4 @@
-D:/Code/VHDL/Fifo_Memory/MyLib.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Code/VHDL/Fifo_Memory/MyLib.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling package MyLib
-
-} {} {}} D:/Code/VHDL/Fifo_Memory/Status_Signal.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Code/VHDL/Fifo_Memory/Status_Signal.vhd
+D:/Code/VHDL/Fifo_Memory/Status_Signal.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Code/VHDL/Fifo_Memory/Status_Signal.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -26,6 +18,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package MyLib
 -- Compiling entity Fifo_Memory_tb
 -- Compiling architecture behavior of Fifo_Memory_tb
+
+} {} {}} D:/Code/VHDL/Fifo_Memory/MyLib.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Code/VHDL/Fifo_Memory/MyLib.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package MyLib
 
 } {} {}} D:/Code/VHDL/Fifo_Memory/Memory_Array.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Code/VHDL/Fifo_Memory/Memory_Array.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -58,9 +58,18 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling architecture behavior of Write_Pointer_tb
 ** Error: D:/Code/VHDL/Fifo_Memory/Write_Pointer_tb.vhd(15): (vcom-1294) Declaration with designator "fifo_full" already exists in this region.
 ** =====> Prior declaration of "fifo_full" is at D:/Code/VHDL/Fifo_Memory/Write_Pointer_tb.vhd(12).
-** Error: D:/Code/VHDL/Fifo_Memory/Write_Pointer_tb.vhd(16): near "SIGAL": (vcom-1576) expecting BEGIN.
+** Error: D:/Code/VHDL/Fifo_Memory/Write_Pointer_tb.vhd(28): (vcom-1484) Unknown formal identifier "fifo_empty".
+** Error: D:/Code/VHDL/Fifo_Memory/Write_Pointer_tb.vhd(45): near "BEGIN": syntax error
+** Error: D:/Code/VHDL/Fifo_Memory/Write_Pointer_tb.vhd(52): Illegal concurrent statement.
+** Error: D:/Code/VHDL/Fifo_Memory/Write_Pointer_tb.vhd(56): Illegal concurrent statement.
+** Error: D:/Code/VHDL/Fifo_Memory/Write_Pointer_tb.vhd(60): Illegal concurrent statement.
+** Error: D:/Code/VHDL/Fifo_Memory/Write_Pointer_tb.vhd(64): Illegal concurrent statement.
+** Error: D:/Code/VHDL/Fifo_Memory/Write_Pointer_tb.vhd(68): Illegal concurrent statement.
+** Error: D:/Code/VHDL/Fifo_Memory/Write_Pointer_tb.vhd(72): Illegal concurrent statement.
+** Error: D:/Code/VHDL/Fifo_Memory/Write_Pointer_tb.vhd(75): Illegal concurrent statement.
+** Error: D:/Code/VHDL/Fifo_Memory/Write_Pointer_tb.vhd(76): near "PROCESS": (vcom-1576) expecting ';'.
 
-} {10.0 11.0 12.0 13.0} {}} D:/Code/VHDL/Fifo_Memory/Fifo_Memory.vhd {2 {vcom -work work -2002 -explicit -stats=none D:/Code/VHDL/Fifo_Memory/Fifo_Memory.vhd
+} {10.0 11.0 12.0 22.0} {}} D:/Code/VHDL/Fifo_Memory/Fifo_Memory.vhd {2 {vcom -work work -2002 -explicit -stats=none D:/Code/VHDL/Fifo_Memory/Fifo_Memory.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO

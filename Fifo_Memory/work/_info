@@ -15,7 +15,7 @@ Z1 DPx4 work 5 mylib 0 22 lfzV94df79MLC>8BH81Ec1
 Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 376
+!i122 384
 Z5 dD:/Code/VHDL/Fifo_Memory
 Z6 8D:/Code/VHDL/Fifo_Memory/Fifo_Memory.vhd
 Z7 FD:/Code/VHDL/Fifo_Memory/Fifo_Memory.vhd
@@ -25,9 +25,9 @@ Ve0fE8=iAcOF^4S2=767@=3
 !s100 8?IeV739Sg[Y[Si08Wg<43
 Z8 OV;C;2020.1;71
 32
-Z9 !s110 1727007981
+Z9 !s110 1727074245
 !i10b 1
-Z10 !s108 1727007981.000000
+Z10 !s108 1727074245.000000
 Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Code/VHDL/Fifo_Memory/Fifo_Memory.vhd|
 Z12 !s107 D:/Code/VHDL/Fifo_Memory/Fifo_Memory.vhd|
 !i113 1
@@ -39,7 +39,7 @@ R2
 R3
 R4
 DEx4 work 11 fifo_memory 0 22 e0fE8=iAcOF^4S2=767@=3
-!i122 376
+!i122 384
 l25
 L20 60
 VdoMoh>h1j7XF=zej6m_L43
@@ -62,7 +62,7 @@ Z16 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z17 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R3
 R4
-!i122 381
+!i122 389
 R5
 Z18 8D:/Code/VHDL/Fifo_Memory/Fifo_Memory_tb.vhd
 Z19 FD:/Code/VHDL/Fifo_Memory/Fifo_Memory_tb.vhd
@@ -72,11 +72,11 @@ VRB>9D3271oXBR=5f]DP7Y2
 !s100 S[lWcDFR47I[RUCTGIL]c3
 R8
 32
-Z20 !s110 1727007982
+R9
 !i10b 1
-Z21 !s108 1727007982.000000
-Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Code/VHDL/Fifo_Memory/Fifo_Memory_tb.vhd|
-Z23 !s107 D:/Code/VHDL/Fifo_Memory/Fifo_Memory_tb.vhd|
+R10
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Code/VHDL/Fifo_Memory/Fifo_Memory_tb.vhd|
+Z21 !s107 D:/Code/VHDL/Fifo_Memory/Fifo_Memory_tb.vhd|
 !i113 1
 R13
 R14
@@ -88,41 +88,41 @@ R17
 R3
 R4
 DEx4 work 14 fifo_memory_tb 0 22 RB>9D3271oXBR=5f]DP7Y2
-!i122 381
+!i122 389
 l34
 L10 77
 V4cVYfBgLaO<jO73eI`3BJ1
 !s100 cMXXo7]bng8P07;<5zD6U0
 R8
 32
-R20
+R9
 !i10b 1
+R10
+R20
 R21
-R22
-R23
 !i113 1
 R13
 R14
 Ememory_array
-Z24 w1726888340
+Z22 w1726888340
 R2
 R3
 R4
-!i122 377
+!i122 385
 R5
-Z25 8D:/Code/VHDL/Fifo_Memory/Memory_Array.vhd
-Z26 FD:/Code/VHDL/Fifo_Memory/Memory_Array.vhd
+Z23 8D:/Code/VHDL/Fifo_Memory/Memory_Array.vhd
+Z24 FD:/Code/VHDL/Fifo_Memory/Memory_Array.vhd
 l0
 L4 1
 VLP@VNV96Dg95_2S12QLHk1
 !s100 _kfZ_j7h?Rk<KMVb<?>z@2
 R8
 32
-R20
+R9
 !i10b 1
 R10
-Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Code/VHDL/Fifo_Memory/Memory_Array.vhd|
-Z28 !s107 D:/Code/VHDL/Fifo_Memory/Memory_Array.vhd|
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Code/VHDL/Fifo_Memory/Memory_Array.vhd|
+Z26 !s107 D:/Code/VHDL/Fifo_Memory/Memory_Array.vhd|
 !i113 1
 R13
 R14
@@ -131,18 +131,18 @@ R2
 R3
 R4
 DEx4 work 12 memory_array 0 22 LP@VNV96Dg95_2S12QLHk1
-!i122 377
+!i122 385
 l25
 L20 28
 V:WTAA^PkF=8`m]^U:?ZAD3
 !s100 MIWLa4oGbDo?F1lT8CC<^2
 R8
 32
-R20
+R9
 !i10b 1
 R10
-R27
-R28
+R25
+R26
 !i113 1
 R13
 R14
@@ -150,8 +150,8 @@ Pmylib
 R2
 R3
 R4
-!i122 378
-w1727007941
+!i122 386
+w1727074200
 R5
 8D:/Code/VHDL/Fifo_Memory/MyLib.vhd
 FD:/Code/VHDL/Fifo_Memory/MyLib.vhd
@@ -161,36 +161,36 @@ VlfzV94df79MLC>8BH81Ec1
 !s100 Q:injDObO31GAXaSnC_8m1
 R8
 32
-R20
+R9
 !i10b 1
-R21
+R10
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Code/VHDL/Fifo_Memory/MyLib.vhd|
 !s107 D:/Code/VHDL/Fifo_Memory/MyLib.vhd|
 !i113 1
 R13
 R14
 Eread_pointer
-Z29 w1727007274
+Z27 w1727007274
 R16
 R17
 R2
 R3
 R4
-!i122 379
+!i122 387
 R5
-Z30 8D:/Code/VHDL/Fifo_Memory/Read_Pointer.vhd
-Z31 FD:/Code/VHDL/Fifo_Memory/Read_Pointer.vhd
+Z28 8D:/Code/VHDL/Fifo_Memory/Read_Pointer.vhd
+Z29 FD:/Code/VHDL/Fifo_Memory/Read_Pointer.vhd
 l0
 L6 1
 V?PGzLjE?FSNCZGbAUPJ?90
 !s100 eNe;[E1MK[HVGRMEz]^[K3
 R8
 32
-R20
+R9
 !i10b 1
-R21
-Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Code/VHDL/Fifo_Memory/Read_Pointer.vhd|
-Z33 !s107 D:/Code/VHDL/Fifo_Memory/Read_Pointer.vhd|
+R10
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Code/VHDL/Fifo_Memory/Read_Pointer.vhd|
+Z31 !s107 D:/Code/VHDL/Fifo_Memory/Read_Pointer.vhd|
 !i113 1
 R13
 R14
@@ -201,41 +201,41 @@ R2
 R3
 R4
 DEx4 work 12 read_pointer 0 22 ?PGzLjE?FSNCZGbAUPJ?90
-!i122 379
+!i122 387
 l24
 L19 21
 V3QijXUSY9cBA]PM]Iemj@2
 !s100 KD8DT;]]5NB0o4cT[N1^g1
 R8
 32
-R20
+R9
 !i10b 1
-R21
-R32
-R33
+R10
+R30
+R31
 !i113 1
 R13
 R14
 Estatus_signal
-Z34 w1727007916
+Z32 w1727007916
 R2
 R3
 R4
-!i122 383
+!i122 391
 R5
-Z35 8D:/Code/VHDL/Fifo_Memory/Status_Signal.vhd
-Z36 FD:/Code/VHDL/Fifo_Memory/Status_Signal.vhd
+Z33 8D:/Code/VHDL/Fifo_Memory/Status_Signal.vhd
+Z34 FD:/Code/VHDL/Fifo_Memory/Status_Signal.vhd
 l0
 L5 1
 V0QVF@Edo4IeZbT2<_[_RR3
 !s100 aaO5B4X<zI4XommO^VlF=3
 R8
 32
-R20
+R9
 !i10b 1
-R21
-Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Code/VHDL/Fifo_Memory/Status_Signal.vhd|
-Z38 !s107 D:/Code/VHDL/Fifo_Memory/Status_Signal.vhd|
+R10
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Code/VHDL/Fifo_Memory/Status_Signal.vhd|
+Z36 !s107 D:/Code/VHDL/Fifo_Memory/Status_Signal.vhd|
 !i113 1
 R13
 R14
@@ -243,44 +243,44 @@ Artl
 R2
 R3
 R4
-Z39 DEx4 work 13 status_signal 0 22 0QVF@Edo4IeZbT2<_[_RR3
-!i122 383
+Z37 DEx4 work 13 status_signal 0 22 0QVF@Edo4IeZbT2<_[_RR3
+!i122 391
 l23
-Z40 L20 13
-Z41 V1oRkTj]h:1>33MSOK^nnd2
-Z42 !s100 Hj0iOPcIVIe>iL]oUjRhZ2
+Z38 L20 13
+Z39 V1oRkTj]h:1>33MSOK^nnd2
+Z40 !s100 Hj0iOPcIVIe>iL]oUjRhZ2
 R8
 32
-R20
+R9
 !i10b 1
-R21
-R37
-R38
+R10
+R35
+R36
 !i113 1
 R13
 R14
 Ewrite_pointer
-Z43 w1727007240
+Z41 w1727007240
 R16
 R17
 R2
 R3
 R4
-!i122 380
+!i122 388
 R5
-Z44 8D:/Code/VHDL/Fifo_Memory/Write_Pointer.vhd
-Z45 FD:/Code/VHDL/Fifo_Memory/Write_Pointer.vhd
+Z42 8D:/Code/VHDL/Fifo_Memory/Write_Pointer.vhd
+Z43 FD:/Code/VHDL/Fifo_Memory/Write_Pointer.vhd
 l0
 L6 1
 VYNaXh:fFclkbBE]^A:XF[1
 !s100 Gk8lJ3`0DS>b2^eWAXjfj2
 R8
 32
-R20
+R9
 !i10b 1
-R21
-Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Code/VHDL/Fifo_Memory/Write_Pointer.vhd|
-Z47 !s107 D:/Code/VHDL/Fifo_Memory/Write_Pointer.vhd|
+R10
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Code/VHDL/Fifo_Memory/Write_Pointer.vhd|
+Z45 !s107 D:/Code/VHDL/Fifo_Memory/Write_Pointer.vhd|
 !i113 1
 R13
 R14
@@ -291,41 +291,41 @@ R2
 R3
 R4
 DEx4 work 13 write_pointer 0 22 YNaXh:fFclkbBE]^A:XF[1
-!i122 380
+!i122 388
 l25
 L20 23
 V_T:eRFD;R[oE7Liz@Ij_I2
 !s100 ^Z^>I:a4h=f1U=g:]B<dC2
 R8
 32
-R20
+R9
 !i10b 1
-R21
-R46
-R47
+R10
+R44
+R45
 !i113 1
 R13
 R14
 Ewrite_pointer_tb
-w1727007870
+w1727074239
 R2
 R3
 R4
-!i122 382
+!i122 390
 R5
-Z48 8D:/Code/VHDL/Fifo_Memory/Write_Pointer_tb.vhd
-Z49 FD:/Code/VHDL/Fifo_Memory/Write_Pointer_tb.vhd
+Z46 8D:/Code/VHDL/Fifo_Memory/Write_Pointer_tb.vhd
+Z47 FD:/Code/VHDL/Fifo_Memory/Write_Pointer_tb.vhd
 l0
 L5 1
 Vk]M^LFgJ35<=FbVzeWYJF2
 !s100 `a9]_a^R_h_F1f_aSkWO20
 R8
 32
-R20
+R9
 !i10b 1
-R21
-Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Code/VHDL/Fifo_Memory/Write_Pointer_tb.vhd|
-Z51 !s107 D:/Code/VHDL/Fifo_Memory/Write_Pointer_tb.vhd|
+R10
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Code/VHDL/Fifo_Memory/Write_Pointer_tb.vhd|
+Z49 !s107 D:/Code/VHDL/Fifo_Memory/Write_Pointer_tb.vhd|
 !i113 1
 R13
 R14
@@ -345,8 +345,8 @@ R8
 !s110 1726890655
 !i10b 1
 !s108 1726890655.000000
-R50
-R51
+R48
+R49
 !i113 1
 R13
 R14
