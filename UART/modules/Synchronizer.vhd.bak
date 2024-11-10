@@ -1,0 +1,35 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;
+USE IEEE.numeric_std.ALL;
+
+ENTITY Synchronizer IS
+
+    GENERIC (
+        IDLE_STATE : STD_LOGIC
+    );
+    PORT (
+        clk : IN STD_LOGIC;
+        rst : IN STD_LOGIC;
+        async : IN STD_LOGIC;
+        synced : OUT STD_LOGIC
+    );
+END ENTITY Synchronizer;
+
+ARCHITECTURE rtl OF Synchronizer IS
+    SIGNAL sync : STD_LOGIC_VECTOR(1 DOWNTO 0);
+BEGIN
+
+    synced <= sync(1);
+    SyncProcess : PROCESS (rst, clk)
+
+    BEGIN
+        IF rst = '1' THEN
+            sync <= (OTHERS => IDLE_STATE);
+        ELSIF rising_edge(clk) THEN
+            sync(0) <= async;
+            sync(1) <= sync(0);
+        END IF;
+
+    END PROCESS;
+
+END ARCHITECTURE rtl;
