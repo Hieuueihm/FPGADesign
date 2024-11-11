@@ -62,8 +62,6 @@ Nhận dữ liệu đầu vào song song và trả dữ liệu thành dạng ser
 
 2-stage synchronizer
 
-[https://www.notion.so](https://www.notion.so)
-
 ![image.png](image%204.png)
 
 | Chân | IO | Kiểu dữ liệu | Chi tiết |
