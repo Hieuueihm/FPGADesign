@@ -8,7 +8,6 @@ ENTITY UART_Transmitter IS
         BAUD_RATE : INTEGER
 
     );
-
     PORT (
         clk : IN STD_LOGIC;
         rst : IN STD_LOGIC;
