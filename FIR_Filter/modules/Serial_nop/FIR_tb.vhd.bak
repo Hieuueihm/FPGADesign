@@ -24,11 +24,9 @@ ARCHITECTURE Behavioral OF FIR_tb IS
         PORT (
             clk : IN STD_LOGIC;
             rst : IN STD_LOGIC;
-            start : IN STD_LOGIC;
             --OUTPUTS
             Din : IN STD_LOGIC_VECTOR(INPUT_WIDTH - 1 DOWNTO 0);
-            Dout : OUT STD_LOGIC_VECTOR(OUTPUT_WIDTH - 1 DOWNTO 0);
-            Done : OUT STD_LOGIC
+            Dout : OUT STD_LOGIC_VECTOR(OUTPUT_WIDTH - 1 DOWNTO 0)
 
         );
     END COMPONENT;
@@ -52,11 +50,9 @@ BEGIN
     PORT MAP(
         clk => clk,
         rst => rst,
-        start => start,
         --OUTPUTS
         Din => Din,
         Dout => Dout,
-        Done => Done
 
     );
     clk <= NOT clk AFTER 10 ns;
@@ -71,10 +67,7 @@ BEGIN
         rst <= '0';
         WAIT FOR 100 ns;
         Din <= STD_LOGIC_VECTOR(to_signed(-7, INPUT_WIDTH));
-        WAIT unitl rising_edge(clk);
-        start <= '1';
-        WAIT UNTIL Done = '1';
-        start <= '0';
+        WAIT FOR 200 ns;
         WAIT;
     END PROCESS;
 END ARCHITECTURE Behavioral;

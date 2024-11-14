@@ -1,27 +1,26 @@
-import numpy as np
-import scipy.signal as signal
-import matplotlib.pyplot as plt
+def fir_filter(input_data, coefficients):
+    # Initialize shift registers (all set to 0 initially)
+    shift_registers = [0] * len(coefficients)
+    result = 0
+    
+    # Process each bit in the input data (assumed as binary string "10001000")
+    for bit in input_data:
+        # Shift the register values to the right
+        for i in range(len(shift_registers) - 1, 0, -1):
+            shift_registers[i] = shift_registers[i - 1]
+        
+        # Insert the new bit (converted to integer) into the first register
+        shift_registers[0] = int(bit)
+        
+        # Calculate the FIR filter output by multiplying and summing
+        result = sum([shift_registers[i] * coefficients[i] for i in range(len(coefficients))])
+        
+        # Print the result for this cycle
+        print(f"Input bit: {bit}, Shift Registers: {shift_registers}, Output: {result}")
+    
+    return result
 
-# Define the filter coefficients in hexadecimal and convert to decimal
-hex_coeffs = ["F1", "F3", "07", "26", "42", "4E", "42", "26", "07", "F3", "F1"]
-coeffs = np.array([int(h, 16) for h in hex_coeffs])
-
-# Normalize the coefficients (optional, depending on desired gain)
-
-
-# Define the input signal: two values of -7 followed by zeros
-input_signal = np.array([-7, -7] + [0] * 98)
-
-# Apply the FIR filter
-output_signal = signal.lfilter(coeffs, 1.0, input_signal)
-
-# Display the input and output signals
-print("Input Signal:", input_signal)
-print("Output Signal:", output_signal)
-
-# Plot the output signal
-plt.stem(output_signal, use_line_collection=True)
-plt.title('Output Signal')
-plt.xlabel('Sample Index')
-plt.ylabel('Amplitude')
-plt.show()
+# Test case
+input_data = "00000001"
+coefficients = [1, 2, 3, 4, 3, 2, 1]
+fir_filter(input_data, coefficients)

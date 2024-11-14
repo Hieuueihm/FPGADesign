@@ -10,40 +10,40 @@ z2
 cModel Technology
 dC:/intelFPGA_lite/20.1
 Efir
-Z0 w1731401494
+Z0 w1731559270
 Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 84
+!i122 154
 Z4 dD:/Code/VHDL/FIR_Filter
 Z5 8D:/Code/VHDL/FIR_Filter/modules/Serial_nop/FIR.vhd
 Z6 FD:/Code/VHDL/FIR_Filter/modules/Serial_nop/FIR.vhd
 l0
 L4 1
-VM?TRWGV8?zadHYbjk>88@2
-!s100 KmCQJb_[;na`;88o<Q=H@1
+V6Xz<OUKYaI4RMYcO^h?961
+!s100 8Qhg]SaHbkT0;mVcg1Smi1
 Z7 OV;C;2020.1;71
-33
-Z8 !s110 1731401496
+32
+Z8 !s110 1731559273
 !i10b 1
-Z9 !s108 1731401496.000000
-Z10 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Code/VHDL/FIR_Filter/modules/Serial_nop/FIR.vhd|
+Z9 !s108 1731559273.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Code/VHDL/FIR_Filter/modules/Serial_nop/FIR.vhd|
 Z11 !s107 D:/Code/VHDL/FIR_Filter/modules/Serial_nop/FIR.vhd|
 !i113 1
-Z12 o-work work -2008 -explicit
+Z12 o-work work -2002 -explicit
 Z13 tExplicit 1 CvgOpt 0
 Abehavioral
 R1
 R2
 R3
-DEx4 work 3 fir 0 22 M?TRWGV8?zadHYbjk>88@2
-!i122 84
-l47
-L23 63
-V0@2SUjnoMJRQ9c`>0Yo5S0
-!s100 QK9ZI^K1]8V1Q0IeS8`S=1
+DEx4 work 3 fir 0 22 6Xz<OUKYaI4RMYcO^h?961
+!i122 154
+l42
+L19 59
+V>V8iVUVg6n=o;hGGeFE[:1
+!s100 ^2Y0]B>igicnJ3@Ge3ab?0
 R7
-33
+32
 R8
 !i10b 1
 R9
@@ -53,25 +53,25 @@ R11
 R12
 R13
 Efir_tb
-Z14 w1731401457
+Z14 w1731519903
 R1
 R2
 R3
-!i122 85
+!i122 155
 R4
 Z15 8D:/Code/VHDL/FIR_Filter/modules/Serial_nop/FIR_tb.vhd
 Z16 FD:/Code/VHDL/FIR_Filter/modules/Serial_nop/FIR_tb.vhd
 l0
 L7 1
-Vb@PXIITV6ji^azS8X=lT_0
+VmaHjm6P5z^nn7I]lQaD8h2
 !s100 4bPI^Qj33]V:4zbX;?b3R3
 R7
-33
-R8
+32
+Z17 !s110 1731559274
 !i10b 1
 R9
-Z17 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Code/VHDL/FIR_Filter/modules/Serial_nop/FIR_tb.vhd|
-Z18 !s107 D:/Code/VHDL/FIR_Filter/modules/Serial_nop/FIR_tb.vhd|
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Code/VHDL/FIR_Filter/modules/Serial_nop/FIR_tb.vhd|
+Z19 !s107 D:/Code/VHDL/FIR_Filter/modules/Serial_nop/FIR_tb.vhd|
 !i113 1
 R12
 R13
@@ -79,19 +79,42 @@ Abehavioral
 R1
 R2
 R3
-Z19 DEx4 work 6 fir_tb 0 22 b@PXIITV6ji^azS8X=lT_0
-!i122 85
-l44
-L15 76
-VT7Lj8ScGj0Bo>?FV:M5U[1
-!s100 S07oz>RDG:1AE9YLPn@Rl0
+Z20 DEx4 work 6 fir_tb 0 22 maHjm6P5z^nn7I]lQaD8h2
+!i122 155
+l42
+Z21 L15 59
+Z22 Vjg_W9VZZJEjj6VAlkk=1K3
+Z23 !s100 [HUHNaYW5g5B=AF2nTke?3
 R7
-33
-R8
+32
+R17
 !i10b 1
 R9
-R17
 R18
+R19
 !i113 1
 R12
 R13
+Abehavior
+R1
+R2
+R3
+DEx4 work 6 fir_tb 0 22 n[JOK>R952h^oNaD9GHED0
+!i122 126
+l35
+L8 63
+V:gjaHR[SVA3ngS7=]<>nJ3
+!s100 GJ[CWbMA@PF`25SP7BN3N1
+R7
+33
+!s110 1731519043
+!i10b 1
+!s108 1731519043.000000
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Code/VHDL/FIR_Filter/modules/Parallel/FIR_tb.vhd|
+!s107 D:/Code/VHDL/FIR_Filter/modules/Parallel/FIR_tb.vhd|
+!i113 1
+o-work work -2008 -explicit
+R13
+FD:/Code/VHDL/FIR_Filter/modules/Parallel/FIR_tb.vhd
+w1731518481
+8D:/Code/VHDL/FIR_Filter/modules/Parallel/FIR_tb.vhd

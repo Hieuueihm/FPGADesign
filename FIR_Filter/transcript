@@ -3,7 +3,7 @@
 # 2 compiles, 0 failed with no errors.
 vsim -gui work.fir_tb
 # vsim -gui work.fir_tb 
-# Start time: 15:33:10 on Nov 12,2024
+# Start time: 11:37:25 on Nov 14,2024
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -13,16 +13,400 @@ vsim -gui work.fir_tb
 # No such file or directory. (errno = ENOENT)
 #    Time: 0 ps  Iteration: 0  Instance: /fir_tb File: D:/Code/VHDL/FIR_Filter/modules/Serial_nop/FIR_tb.vhd
 # Loading work.fir(behavioral)
+add wave (
+# ** UI-Msg: (vish-4014) No objects found matching '('.
+add wave (
+# ** UI-Msg: (vish-4014) No objects found matching '('.
 add wave *
 run
+run
+# ** Note: accumalator(10) = 0
+#    Time: 130 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(10) = 0
+#    Time: 130 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(10) = 0
+#    Time: 130 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(9) = 0
+#    Time: 150 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(9) = 0
+#    Time: 150 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(9) = 0
+#    Time: 150 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(8) = 0
+#    Time: 170 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(8) = 0
+#    Time: 170 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(8) = 0
+#    Time: 170 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(7) = 0
+#    Time: 190 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(7) = 0
+#    Time: 190 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(7) = 0
+#    Time: 190 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(6) = 0
+#    Time: 210 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(6) = 0
+#    Time: 210 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(6) = 0
+#    Time: 210 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(5) = 0
+#    Time: 230 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(5) = 0
+#    Time: 230 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(5) = 0
+#    Time: 230 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(4) = 0
+#    Time: 250 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(4) = 0
+#    Time: 250 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(4) = 0
+#    Time: 250 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(3) = 0
+#    Time: 270 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(3) = 0
+#    Time: 270 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(3) = 0
+#    Time: 270 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(2) = 0
+#    Time: 290 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(2) = 0
+#    Time: 290 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(2) = 0
+#    Time: 290 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(1) = 0
+#    Time: 310 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(1) = 0
+#    Time: 310 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(1) = 0
+#    Time: 310 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(10) = 0
+#    Time: 370 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(10) = 105
+#    Time: 370 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(10) = -7
+#    Time: 370 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(9) = 105
+#    Time: 390 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(9) = 91
+#    Time: 390 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(9) = -7
+#    Time: 390 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(8) = 196
+#    Time: 410 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(8) = -49
+#    Time: 410 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(8) = -7
+#    Time: 410 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(7) = 147
+#    Time: 430 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(7) = -266
+#    Time: 430 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(7) = -7
+#    Time: 430 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(6) = -119
+#    Time: 450 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(6) = -462
+#    Time: 450 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(6) = -7
+#    Time: 450 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(5) = -581
+#    Time: 470 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(5) = -546
+#    Time: 470 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(5) = -7
+#    Time: 470 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(4) = -1127
+#    Time: 490 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(4) = -462
+#    Time: 490 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(4) = -7
+#    Time: 490 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(3) = -1589
+#    Time: 510 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(3) = -266
+#    Time: 510 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(3) = -7
+#    Time: 510 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(2) = -1855
+#    Time: 530 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(2) = -49
+#    Time: 530 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(2) = -7
+#    Time: 530 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(1) = -1904
+#    Time: 550 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(1) = 91
+#    Time: 550 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(1) = -7
+#    Time: 550 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(10) = -1813
+#    Time: 610 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(10) = 105
+#    Time: 610 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(10) = -7
+#    Time: 610 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(9) = -1708
+#    Time: 630 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(9) = 91
+#    Time: 630 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(9) = -7
+#    Time: 630 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(8) = -1617
+#    Time: 650 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(8) = -49
+#    Time: 650 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(8) = -7
+#    Time: 650 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(7) = -1666
+#    Time: 670 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(7) = -266
+#    Time: 670 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(7) = -7
+#    Time: 670 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(6) = -1932
+#    Time: 690 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(6) = -462
+#    Time: 690 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(6) = -7
+#    Time: 690 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(5) = -2394
+#    Time: 710 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(5) = -546
+#    Time: 710 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(5) = -7
+#    Time: 710 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(4) = -2940
+#    Time: 730 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(4) = -462
+#    Time: 730 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(4) = -7
+#    Time: 730 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(3) = -3402
+#    Time: 750 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(3) = -266
+#    Time: 750 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(3) = -7
+#    Time: 750 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(2) = -3668
+#    Time: 770 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(2) = -49
+#    Time: 770 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(2) = -7
+#    Time: 770 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(1) = -3717
+#    Time: 790 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(1) = 91
+#    Time: 790 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(1) = -7
+#    Time: 790 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(10) = -3626
+#    Time: 850 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(10) = 105
+#    Time: 850 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(10) = -7
+#    Time: 850 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(9) = -3521
+#    Time: 870 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(9) = 91
+#    Time: 870 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(9) = -7
+#    Time: 870 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(8) = -3430
+#    Time: 890 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(8) = -49
+#    Time: 890 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(8) = -7
+#    Time: 890 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(7) = -3479
+#    Time: 910 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(7) = -266
+#    Time: 910 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(7) = -7
+#    Time: 910 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(6) = -3745
+#    Time: 930 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(6) = -462
+#    Time: 930 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(6) = -7
+#    Time: 930 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(5) = -4207
+#    Time: 950 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(5) = -546
+#    Time: 950 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(5) = -7
+#    Time: 950 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(4) = -4753
+#    Time: 970 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(4) = -462
+#    Time: 970 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(4) = -7
+#    Time: 970 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(3) = -5215
+#    Time: 990 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(3) = -266
+#    Time: 990 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(3) = -7
+#    Time: 990 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(2) = -5481
+#    Time: 1010 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(2) = -49
+#    Time: 1010 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(2) = -7
+#    Time: 1010 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(1) = -5530
+#    Time: 1030 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(1) = 91
+#    Time: 1030 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(1) = -7
+#    Time: 1030 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(10) = -5439
+#    Time: 1090 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(10) = 105
+#    Time: 1090 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(10) = -7
+#    Time: 1090 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(9) = -5334
+#    Time: 1110 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(9) = 91
+#    Time: 1110 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(9) = -7
+#    Time: 1110 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(8) = -5243
+#    Time: 1130 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(8) = -49
+#    Time: 1130 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(8) = -7
+#    Time: 1130 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(7) = -5292
+#    Time: 1150 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(7) = -266
+#    Time: 1150 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(7) = -7
+#    Time: 1150 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(6) = -5558
+#    Time: 1170 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(6) = -462
+#    Time: 1170 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(6) = -7
+#    Time: 1170 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(5) = -6020
+#    Time: 1190 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(5) = -546
+#    Time: 1190 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(5) = -7
+#    Time: 1190 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(4) = -6566
+#    Time: 1210 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(4) = -462
+#    Time: 1210 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(4) = -7
+#    Time: 1210 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(3) = -7028
+#    Time: 1230 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(3) = -266
+#    Time: 1230 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(3) = -7
+#    Time: 1230 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(2) = -7294
+#    Time: 1250 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(2) = -49
+#    Time: 1250 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(2) = -7
+#    Time: 1250 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(1) = -7343
+#    Time: 1270 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(1) = 91
+#    Time: 1270 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(1) = -7
+#    Time: 1270 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(10) = -7252
+#    Time: 1330 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(10) = 105
+#    Time: 1330 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(10) = -7
+#    Time: 1330 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(9) = -7147
+#    Time: 1350 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(9) = 91
+#    Time: 1350 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(9) = -7
+#    Time: 1350 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(8) = -7056
+#    Time: 1370 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(8) = -49
+#    Time: 1370 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(8) = -7
+#    Time: 1370 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(7) = -7105
+#    Time: 1390 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(7) = -266
+#    Time: 1390 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(7) = -7
+#    Time: 1390 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(6) = -7371
+#    Time: 1410 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(6) = -462
+#    Time: 1410 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(6) = -7
+#    Time: 1410 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(5) = -7833
+#    Time: 1430 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(5) = -546
+#    Time: 1430 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(5) = -7
+#    Time: 1430 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(4) = -8379
+#    Time: 1450 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(4) = -462
+#    Time: 1450 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(4) = -7
+#    Time: 1450 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(3) = -8841
+#    Time: 1470 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(3) = -266
+#    Time: 1470 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(3) = -7
+#    Time: 1470 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(2) = -9107
+#    Time: 1490 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(2) = -49
+#    Time: 1490 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(2) = -7
+#    Time: 1490 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(1) = -9156
+#    Time: 1510 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(1) = 91
+#    Time: 1510 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(1) = -7
+#    Time: 1510 ns  Iteration: 0  Instance: /fir_tb/DUT
+# Error opening D:/Code/VHDL/FIR_Filter/accumalator
+# Path name 'D:/Code/VHDL/FIR_Filter/accumalator' doesn't exist.
+# Error opening D:/Code/VHDL/FIR_Filter/accumalator
+# Path name 'D:/Code/VHDL/FIR_Filter/accumalator' doesn't exist.
 # Compile of FIR.vhd was successful.
 # Compile of FIR_tb.vhd was successful.
 # 2 compiles, 0 failed with no errors.
 vsim -gui work.fir_tb
-# End time: 15:36:00 on Nov 12,2024, Elapsed time: 0:02:50
+# End time: 11:42:09 on Nov 14,2024, Elapsed time: 0:04:44
 # Errors: 0, Warnings: 4
 # vsim -gui work.fir_tb 
-# Start time: 15:36:00 on Nov 12,2024
+# Start time: 11:42:09 on Nov 14,2024
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -34,42 +418,424 @@ vsim -gui work.fir_tb
 # Loading work.fir(behavioral)
 add wave *
 run
-# Compile of FIR.vhd was successful.
-# Compile of FIR_tb.vhd was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -gui work.fir_tb
-# End time: 15:39:36 on Nov 12,2024, Elapsed time: 0:03:36
-# Errors: 0, Warnings: 3
-# vsim -gui work.fir_tb 
-# Start time: 15:39:36 on Nov 12,2024
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.fir_tb(behavioral)
-# ** Warning: (vsim-7) Failed to open VHDL file "input100.txt" in rb mode.
-# No such file or directory. (errno = ENOENT)
-#    Time: 0 ps  Iteration: 0  Instance: /fir_tb File: D:/Code/VHDL/FIR_Filter/modules/Serial_nop/FIR_tb.vhd
-# Loading work.fir(behavioral)
-add wave *
 run
-# Can't move the Now cursor.
-# Compile of FIR.vhd was successful.
-# Compile of FIR_tb.vhd was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -gui work.fir_tb
-# End time: 15:51:43 on Nov 12,2024, Elapsed time: 0:12:07
-# Errors: 0, Warnings: 3
-# vsim -gui work.fir_tb 
-# Start time: 15:51:43 on Nov 12,2024
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.fir_tb(behavioral)
-# ** Warning: (vsim-7) Failed to open VHDL file "input100.txt" in rb mode.
-# No such file or directory. (errno = ENOENT)
-#    Time: 0 ps  Iteration: 0  Instance: /fir_tb File: D:/Code/VHDL/FIR_Filter/modules/Serial_nop/FIR_tb.vhd
-# Loading work.fir(behavioral)
-add wave *
+# ** Note: accumalator(10) = 0
+#    Time: 130 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(10) = 0
+#    Time: 130 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(10) = 0
+#    Time: 130 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(9) = 0
+#    Time: 150 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(9) = 0
+#    Time: 150 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(9) = 0
+#    Time: 150 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(8) = 0
+#    Time: 170 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(8) = 0
+#    Time: 170 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(8) = 0
+#    Time: 170 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(7) = 0
+#    Time: 190 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(7) = 0
+#    Time: 190 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(7) = 0
+#    Time: 190 ns  Iteration: 0  Instance: /fir_tb/DUT
 run
+# ** Note: accumalator(6) = 0
+#    Time: 210 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(6) = 0
+#    Time: 210 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(6) = 0
+#    Time: 210 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(5) = 0
+#    Time: 230 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(5) = 0
+#    Time: 230 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(5) = 0
+#    Time: 230 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(4) = 0
+#    Time: 250 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(4) = 0
+#    Time: 250 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(4) = 0
+#    Time: 250 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(3) = 0
+#    Time: 270 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(3) = 0
+#    Time: 270 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(3) = 0
+#    Time: 270 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(2) = 0
+#    Time: 290 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(2) = 0
+#    Time: 290 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(2) = 0
+#    Time: 290 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(1) = 0
+#    Time: 310 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(1) = 0
+#    Time: 310 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(1) = 0
+#    Time: 310 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(10) = 0
+#    Time: 370 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(10) = 105
+#    Time: 370 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(10) = -7
+#    Time: 370 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(9) = 105
+#    Time: 390 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(9) = 91
+#    Time: 390 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(9) = -7
+#    Time: 390 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(8) = 196
+#    Time: 410 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(8) = -49
+#    Time: 410 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(8) = -7
+#    Time: 410 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(7) = 147
+#    Time: 430 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(7) = -266
+#    Time: 430 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(7) = -7
+#    Time: 430 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(6) = -119
+#    Time: 450 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(6) = -462
+#    Time: 450 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(6) = -7
+#    Time: 450 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(5) = -581
+#    Time: 470 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(5) = -546
+#    Time: 470 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(5) = -7
+#    Time: 470 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(4) = -1127
+#    Time: 490 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(4) = -462
+#    Time: 490 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(4) = -7
+#    Time: 490 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(3) = -1589
+#    Time: 510 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(3) = -266
+#    Time: 510 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(3) = -7
+#    Time: 510 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(2) = -1855
+#    Time: 530 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(2) = -49
+#    Time: 530 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(2) = -7
+#    Time: 530 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(1) = -1904
+#    Time: 550 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(1) = 91
+#    Time: 550 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(1) = -7
+#    Time: 550 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(10) = -1813
+#    Time: 610 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(10) = 105
+#    Time: 610 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(10) = -7
+#    Time: 610 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(9) = -1708
+#    Time: 630 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(9) = 91
+#    Time: 630 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(9) = -7
+#    Time: 630 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(8) = -1617
+#    Time: 650 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(8) = -49
+#    Time: 650 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(8) = -7
+#    Time: 650 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(7) = -1666
+#    Time: 670 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(7) = -266
+#    Time: 670 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(7) = -7
+#    Time: 670 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(6) = -1932
+#    Time: 690 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(6) = -462
+#    Time: 690 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(6) = -7
+#    Time: 690 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(5) = -2394
+#    Time: 710 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(5) = -546
+#    Time: 710 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(5) = -7
+#    Time: 710 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(4) = -2940
+#    Time: 730 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(4) = -462
+#    Time: 730 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(4) = -7
+#    Time: 730 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(3) = -3402
+#    Time: 750 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(3) = -266
+#    Time: 750 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(3) = -7
+#    Time: 750 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(2) = -3668
+#    Time: 770 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(2) = -49
+#    Time: 770 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(2) = -7
+#    Time: 770 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(1) = -3717
+#    Time: 790 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(1) = 91
+#    Time: 790 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(1) = -7
+#    Time: 790 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(10) = -3626
+#    Time: 850 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(10) = 105
+#    Time: 850 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(10) = -7
+#    Time: 850 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(9) = -3521
+#    Time: 870 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(9) = 91
+#    Time: 870 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(9) = -7
+#    Time: 870 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(8) = -3430
+#    Time: 890 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(8) = -49
+#    Time: 890 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(8) = -7
+#    Time: 890 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(7) = -3479
+#    Time: 910 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(7) = -266
+#    Time: 910 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(7) = -7
+#    Time: 910 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(6) = -3745
+#    Time: 930 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(6) = -462
+#    Time: 930 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(6) = -7
+#    Time: 930 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(5) = -4207
+#    Time: 950 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(5) = -546
+#    Time: 950 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(5) = -7
+#    Time: 950 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(4) = -4753
+#    Time: 970 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(4) = -462
+#    Time: 970 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(4) = -7
+#    Time: 970 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(3) = -5215
+#    Time: 990 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(3) = -266
+#    Time: 990 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(3) = -7
+#    Time: 990 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(2) = -5481
+#    Time: 1010 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(2) = -49
+#    Time: 1010 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(2) = -7
+#    Time: 1010 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(1) = -5530
+#    Time: 1030 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(1) = 91
+#    Time: 1030 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(1) = -7
+#    Time: 1030 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(10) = -5439
+#    Time: 1090 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(10) = 105
+#    Time: 1090 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(10) = -7
+#    Time: 1090 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(9) = -5334
+#    Time: 1110 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(9) = 91
+#    Time: 1110 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(9) = -7
+#    Time: 1110 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(8) = -5243
+#    Time: 1130 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(8) = -49
+#    Time: 1130 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(8) = -7
+#    Time: 1130 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(7) = -5292
+#    Time: 1150 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(7) = -266
+#    Time: 1150 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(7) = -7
+#    Time: 1150 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(6) = -5558
+#    Time: 1170 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(6) = -462
+#    Time: 1170 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(6) = -7
+#    Time: 1170 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(5) = -6020
+#    Time: 1190 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(5) = -546
+#    Time: 1190 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(5) = -7
+#    Time: 1190 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(4) = -6566
+#    Time: 1210 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(4) = -462
+#    Time: 1210 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(4) = -7
+#    Time: 1210 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(3) = -7028
+#    Time: 1230 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(3) = -266
+#    Time: 1230 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(3) = -7
+#    Time: 1230 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(2) = -7294
+#    Time: 1250 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(2) = -49
+#    Time: 1250 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(2) = -7
+#    Time: 1250 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(1) = -7343
+#    Time: 1270 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(1) = 91
+#    Time: 1270 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(1) = -7
+#    Time: 1270 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(10) = -7252
+#    Time: 1330 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(10) = 105
+#    Time: 1330 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(10) = -7
+#    Time: 1330 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(9) = -7147
+#    Time: 1350 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(9) = 91
+#    Time: 1350 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(9) = -7
+#    Time: 1350 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(8) = -7056
+#    Time: 1370 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(8) = -49
+#    Time: 1370 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(8) = -7
+#    Time: 1370 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(7) = -7105
+#    Time: 1390 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(7) = -266
+#    Time: 1390 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(7) = -7
+#    Time: 1390 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(6) = -7371
+#    Time: 1410 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(6) = -462
+#    Time: 1410 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(6) = -7
+#    Time: 1410 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(5) = -7833
+#    Time: 1430 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(5) = -546
+#    Time: 1430 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(5) = -7
+#    Time: 1430 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(4) = -8379
+#    Time: 1450 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(4) = -462
+#    Time: 1450 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(4) = -7
+#    Time: 1450 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(3) = -8841
+#    Time: 1470 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(3) = -266
+#    Time: 1470 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(3) = -7
+#    Time: 1470 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(2) = -9107
+#    Time: 1490 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(2) = -49
+#    Time: 1490 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(2) = -7
+#    Time: 1490 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(1) = -9156
+#    Time: 1510 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(1) = 91
+#    Time: 1510 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(1) = -7
+#    Time: 1510 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(10) = -9065
+#    Time: 1570 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(10) = 105
+#    Time: 1570 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(10) = -7
+#    Time: 1570 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(9) = -8960
+#    Time: 1590 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(9) = 91
+#    Time: 1590 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(9) = -7
+#    Time: 1590 ns  Iteration: 0  Instance: /fir_tb/DUT
+run
+# ** Note: accumalator(8) = -8869
+#    Time: 1610 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(8) = -49
+#    Time: 1610 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(8) = -7
+#    Time: 1610 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(7) = -8918
+#    Time: 1630 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(7) = -266
+#    Time: 1630 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(7) = -7
+#    Time: 1630 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(6) = -9184
+#    Time: 1650 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(6) = -462
+#    Time: 1650 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(6) = -7
+#    Time: 1650 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(5) = -9646
+#    Time: 1670 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(5) = -546
+#    Time: 1670 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(5) = -7
+#    Time: 1670 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: accumalator(4) = -10192
+#    Time: 1690 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: sum(4) = -462
+#    Time: 1690 ns  Iteration: 0  Instance: /fir_tb/DUT
+# ** Note: delay_line_s(4) = -7
+#    Time: 1690 ns  Iteration: 0  Instance: /fir_tb/DUT
+# WARNING: No extended dataflow license exists
+# End time: 11:50:00 on Nov 14,2024, Elapsed time: 0:07:51
+# Errors: 0, Warnings: 2

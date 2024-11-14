@@ -24,6 +24,8 @@ BEGIN
     Dout <= shiftRegister(0);
     SerialProcess : PROCESS (clk, rst)
     BEGIN
+        -- 1000
+        -- 0100
         IF rst = '1' THEN
             shiftRegister <= (OTHERS => DEFAULT_STATE);
         ELSIF rising_edge(clk) THEN
