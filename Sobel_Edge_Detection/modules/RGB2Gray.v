@@ -20,16 +20,14 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module RGB2Gray #(
-    parameter DATA_WIDTH = 8
-) (
+module RGB2Gray (
     input clk,
     input rst,
-    input [DATA_WIDTH - 1:0] red_i,
-    input [DATA_WIDTH - 1 : 0] green_i,
-    input [DATA_WIDTH - 1 : 0] blue_i,
+    input [7:0] red_i,
+    input [7:0] green_i,
+    input [7:0] blue_i,
     input done_i,
-    output reg [DATA_WIDTH - 1:0] grayscale_o,
+    output reg [7:0] grayscale_o,
     output reg done_o
 );
 

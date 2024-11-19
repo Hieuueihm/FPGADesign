@@ -1,0 +1,293 @@
+# Compile of fifo_double_line_buffer.v was successful.
+# Compile of fifo_single_line_buffer.v was successful.
+# Compile of RGB2Gray.v was successful.
+# Compile of sobel_data_modulate.v was successful.
+# Compile of fifo_double_line_buffer_tb.v was successful.
+# Compile of fifo_single_line_buffer_tb.v was successful.
+# Compile of RGB2Gray_tb.v was successful.
+# Compile of sobel_data_modulate_tb.v was successful.
+# Compile of sobel_data_buffer.v was successful.
+# Compile of sobel_data_buffer_tb.v failed with 2 errors.
+# Compile of sobel_calc.v was successful.
+# Compile of sobel_calc_tb.v was successful.
+# Compile of Gray2RGB.v was successful.
+# Compile of Gray2RGB_tb.v failed with 3 errors.
+# Compile of sobel.v was successful.
+# Compile of sobel_kernel.v was successful.
+# Compile of sobel_tb.v was successful.
+# 17 compiles, 2 failed with 5 errors.
+# Compile of fifo_double_line_buffer.v was successful.
+# Compile of fifo_single_line_buffer.v was successful.
+# Compile of RGB2Gray.v was successful.
+# Compile of sobel_data_modulate.v was successful.
+# Compile of fifo_double_line_buffer_tb.v was successful.
+# Compile of fifo_single_line_buffer_tb.v was successful.
+# Compile of RGB2Gray_tb.v was successful.
+# Compile of sobel_data_modulate_tb.v was successful.
+# Compile of sobel_data_buffer.v was successful.
+# Compile of sobel_data_buffer_tb.v was successful.
+# Compile of sobel_calc.v was successful.
+# Compile of sobel_calc_tb.v was successful.
+# Compile of Gray2RGB.v was successful.
+# Compile of Gray2RGB_tb.v failed with 3 errors.
+# Compile of sobel.v was successful.
+# Compile of sobel_kernel.v was successful.
+# Compile of sobel_tb.v was successful.
+# 17 compiles, 1 failed with 3 errors.
+# Error opening D:/Code/FPGADesign/Sobel_Edge_Detection/(vlog-13069) D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/Gray2RGB_tb.v
+# Path name 'D:/Code/FPGADesign/Sobel_Edge_Detection/(vlog-13069) D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/Gray2RGB_tb.v' doesn't exist.
+# Error opening D:/Code/FPGADesign/Sobel_Edge_Detection/(vlog-13069) D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/Gray2RGB_tb.v
+# Path name 'D:/Code/FPGADesign/Sobel_Edge_Detection/(vlog-13069) D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/Gray2RGB_tb.v' doesn't exist.
+# Error opening D:/Code/FPGADesign/Sobel_Edge_Detection/(vlog-13069) D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/Gray2RGB_tb.v
+# Path name 'D:/Code/FPGADesign/Sobel_Edge_Detection/(vlog-13069) D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/Gray2RGB_tb.v' doesn't exist.
+# Error opening D:/Code/FPGADesign/Sobel_Edge_Detection/(vlog-13069) D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/Gray2RGB_tb.v
+# Path name 'D:/Code/FPGADesign/Sobel_Edge_Detection/(vlog-13069) D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/Gray2RGB_tb.v' doesn't exist.
+# Error opening D:/Code/FPGADesign/Sobel_Edge_Detection/(vlog-13069) D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/Gray2RGB_tb.v
+# Path name 'D:/Code/FPGADesign/Sobel_Edge_Detection/(vlog-13069) D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/Gray2RGB_tb.v' doesn't exist.
+# Error opening D:/Code/FPGADesign/Sobel_Edge_Detection/(vlog-13069) D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/Gray2RGB_tb.v
+# Path name 'D:/Code/FPGADesign/Sobel_Edge_Detection/(vlog-13069) D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/Gray2RGB_tb.v' doesn't exist.
+# Compile of fifo_double_line_buffer.v was successful.
+# Compile of fifo_single_line_buffer.v was successful.
+# Compile of RGB2Gray.v was successful.
+# Compile of sobel_data_modulate.v was successful.
+# Compile of fifo_double_line_buffer_tb.v was successful.
+# Compile of fifo_single_line_buffer_tb.v was successful.
+# Compile of RGB2Gray_tb.v was successful.
+# Compile of sobel_data_modulate_tb.v was successful.
+# Compile of sobel_data_buffer.v was successful.
+# Compile of sobel_data_buffer_tb.v was successful.
+# Compile of sobel_calc.v was successful.
+# Compile of sobel_calc_tb.v was successful.
+# Compile of Gray2RGB.v was successful.
+# Compile of Gray2RGB_tb.v was successful.
+# Compile of sobel.v was successful.
+# Compile of sobel_kernel.v was successful.
+# Compile of sobel_tb.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -gui work.sobel_tb
+# vsim -gui work.sobel_tb 
+# Start time: 20:48:12 on Nov 19,2024
+# Loading work.sobel_tb
+# Loading work.sobel
+# Loading work.RGB2Gray
+# Loading work.sobel_kernel
+# Loading work.sobel_data_buffer
+# Loading work.fifo_double_line_buffer
+# Loading work.fifo_single_line_buffer
+# Loading work.sobel_data_modulate
+# Loading work.sobel_calc
+# Loading work.Gray2RGB
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fread'.
+#    Time: 0 ps  Iteration: 0  Region: /sobel_tb/readBMP File: D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/sobel_tb.v Line: 82
+add wave *
+run
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "D:\Thesis\Src\Data\inputs\sample.bmp" for reading.
+# No such file or directory. (errno = ENOENT)    : D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/sobel_tb.v(77)
+#    Time: 0 ps  Iteration: 0  Instance: /sobel_tb
+# OPEN BMP Error!
+# 
+# ** Note: $finish    : D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/sobel_tb.v(80)
+#    Time: 0 ps  Iteration: 0  Instance: /sobel_tb
+# 1
+# Break in Task readBMP at D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/sobel_tb.v line 80
+# Compile of fifo_double_line_buffer.v was successful.
+# Compile of fifo_single_line_buffer.v was successful.
+# Compile of RGB2Gray.v was successful.
+# Compile of sobel_data_modulate.v was successful.
+# Compile of fifo_double_line_buffer_tb.v was successful.
+# Compile of fifo_single_line_buffer_tb.v was successful.
+# Compile of RGB2Gray_tb.v was successful.
+# Compile of sobel_data_modulate_tb.v was successful.
+# Compile of sobel_data_buffer.v was successful.
+# Compile of sobel_data_buffer_tb.v was successful.
+# Compile of sobel_calc.v was successful.
+# Compile of sobel_calc_tb.v was successful.
+# Compile of Gray2RGB.v was successful.
+# Compile of Gray2RGB_tb.v was successful.
+# Compile of sobel.v was successful.
+# Compile of sobel_kernel.v was successful.
+# Compile of sobel_tb.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -gui work.sobel_tb
+# End time: 20:50:17 on Nov 19,2024, Elapsed time: 0:02:05
+# Errors: 0, Warnings: 7
+# vsim -gui work.sobel_tb 
+# Start time: 20:50:17 on Nov 19,2024
+# Loading work.sobel_tb
+# Loading work.sobel
+# Loading work.RGB2Gray
+# Loading work.sobel_kernel
+# Loading work.sobel_data_buffer
+# Loading work.fifo_double_line_buffer
+# Loading work.fifo_single_line_buffer
+# Loading work.sobel_data_modulate
+# Loading work.sobel_calc
+# Loading work.Gray2RGB
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fread'.
+#    Time: 0 ps  Iteration: 0  Region: /sobel_tb/readBMP File: D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/sobel_tb.v Line: 82
+add wave *
+run
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "D:CodeFPGADesignSobel_Edge_Detectiondatainputssample.bmp" for reading.
+# No such file or directory. (errno = ENOENT)    : D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/sobel_tb.v(77)
+#    Time: 0 ps  Iteration: 0  Instance: /sobel_tb
+# OPEN BMP Error!
+# 
+# ** Note: $finish    : D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/sobel_tb.v(80)
+#    Time: 0 ps  Iteration: 0  Instance: /sobel_tb
+# 1
+# Break in Task readBMP at D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/sobel_tb.v line 80
+# Compile of fifo_double_line_buffer.v was successful.
+# Compile of fifo_single_line_buffer.v was successful.
+# Compile of RGB2Gray.v was successful.
+# Compile of sobel_data_modulate.v was successful.
+# Compile of fifo_double_line_buffer_tb.v was successful.
+# Compile of fifo_single_line_buffer_tb.v was successful.
+# Compile of RGB2Gray_tb.v was successful.
+# Compile of sobel_data_modulate_tb.v was successful.
+# Compile of sobel_data_buffer.v was successful.
+# Compile of sobel_data_buffer_tb.v was successful.
+# Compile of sobel_calc.v was successful.
+# Compile of sobel_calc_tb.v was successful.
+# Compile of Gray2RGB.v was successful.
+# Compile of Gray2RGB_tb.v was successful.
+# Compile of sobel.v was successful.
+# Compile of sobel_kernel.v was successful.
+# Compile of sobel_tb.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -gui work.sobel_tb
+# End time: 20:51:25 on Nov 19,2024, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 4
+# vsim -gui work.sobel_tb 
+# Start time: 20:51:25 on Nov 19,2024
+# Loading work.sobel_tb
+# Loading work.sobel
+# Loading work.RGB2Gray
+# Loading work.sobel_kernel
+# Loading work.sobel_data_buffer
+# Loading work.fifo_double_line_buffer
+# Loading work.fifo_single_line_buffer
+# Loading work.sobel_data_modulate
+# Loading work.sobel_calc
+# Loading work.Gray2RGB
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fread'.
+#    Time: 0 ps  Iteration: 0  Region: /sobel_tb/readBMP File: D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/sobel_tb.v Line: 82
+add wave *
+run
+# bmp_size      518456!
+# 
+# bmp_start_pos          54!
+# 
+# bmp_width          480!
+# 
+# bmp_height          360!
+# 
+# biBitCount           24!
+# 
+# read BMP done!
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Write output ~~~
+# 
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "D:\Code\FPGADesign\Sobel_Edge_Detection\dataoutputs\sample_res.bmp" for writing.
+# No such file or directory. (errno = ENOENT)    : D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/sobel_tb.v(126)
+#    Time: 1728130 ns  Iteration: 0  Instance: /sobel_tb
+# write BMP: D:\Code\FPGADesign\Sobel_Edge_Detection\dataoutputs\sample_res.bmp done!
+# 
+# ** Note: $stop    : D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/sobel_tb.v(186)
+#    Time: 1728140 ns  Iteration: 0  Instance: /sobel_tb
+# Break in Module sobel_tb at D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/sobel_tb.v line 186
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# Compile of fifo_double_line_buffer.v was successful.
+# Compile of fifo_single_line_buffer.v was successful.
+# Compile of RGB2Gray.v was successful.
+# Compile of sobel_data_modulate.v was successful.
+# Compile of fifo_double_line_buffer_tb.v was successful.
+# Compile of fifo_single_line_buffer_tb.v was successful.
+# Compile of RGB2Gray_tb.v was successful.
+# Compile of sobel_data_modulate_tb.v was successful.
+# Compile of sobel_data_buffer.v was successful.
+# Compile of sobel_data_buffer_tb.v was successful.
+# Compile of sobel_calc.v was successful.
+# Compile of sobel_calc_tb.v was successful.
+# Compile of Gray2RGB.v was successful.
+# Compile of Gray2RGB_tb.v was successful.
+# Compile of sobel.v was successful.
+# Compile of sobel_kernel.v was successful.
+# Compile of sobel_tb.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -gui work.sobel_tb
+# End time: 20:52:20 on Nov 19,2024, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 4
+# vsim -gui work.sobel_tb 
+# Start time: 20:52:20 on Nov 19,2024
+# Loading work.sobel_tb
+# Loading work.sobel
+# Loading work.RGB2Gray
+# Loading work.sobel_kernel
+# Loading work.sobel_data_buffer
+# Loading work.fifo_double_line_buffer
+# Loading work.fifo_single_line_buffer
+# Loading work.sobel_data_modulate
+# Loading work.sobel_calc
+# Loading work.Gray2RGB
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fread'.
+#    Time: 0 ps  Iteration: 0  Region: /sobel_tb/readBMP File: D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/sobel_tb.v Line: 82
+add wave *
+run
+# bmp_size      518456!
+# 
+# bmp_start_pos          54!
+# 
+# bmp_width          480!
+# 
+# bmp_height          360!
+# 
+# biBitCount           24!
+# 
+# read BMP done!
+# Write output ~~~
+# 
+# write BMP: D:\Code\FPGADesign\Sobel_Edge_Detection\data\outputs\sample_res.bmp done!
+# 
+# ** Note: $stop    : D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/sobel_tb.v(186)
+#    Time: 1728140 ns  Iteration: 0  Instance: /sobel_tb
+# Break in Module sobel_tb at D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/sobel_tb.v line 186
+# End time: 20:52:53 on Nov 19,2024, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 2

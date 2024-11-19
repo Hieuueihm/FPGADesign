@@ -20,25 +20,27 @@
 //////////////////////////////////////////////////////////////////////////////////
 `define clk_period 10
 `define FILENAME ""
-`define WRITE_FILENAME `FILENAME + "D:\\Thesis\\Src\\Data\\outputs\\sample_res.bmp"
-`define READ_FILENAME `FILENAME + "D:\\Thesis\\Src\\Data\\inputs\\sample.bmp"
+`define WRITE_FILENAME `FILENAME + "D:\\Code\\FPGADesign\\Sobel_Edge_Detection\\data\\outputs\\sample_res.bmp"
+`define READ_FILENAME `FILENAME + "D:\\Code\\FPGADesign\\Sobel_Edge_Detection\\data\\inputs\\sample.bmp"
 
-module RGB2Gray_tb ();
+module sobel_tb ();
   // Testbench signals
   reg clk, rst, done_i;
   reg [7:0] red_i, green_i, blue_i;
-  wire [7:0] grayscale_o;
+  wire [7:0] green_o, blue_o, red_o;
   wire done_o;
 
   // Instantiate the DUT (Device Under Test) and pass the parameter
-  RGB2Gray uut (
+  sobel uut (
       .clk(clk),
       .rst(rst),
       .red_i(red_i),
       .green_i(green_i),
       .blue_i(blue_i),
       .done_i(done_i),
-      .grayscale_o(grayscale_o),
+      .red_o(red_o),
+      .green_o(green_o),
+      .blue_o(blue_o),
       .done_o(done_o)
   );
   initial clk = 1'b1;
@@ -60,9 +62,9 @@ module RGB2Gray_tb ();
       j <= 8'd0;
     end else begin
       if (done_o) begin
-        result[j] <= grayscale_o;
-        result[j+1] <= grayscale_o;
-        result[j+2] <= grayscale_o;
+        result[j] <= red_o;
+        result[j+1] <= green_o;
+        result[j+2] <= blue_o;
         j <= j + 3;
       end
     end
@@ -177,8 +179,7 @@ module RGB2Gray_tb ();
     #(`clk_period);
     done_i = 1'b0;
     $display("%s", "Write output ~~~\n");
-    #(`clk_period);
-
+    repeat (9) #(`clk_period);
     writeBMP;
     #(`clk_period);
 

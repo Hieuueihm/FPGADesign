@@ -1,4 +1,4 @@
-module fifo_double_line_buffer#(
+module fifo_double_line_buffer #(
 
     parameter DEPTH_1,
     parameter DEPTH_2
@@ -16,44 +16,44 @@ module fifo_double_line_buffer#(
 
 );
 
-    wire [7:0] fifo01_data_o, fifo02_data_o;
-    wire [7:0] fifo01_done_o, fifo02_done_o;  
+  wire [7:0] fifo01_data_o, fifo02_data_o;
+  wire fifo01_done_o, fifo02_done_o;
 
 
-    assign data0_o = data_i;
-    assign data1_o = fifo01_data_o;
-    assign data2_o = fifo02_data_o;
+  assign data0_o = data_i;
+  assign data1_o = fifo01_data_o;
+  assign data2_o = fifo02_data_o;
 
-    assign done_o = fifo01_done_o;
+  assign done_o  = fifo01_done_o;
 
-    fifo_single_line_buffer  #(
+  fifo_single_line_buffer #(
       .DEPTH(DEPTH_1)
-  )line_1(
-        .clk(clk),
-        .rst(rst),
-        .we_i(we_i),
-        .data_i(data_i),
-        .data_o(fifo01_data_o),
-        .done_o(fifo01_done_o)
-    );
+  ) line_1 (
+      .clk(clk),
+      .rst(rst),
+      .we_i(we_i),
+      .data_i(data_i),
+      .data_o(fifo01_data_o),
+      .done_o(fifo01_done_o)
+  );
 
 
-    
-    fifo_single_line_buffer  #(
+
+  fifo_single_line_buffer #(
       .DEPTH(DEPTH_2)
-  )line_2(
+  ) line_2 (
 
-        .clk(clk),
-        .rst(rst),
+      .clk(clk),
+      .rst(rst),
 
-        .we_i(fifo01_done_o),
-        .data_i(fifo01_data_o),
+      .we_i  (fifo01_done_o),
+      .data_i(fifo01_data_o),
 
-        .data_o(fifo02_data_o),
-        .done_o(fifo02_done_o)
-    );
+      .data_o(fifo02_data_o),
+      .done_o(fifo02_done_o)
+  );
 
 
 
-    
+
 endmodule
