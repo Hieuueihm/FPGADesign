@@ -40,7 +40,7 @@ ARCHITECTURE Behavioral OF FIR IS
     SIGNAL current_tap : INTEGER RANGE 0 TO FILTER_TAPS - 1;
 
 BEGIN
-    -- 15 -> 
+
     Dout <= STD_LOGIC_VECTOR(accumulator(OUTPUT_WIDTH - 1 DOWNTO 0));
     FIRProcess : PROCESS (clk, rst)
         VARIABLE sum : signed(OUTPUT_WIDTH - 1 DOWNTO 0);
@@ -48,7 +48,8 @@ BEGIN
         IF rst = '1' THEN
             accumulator <= (OTHERS => '0');
             sum := (OTHERS => '0');
-            ELSIF rising_edge(clk) THEN
+        ELSIF rising_edge(clk) THEN
+            REPORT "Din(" & INTEGER'IMAGE(0) & ") = " & INTEGER'IMAGE(to_integer(signed(Din(INPUT_WIDTH - 1 DOWNTO 0))));
             CASE STATE IS
                 WHEN IDLE =>
                     STATE <= ACTIVE;
@@ -60,12 +61,10 @@ BEGIN
                         accumulator <= accumulator + sum;
                         delay_line_s(current_tap - 1) <= delay_line_s(current_tap);
                         current_tap <= current_tap - 1;
-
                         REPORT "accumalator(" & INTEGER'IMAGE(current_tap) & ") = " & INTEGER'IMAGE(to_integer(accumulator));
                         REPORT "sum(" & INTEGER'IMAGE(current_tap) & ") = " & INTEGER'IMAGE(to_integer(sum));
                         REPORT "delay_line_s(" & INTEGER'IMAGE(current_tap) & ") = " & INTEGER'IMAGE(to_integer(delay_line_s(current_tap)));
                     ELSE
-                        sum := delay_line_s(current_tap) * coefficients(current_tap);
                         STATE <= IDLE;
                     END IF;
                 WHEN OTHERS => STATE <= IDLE;

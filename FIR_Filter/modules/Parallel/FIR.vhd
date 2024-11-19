@@ -43,6 +43,7 @@ ARCHITECTURE Behavioral OF FIR IS
     X"F1"
     );
 BEGIN
+
     Dout <= STD_LOGIC_VECTOR(delay_s(0)(OUTPUT_WIDTH - 1 DOWNTO 0));
     PROCESS (clk, rst)
     BEGIN
@@ -52,7 +53,7 @@ BEGIN
                 output_delay1_s(i) <= (OTHERS => '0');
                 delay_s(i) <= (OTHERS => '0');
             END LOOP;
-            ELSIF rising_edge(clk) THEN
+        ELSIF rising_edge(clk) THEN
             FOR i IN 0 TO FILTER_TAPS - 1 LOOP
                 input_s(i) <= signed(Din);
                 IF (i < FILTER_TAPS - 1) THEN
@@ -60,7 +61,7 @@ BEGIN
                     delay_s(i) <= output_delay1_s(i) + delay_s(i + 1);
                     REPORT "output_delay1_s(" & INTEGER'IMAGE(i) & ") = " & INTEGER'IMAGE(to_integer(output_delay1_s(i)));
                     REPORT "delay_s(" & INTEGER'IMAGE(i) & ") = " & INTEGER'IMAGE(to_integer(delay_s(i)));
-                    ELSIF i = FILTER_TAPS - 1 THEN
+                ELSIF i = FILTER_TAPS - 1 THEN
                     output_delay1_s(i) <= input_s(i) * coefficients(i);
                     delay_s(i) <= output_delay1_s(i);
                     REPORT "output_delay1_s(" & INTEGER'IMAGE(i) & ") = " & INTEGER'IMAGE(to_integer(output_delay1_s(i)));

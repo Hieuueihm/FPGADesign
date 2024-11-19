@@ -58,14 +58,16 @@ BEGIN
                     IF current_tap > 0 THEN
                         sum := delay_line_s(current_tap) * coefficients(current_tap);
                         accumulator <= accumulator + sum;
-                        delay_line_s(current_tap) <= delay_line_s(current_tap - 1);
+                        delay_line_s(current_tap - 1) <= delay_line_s(current_tap);
                         current_tap <= current_tap - 1;
+                        =
+                        REPORT "accumalator(" & INTEGER'IMAGE(current_tap) & ") = " & INTEGER'IMAGE(to_integer(accumulator));
                         REPORT "sum(" & INTEGER'IMAGE(current_tap) & ") = " & INTEGER'IMAGE(to_integer(sum));
                         REPORT "delay_line_s(" & INTEGER'IMAGE(current_tap) & ") = " & INTEGER'IMAGE(to_integer(delay_line_s(current_tap)));
                     ELSE
                         STATE <= IDLE;
                     END IF;
-                WHEN OTHERS => IDLE;
+                WHEN OTHERS => STATE <= IDLE;
             END CASE;
 
         END IF;
