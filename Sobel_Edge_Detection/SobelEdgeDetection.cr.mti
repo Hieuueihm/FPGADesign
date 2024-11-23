@@ -68,13 +68,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	RGB2Gray
 
-} {} {}} D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/sobel_data_buffer_tb.v {1 {vlog -work work -stats=none D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/sobel_data_buffer_tb.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module sobel_data_buffer_tb
-
-Top level modules:
-	sobel_data_buffer_tb
-
 } {} {}} D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/sobel_calc_tb.v {1 {vlog -work work -stats=none D:/Code/FPGADesign/Sobel_Edge_Detection/test_benches/sobel_calc_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module sobel_calc_tb
@@ -103,18 +96,18 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	fifo_double_line_buffer
 
-} {} {}} D:/Code/FPGADesign/Sobel_Edge_Detection/modules/sobel_data_buffer.v {1 {vlog -work work -stats=none D:/Code/FPGADesign/Sobel_Edge_Detection/modules/sobel_data_buffer.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module sobel_data_buffer
-
-Top level modules:
-	sobel_data_buffer
-
 } {} {}} D:/Code/FPGADesign/Sobel_Edge_Detection/modules/sobel_calc.v {1 {vlog -work work -stats=none D:/Code/FPGADesign/Sobel_Edge_Detection/modules/sobel_calc.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module sobel_calc
 
 Top level modules:
 	sobel_calc
+
+} {} {}} D:/Code/FPGADesign/Sobel_Edge_Detection/modules/sobel_data_buffer.v {1 {vlog -work work -stats=none D:/Code/FPGADesign/Sobel_Edge_Detection/modules/sobel_data_buffer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sobel_data_buffer
+
+Top level modules:
+	sobel_data_buffer
 
 } {} {}}

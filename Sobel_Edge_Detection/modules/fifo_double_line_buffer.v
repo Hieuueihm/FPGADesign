@@ -1,7 +1,6 @@
 module fifo_double_line_buffer #(
 
-    parameter DEPTH_1,
-    parameter DEPTH_2
+    parameter DEPTH,
 ) (
     input clk,
     input rst,
@@ -27,7 +26,7 @@ module fifo_double_line_buffer #(
   assign done_o  = fifo01_done_o;
 
   fifo_single_line_buffer #(
-      .DEPTH(DEPTH_1)
+      .DEPTH(DEPTH)
   ) line_1 (
       .clk(clk),
       .rst(rst),
@@ -40,7 +39,7 @@ module fifo_double_line_buffer #(
 
 
   fifo_single_line_buffer #(
-      .DEPTH(DEPTH_2)
+      .DEPTH(DEPTH)
   ) line_2 (
 
       .clk(clk),

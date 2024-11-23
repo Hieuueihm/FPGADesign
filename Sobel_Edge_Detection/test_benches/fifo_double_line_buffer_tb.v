@@ -16,18 +16,16 @@ module fifo_double_line_buffer_tb ();
   initial clk = 1'b1;
   always #(`clk_period / 2) clk = ~clk;
   fifo_double_line_buffer #(
-    .DEPTH_1(5),
-    .DEPTH_2(5)
-  )
-   uut (
+      .DEPTH(5),
+  ) uut (
       .clk(clk),
       .rst(rst),
       .we_i(we_i),
       .data_i(data_i),
 
-     .data0_o(data0_o),
-    .data1_o(data1_o),
-     .data2_o(data2_o),
+      .data0_o(data0_o),
+      .data1_o(data1_o),
+      .data2_o(data2_o),
 
       .done_o(done_o)
   );
@@ -38,13 +36,13 @@ module fifo_double_line_buffer_tb ();
     we_i = 1'b0;
 
     #(`clk_period);
-    rst = 1'b0;
+    rst  = 1'b0;
     we_i = 1'b1;
 
 
-    for(i = 0; i <  15; i = i + 1) begin
-        data_i= i;
-        #(`clk_period);
+    for (i = 0; i < 15; i = i + 1) begin
+      data_i = i;
+      #(`clk_period);
     end
 
     we_i = 1'b0;

@@ -16,11 +16,8 @@ module fifo_single_line_buffer #(
 
 
   reg [9:0] i_counter;
-
   assign done_o = (i_counter == DEPTH) ? 1 : 0;
   assign data_o = mem[rd_pointer];
-
-
   // increment i_counter
   always @(posedge clk) begin
     if (rst) begin
@@ -28,8 +25,6 @@ module fifo_single_line_buffer #(
     end else begin
       if (we_i) begin
         i_counter <= (i_counter == DEPTH) ? i_counter : i_counter + 1;
-
-
       end
 
     end

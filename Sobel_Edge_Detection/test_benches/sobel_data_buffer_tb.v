@@ -16,10 +16,9 @@ module sobel_data_buffer_tb ();
   initial clk = 1'b1;
   always #(`clk_period / 2) clk = ~clk;
   sobel_data_buffer #(
-      .DEPTH_1(3),
-      .DEPTH_2(3),
-      .ROWS(5),
-      .COLS(6)
+      .DEPTH(3),
+      .ROWS (5),
+      .COLS (6)
   ) uut (
       .clk(clk),
       .rst(rst),
@@ -65,7 +64,7 @@ module sobel_data_buffer_tb ();
     we_i = 1'b0;
     #(`clk_period);
 
-   $stop;
+    $stop;
 
   end
 

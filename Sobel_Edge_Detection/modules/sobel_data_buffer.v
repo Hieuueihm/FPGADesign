@@ -1,6 +1,5 @@
 module sobel_data_buffer #(
-    parameter DEPTH_1,
-    parameter DEPTH_2,
+    parameter DEPTH,
     parameter ROWS,
     parameter COLS
 ) (
@@ -26,8 +25,7 @@ module sobel_data_buffer #(
 
 
   fifo_double_line_buffer #(
-      .DEPTH_1(DEPTH_1),
-      .DEPTH_2(DEPTH_2)
+      .DEPTH(DEPTH),
   ) DOUBLE_LINE_BUFFER (
       .clk(clk),
       .rst(rst),

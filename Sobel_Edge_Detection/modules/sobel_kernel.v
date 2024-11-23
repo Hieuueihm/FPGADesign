@@ -9,10 +9,9 @@ module sobel_kernel (
   wire [7:0] d0_o, d1_o, d2_o, d3_o, d4_o, d5_o, d6_o, d7_o, d8_o;
   wire buffer_done_o;
   sobel_data_buffer #(
-      .DEPTH_1(512),
-      .DEPTH_2(512),
-      .ROWS(480),
-      .COLS(360)
+      .DEPTH(512),
+      .ROWS (480),
+      .COLS (360)
   ) SOBEL_DATA_BUFFER (
       .clk(clk),
       .rst(rst),
