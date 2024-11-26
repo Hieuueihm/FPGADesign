@@ -17,5 +17,3 @@ Done = '1'
 C[i * colB + j] += A[i * colA + k] * B[k * colB + j]
 
 
- f
-
