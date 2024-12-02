@@ -1,1 +1,2436 @@
-quit -sim
+# Compile of de.v was successful.
+# Compile of pe.v failed with 1 errors.
+# Compile of systolic.v failed with 1 errors.
+# 3 compiles, 2 failed with 2 errors.
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Error opening D:/Code/FPGADesign/MatrixMul/(vlog-13038) D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v
+# Path name 'D:/Code/FPGADesign/MatrixMul/(vlog-13038) D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v' doesn't exist.
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v failed with 13 errors.
+# 3 compiles, 1 failed with 13 errors.
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v failed with 5 errors.
+# 3 compiles, 1 failed with 5 errors.
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of systolic_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# vsim -gui work.systolic_tb 
+# Start time: 21:38:14 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe0 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 69
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe1 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 79
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe2 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 89
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe3 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 117
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe7 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 168
+add wave *
+run
+# Error opening D:/Code/FPGADesign/MatrixMul/(vsim-3015) [PCDPC] - Port size (8) does not match connection size 
+# Path name 'D:/Code/FPGADesign/MatrixMul/(vsim-3015) [PCDPC] - Port size (8) does not match connection size ' doesn't exist.
+# Compile of de.v was successful.
+# Compile of pe.v failed with 1 errors.
+# Compile of systolic.v was successful.
+# Compile of systolic_tb.v was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of systolic_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 21:43:18 on Dec 02,2024, Elapsed time: 0:05:04
+# Errors: 0, Warnings: 18
+# vsim -gui work.systolic_tb 
+# Start time: 21:43:18 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe0 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 69
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe1 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 79
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe2 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 89
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe3 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 117
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe4 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 127
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe5 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 137
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe6 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 147
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe7 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 168
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe8 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 178
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe9 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 188
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe10 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 198
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe11 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 208
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe12 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 231
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe13 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 241
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe14 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 251
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe15 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 261
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe16 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 292
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe17 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 302
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe18 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 312
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of systolic_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 21:44:37 on Dec 02,2024, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 21
+# vsim -gui work.systolic_tb 
+# Start time: 21:44:37 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe0 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 69
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe1 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 79
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe2 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 89
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe3 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 117
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe7 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 168
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of systolic_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 21:44:45 on Dec 02,2024, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 7
+# vsim -gui work.systolic_tb 
+# Start time: 21:44:45 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe0 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 69
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe1 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 79
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe2 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 89
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe3 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 117
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'c'. The port definition is at: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /systolic_tb/uut/pe7 File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 168
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of systolic_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 21:46:20 on Dec 02,2024, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 7
+# vsim -gui work.systolic_tb 
+# Start time: 21:46:20 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of systolic_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 21:47:29 on Dec 02,2024, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 21:47:29 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v failed with 1 errors.
+# Compile of systolic_tb.v was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of systolic_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 21:49:54 on Dec 02,2024, Elapsed time: 0:02:25
+# Errors: 0, Warnings: 3
+# vsim -gui work.systolic_tb 
+# Start time: 21:49:54 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of systolic_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 21:51:07 on Dec 02,2024, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 21:51:07 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of systolic_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+add wave *
+vsim -gui work.systolic_tb
+# End time: 21:51:36 on Dec 02,2024, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 21:51:37 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave 8
+# ** UI-Msg: (vish-4014) No objects found matching '8'.
+add wave *
+run
+vsim -gui work.systolic_tb
+# End time: 21:52:25 on Dec 02,2024, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 1
+# vsim -gui work.systolic_tb 
+# Start time: 21:52:25 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of systolic_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 21:52:31 on Dec 02,2024, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 21:52:31 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+run
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+vsim -gui work.systolic_tb
+# End time: 21:54:07 on Dec 02,2024, Elapsed time: 0:01:36
+# Errors: 0, Warnings: 1
+# vsim -gui work.systolic_tb 
+# Start time: 21:54:07 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+vsim -gui work.systolic_tb
+# End time: 21:54:49 on Dec 02,2024, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 1
+# vsim -gui work.systolic_tb 
+# Start time: 21:54:49 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of systolic_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 21:55:46 on Dec 02,2024, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 21:55:47 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of systolic_tb.v was successful.
+# Compile of pe_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.pe_tb
+# End time: 21:58:51 on Dec 02,2024, Elapsed time: 0:03:04
+# Errors: 0, Warnings: 3
+# vsim -gui work.pe_tb 
+# Start time: 21:58:51 on Dec 02,2024
+# Loading work.pe_tb
+# Loading work.pe
+add wave *
+run
+# Test 1 - a:  10, b:   0, c:    20, cab_o:    20
+# Test 2 - a:   7, b:   0, c:   100, cab_o:   100
+# Test 3 - After reset - a_o:   7, b_o:   0, cab_o:   100
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/pe_tb.v(63)
+#    Time: 50 ns  Iteration: 0  Instance: /pe_tb
+# Break in Module pe_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/pe_tb.v line 63
+# Compile of de.v was successful.
+# Compile of pe.v failed with 1 errors.
+# Compile of systolic.v was successful.
+# Compile of systolic_tb.v was successful.
+# Compile of pe_tb.v was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of systolic_tb.v was successful.
+# Compile of pe_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.pe_tb
+# End time: 22:01:08 on Dec 02,2024, Elapsed time: 0:02:17
+# Errors: 0, Warnings: 3
+# vsim -gui work.pe_tb 
+# Start time: 22:01:08 on Dec 02,2024
+# Loading work.pe_tb
+# Loading work.pe
+add wave *
+run
+# Test 1 - a:   5, b:  10, c:    20, cab_o:    70
+# Test 2 - a:   3, b:   7, c:   100, cab_o:   121
+# Test 3 - After reset - a_o:   3, b_o:   7, cab_o:   121
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/pe_tb.v(63)
+#    Time: 50 ns  Iteration: 0  Instance: /pe_tb
+# Break in Module pe_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/pe_tb.v line 63
+# WARNING: No extended dataflow license exists
+vsim -gui work.systolic_tb
+# End time: 22:02:02 on Dec 02,2024, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 1
+# vsim -gui work.systolic_tb 
+# Start time: 22:02:02 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave 8
+# ** UI-Msg: (vish-4014) No objects found matching '8'.
+run
+add wave 8
+# ** UI-Msg: (vish-4014) No objects found matching '8'.
+vsim -gui work.systolic_tb
+# End time: 22:02:18 on Dec 02,2024, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 1
+# vsim -gui work.systolic_tb 
+# Start time: 22:02:18 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave 8
+# ** UI-Msg: (vish-4014) No objects found matching '8'.
+add wave *
+run
+run
+vsim -gui work.systolic_tb
+# End time: 22:03:42 on Dec 02,2024, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 1
+# vsim -gui work.systolic_tb 
+# Start time: 22:03:42 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of systolic_tb.v was successful.
+# Compile of pe_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 22:03:54 on Dec 02,2024, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 22:03:54 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+vsim -gui work.systolic_tb
+# End time: 22:06:17 on Dec 02,2024, Elapsed time: 0:02:23
+# Errors: 0, Warnings: 1
+# vsim -gui work.systolic_tb 
+# Start time: 22:06:17 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+vsim -gui work.systolic_tb
+# End time: 22:09:11 on Dec 02,2024, Elapsed time: 0:02:54
+# Errors: 0, Warnings: 1
+# vsim -gui work.systolic_tb 
+# Start time: 22:09:11 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of systolic_tb.v was successful.
+# Compile of pe_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 22:09:52 on Dec 02,2024, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 22:09:52 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+vsim -gui work.systolic_tb
+# End time: 22:10:14 on Dec 02,2024, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 1
+# vsim -gui work.systolic_tb 
+# Start time: 22:10:14 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+run
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of systolic_tb.v was successful.
+# Compile of pe_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 22:14:12 on Dec 02,2024, Elapsed time: 0:03:58
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 22:14:12 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of systolic_tb.v was successful.
+# Compile of pe_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 22:16:15 on Dec 02,2024, Elapsed time: 0:02:03
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 22:16:15 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# c1 = xxxx, c2 = xxxx, c3 = 005e, c4 = xxxx, c5 = xxxx
+# c6 = xxxx, c7 = xxxx, c8 = xxxx, c9 = xxxx
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(114)
+#    Time: 520 ns  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 114
+vsim -gui work.systolic_tb
+# End time: 22:21:09 on Dec 02,2024, Elapsed time: 0:04:54
+# Errors: 0, Warnings: 1
+# vsim -gui work.systolic_tb 
+# Start time: 22:21:09 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave 8
+# ** UI-Msg: (vish-4014) No objects found matching '8'.
+add wave *
+run
+# c1 = xxxx, c2 = xxxx, c3 = 005e, c4 = xxxx, c5 = xxxx
+# c6 = xxxx, c7 = xxxx, c8 = xxxx, c9 = xxxx
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(114)
+#    Time: 520 ns  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 114
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of systolic_tb.v was successful.
+# Compile of pe_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 22:24:01 on Dec 02,2024, Elapsed time: 0:02:52
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 22:24:01 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# c1 = xxxx, c2 = xxxx, c3 = 005e, c4 = xxxx, c5 = xxxx
+# c6 = xxxx, c7 = xxxx, c8 = xxxx, c9 = xxxx
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(114)
+#    Time: 520 ns  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 114
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+vsim -gui work.systolic_tb
+# End time: 22:29:43 on Dec 02,2024, Elapsed time: 0:05:42
+# Errors: 0, Warnings: 1
+# vsim -gui work.systolic_tb 
+# Start time: 22:29:43 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave 8
+# ** UI-Msg: (vish-4014) No objects found matching '8'.
+add wave *
+run
+# c1 = xxxx, c2 = xxxx, c3 = 005e, c4 = xxxx, c5 = xxxx
+# c6 = xxxx, c7 = xxxx, c8 = xxxx, c9 = xxxx
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(114)
+#    Time: 520 ns  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 114
+add wave 8
+# ** UI-Msg: (vish-4014) No objects found matching '8'.
+add wave *
+run
+vsim -gui work.systolic_tb
+# End time: 22:30:18 on Dec 02,2024, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 1
+# vsim -gui work.systolic_tb 
+# Start time: 22:30:18 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# c1 = xxxx, c2 = xxxx, c3 = 005e, c4 = xxxx, c5 = xxxx
+# c6 = xxxx, c7 = xxxx, c8 = xxxx, c9 = xxxx
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(114)
+#    Time: 520 ns  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 114
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of systolic_tb.v was successful.
+# Compile of pe_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 22:31:40 on Dec 02,2024, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 22:31:40 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# c1 = xxxx, c2 = xxxx, c3 = 005e, c4 = xxxx, c5 = xxxx
+# c6 = xxxx, c7 = xxxx, c8 = xxxx, c9 = xxxx
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(114)
+#    Time: 520 ns  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 114
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of systolic_tb.v was successful.
+# Compile of pe_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 22:37:48 on Dec 02,2024, Elapsed time: 0:06:08
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 22:37:48 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# c1 = xxxx, c2 = xxxx, c3 = 0022, c4 = xxxx, c5 = xxxx
+# c6 = xxxx, c7 = xxxx, c8 = xxxx, c9 = xxxx
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(114)
+#    Time: 520 ns  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 114
+# Compile of systolic_tb.v was successful.
+vsim -gui work.systolic_tb
+# End time: 22:41:05 on Dec 02,2024, Elapsed time: 0:03:17
+# Errors: 0, Warnings: 4
+# vsim -gui work.systolic_tb 
+# Start time: 22:41:05 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of pe_tb.v was successful.
+# Compile of systolic_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 22:41:14 on Dec 02,2024, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 22:41:14 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# Results:
+# c1 =     x
+# c2 =     x
+# c3 =    20
+# c4 =     x
+# c5 =     x
+# c6 =     x
+# c7 =     x
+# c8 =     x
+# c9 =     x
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(124)
+#    Time: 125 ps  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 124
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of pe_tb.v was successful.
+# Compile of systolic_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 22:42:47 on Dec 02,2024, Elapsed time: 0:01:33
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 22:42:47 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# Results:
+# c1 =     x
+# c2 =     x
+# c3 =    20
+# c4 =     x
+# c5 =     x
+# c6 =     x
+# c7 =     x
+# c8 =     x
+# c9 =     x
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(124)
+#    Time: 125 ps  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 124
+vsim -gui work.systolic_tb
+# End time: 22:43:07 on Dec 02,2024, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 1
+# vsim -gui work.systolic_tb 
+# Start time: 22:43:07 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave 8
+# ** UI-Msg: (vish-4014) No objects found matching '8'.
+add wave *
+run
+# Results:
+# c1 =     x
+# c2 =     x
+# c3 =    20
+# c4 =     x
+# c5 =     x
+# c6 =     x
+# c7 =     x
+# c8 =     x
+# c9 =     x
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(124)
+#    Time: 125 ps  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 124
+vsim -gui work.systolic_tb
+# End time: 22:44:44 on Dec 02,2024, Elapsed time: 0:01:37
+# Errors: 0, Warnings: 1
+# vsim -gui work.systolic_tb 
+# Start time: 22:44:44 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave 8
+# ** UI-Msg: (vish-4014) No objects found matching '8'.
+add wave *
+run
+# Results:
+# c1 =     x
+# c2 =     x
+# c3 =    20
+# c4 =     x
+# c5 =     x
+# c6 =     x
+# c7 =     x
+# c8 =     x
+# c9 =     x
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(124)
+#    Time: 125 ps  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 124
+vsim -gui work.systolic_tb
+# End time: 22:46:10 on Dec 02,2024, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 1
+# vsim -gui work.systolic_tb 
+# Start time: 22:46:10 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# Results:
+# c1 =     x
+# c2 =     x
+# c3 =    20
+# c4 =     x
+# c5 =     x
+# c6 =     x
+# c7 =     x
+# c8 =     x
+# c9 =     x
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(124)
+#    Time: 125 ps  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 124
+vsim -gui work.systolic_tb
+# End time: 22:46:28 on Dec 02,2024, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 1
+# vsim -gui work.systolic_tb 
+# Start time: 22:46:28 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave 8
+# ** UI-Msg: (vish-4014) No objects found matching '8'.
+add wave *
+run
+# Results:
+# c1 =     x
+# c2 =     x
+# c3 =    20
+# c4 =     x
+# c5 =     x
+# c6 =     x
+# c7 =     x
+# c8 =     x
+# c9 =     x
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(124)
+#    Time: 125 ps  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 124
+# Compile of systolic.v was successful.
+vsim -gui work.systolic_tb
+# End time: 22:47:41 on Dec 02,2024, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 22:47:41 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# Results:
+# c1 =     x
+# c2 =     0
+# c3 =    20
+# c4 =     0
+# c5 =     x
+# c6 =    69
+# c7 =     0
+# c8 =   201
+# c9 =     x
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(124)
+#    Time: 125 ps  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 124
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of pe_tb.v was successful.
+# Compile of systolic_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 22:48:39 on Dec 02,2024, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 22:48:39 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave 8
+# ** UI-Msg: (vish-4014) No objects found matching '8'.
+add wave *
+run
+# Results:
+# c1 =     0
+# c2 =     0
+# c3 =    20
+# c4 =     0
+# c5 =    84
+# c6 =    69
+# c7 =     0
+# c8 =   201
+# c9 =   174
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(124)
+#    Time: 125 ps  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 124
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of pe_tb.v was successful.
+# Compile of systolic_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 22:49:45 on Dec 02,2024, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 22:49:45 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave 8
+# ** UI-Msg: (vish-4014) No objects found matching '8'.
+add wave *
+run
+# Results:
+# c1 =    84
+# c2 =    69
+# c3 =    66
+# c4 =   201
+# c5 =   174
+# c6 =   156
+# c7 =   318
+# c8 =   279
+# c9 =   246
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(124)
+#    Time: 135 ps  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 124
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of pe_tb.v was successful.
+# Compile of systolic_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 22:56:09 on Dec 02,2024, Elapsed time: 0:06:24
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 22:56:09 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# Results:
+# c1 =    84
+# c2 =    69
+# c3 =    66
+# c4 =   201
+# c5 =   174
+# c6 =   156
+# c7 =   318
+# c8 =   279
+# c9 =   246
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(124)
+#    Time: 135 ps  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 124
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of pe_tb.v was successful.
+# Compile of systolic_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 22:59:18 on Dec 02,2024, Elapsed time: 0:03:09
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 22:59:18 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# Results:
+# c1 =     0
+# c2 =    69
+# c3 =    66
+# c4 =   201
+# c5 =   174
+# c6 =   156
+# c7 =   318
+# c8 =   279
+# c9 =   246
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(124)
+#    Time: 135 ps  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 124
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of pe_tb.v was successful.
+# Compile of systolic_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 23:00:51 on Dec 02,2024, Elapsed time: 0:01:33
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 23:00:51 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# Results:
+# c1 =     0
+# c2 =     0
+# c3 =    20
+# c4 =     0
+# c5 =    84
+# c6 =    69
+# c7 =     0
+# c8 =   201
+# c9 =   174
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(124)
+#    Time: 125 ps  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 124
+# Compile of systolic.v was successful.
+vsim -gui work.systolic_tb
+# End time: 23:02:48 on Dec 02,2024, Elapsed time: 0:01:57
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 23:02:48 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave 8
+# ** UI-Msg: (vish-4014) No objects found matching '8'.
+add wave *
+run
+#     0     0     0     0     0
+#     0     0     0     0     0
+#     0     0     0     0     0
+#     0     0     0     0     0
+#     0     0     0     0     0
+#     0     0     0     0    20
+#    84   201   318    69    66
+#   174   279     0   156     0
+#   246     0     0     0     0
+# Results:
+# c1 =    84
+# c2 =    69
+# c3 =    66
+# c4 =   201
+# c5 =   174
+# c6 =   156
+# c7 =   318
+# c8 =   279
+# c9 =   246
+#     0     0     0     0     0
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(124)
+#    Time: 135 ps  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 124
+# Compile of systolic.v failed with 6 errors.
+# Compile of systolic.v was successful.
+vsim -gui work.systolic_tb
+# End time: 23:05:31 on Dec 02,2024, Elapsed time: 0:02:43
+# Errors: 0, Warnings: 3
+# vsim -gui work.systolic_tb 
+# Start time: 23:05:31 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave 8
+# ** UI-Msg: (vish-4014) No objects found matching '8'.
+add wave *
+run
+#           1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+#           2     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+#           3     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0    10
+#           4     0     0     0     0     0     0     0     0     0     0     0     0     0     0    36    40     0    11     0
+#           5     0     0     0     0     0     0     0     0     0    84   105    70    20    39    44     0    12     0     0
+#           6     0     0     0     0    84   201   174    20    69   114    77     0    12    48     0     0     0     0     0
+#           7    84   201   318    69   174   189     0    66    48    84     0     0     0     0     0     0     0     0     0
+#           8   174   279     0   156    84     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+#           9   246     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# Results:
+# c1 =    84
+# c2 =    69
+# c3 =    66
+# c4 =   201
+# c5 =   174
+# c6 =   156
+# c7 =   318
+# c8 =   279
+# c9 =   246
+#          10     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(124)
+#    Time: 135 ps  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 124
+# A time value could not be extracted from the current line
+# Compile of systolic.v failed with 39 errors.
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v failed with 39 errors.
+# Compile of pe_tb.v was successful.
+# Compile of systolic_tb.v was successful.
+# 5 compiles, 1 failed with 39 errors.
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v failed with 39 errors.
+# Compile of pe_tb.v was successful.
+# Compile of systolic_tb.v was successful.
+# 5 compiles, 1 failed with 39 errors.
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of pe_tb.v was successful.
+# Compile of systolic_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 23:09:48 on Dec 02,2024, Elapsed time: 0:04:17
+# Errors: 0, Warnings: 5
+# vsim -gui work.systolic_tb 
+# Start time: 23:09:48 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+#           1
+# 
+#     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+#   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+#   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+#           2
+# 
+#     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+#   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+#   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+#           3
+# 
+#    10     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+#   1   0   0   2   0   0   0   3   0   0   0   0   0   0   0   0   0   0   0
+#  10  13  16   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+#           4
+# 
+#     0    11     0    40    36     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+#   0   1   0   4   2   0   0   5   3   0   0   0   0   0   0   0   0   0   0
+#   0  11  14  10  13  16   0   0   0   0   0   0   0   0   0   0   0   0   0 
+#           5
+# 
+#     0     0    12     0    44    39    20    70   105    84     0     0     0     0     0     0     0     0     0
+#   0   0   1   0   4   2   2   7   5   3   0   0   6   0   0   0   0   0   0
+#   0   0  12   0  11  14  10  10  13  16   0   0   0   0   0   0   0   0   0 
+#           6
+# 
+#     0     0     0     0     0    48    12     0    77   114    69    20   174   201    84     0     0     0     0
+#   0   0   0   0   0   4   4   0   7   5   3   0   8   6   0   0   0   0   0
+#   0   0   0   0   0  12   0   0  11  14  10   0  13  16   0   0   0   0   0 
+#           7
+# 
+#     0     0     0     0     0     0     0     0     0    84    48    66     0   189   174    69   318   201    84
+#   0   0   0   0   0   0   0   0   0   7   5   3   0   8   6   0   9   0   0
+#   0   0   0   0   0   0   0   0   0  12   0  18  11  14  10   0  16   0   0 
+#           8
+# 
+#     0     0     0     0     0     0     0     0     0     0     0     0     0     0    84   156     0   279   174
+#   0   0   0   0   0   0   0   0   0   0   7   5   0   0   8   6   0   9   0
+#   0   0   0   0   0   0   0   0   0   0   0   0   0  12   0  18  14  10   0 
+#           9
+# 
+#     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0   246
+#   0   0   0   0   0   0   0   0   0   0   0   7   0   0   0   8   0   0   9
+#   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  12   0  18 
+# Results:
+# c1 =    84
+# c2 =    69
+# c3 =    66
+# c4 =   201
+# c5 =   174
+# c6 =   156
+# c7 =   318
+# c8 =   279
+# c9 =   246
+#          10
+# 
+#     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+#   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+#   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(124)
+#    Time: 135 ps  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 124
+# Compile of systolic.v was successful.
+vsim -gui work.systolic_tb
+# End time: 23:10:45 on Dec 02,2024, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 23:10:45 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# i :           1
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out : b  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           2
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out : b  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           3
+# 
+# out c:    10     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   1   0   0   2   0   0   0   3   0   0   0   0   0   0   0   0   0   0   0
+# out : b 10  13  16   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           4
+# 
+# out c:     0    11     0    40    36     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   1   0   4   2   0   0   5   3   0   0   0   0   0   0   0   0   0   0
+# out : b  0  11  14  10  13  16   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           5
+# 
+# out c:     0     0    12     0    44    39    20    70   105    84     0     0     0     0     0     0     0     0     0
+# out a:   0   0   1   0   4   2   2   7   5   3   0   0   6   0   0   0   0   0   0
+# out : b  0   0  12   0  11  14  10  10  13  16   0   0   0   0   0   0   0   0   0 
+# i :           6
+# 
+# out c:     0     0     0     0     0    48    12     0    77   114    69    20   174   201    84     0     0     0     0
+# out a:   0   0   0   0   0   4   4   0   7   5   3   0   8   6   0   0   0   0   0
+# out : b  0   0   0   0   0  12   0   0  11  14  10   0  13  16   0   0   0   0   0 
+# i :           7
+# 
+# out c:     0     0     0     0     0     0     0     0     0    84    48    66     0   189   174    69   318   201    84
+# out a:   0   0   0   0   0   0   0   0   0   7   5   3   0   8   6   0   9   0   0
+# out : b  0   0   0   0   0   0   0   0   0  12   0  18  11  14  10   0  16   0   0 
+# i :           8
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0    84   156     0   279   174
+# out a:   0   0   0   0   0   0   0   0   0   0   7   5   0   0   8   6   0   9   0
+# out : b  0   0   0   0   0   0   0   0   0   0   0   0   0  12   0  18  14  10   0 
+# i :           9
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0   246
+# out a:   0   0   0   0   0   0   0   0   0   0   0   7   0   0   0   8   0   0   9
+# out : b  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  12   0  18 
+# Results:
+# c1 =    84
+# c2 =    69
+# c3 =    66
+# c4 =   201
+# c5 =   174
+# c6 =   156
+# c7 =   318
+# c8 =   279
+# c9 =   246
+# i :          10
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out : b  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(124)
+#    Time: 135 ps  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 124
+# A time value could not be extracted from the current line
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of pe_tb.v was successful.
+# Compile of systolic_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 23:13:17 on Dec 02,2024, Elapsed time: 0:02:32
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 23:13:17 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# i :           1
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           2
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           3
+# 
+# out c:    10     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   1   0   0   2   0   0   0   3   0   0   0   0   0   0   0   0   0   0   0
+# out b:  10  13  16   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           4
+# 
+# out c:     0    11     0    40    36     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   1   0   4   2   0   0   5   3   0   0   0   0   0   0   0   0   0   0
+# out b:   0  11  14  10  13  16   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           5
+# 
+# out c:     0     0    12     0    44    39    20    70   105    84     0     0     0     0     0     0     0     0     0
+# out a:   0   0   1   0   4   2   2   7   5   3   0   0   6   0   0   0   0   0   0
+# out b:   0   0  12   0  11  14  10  10  13  16   0   0   0   0   0   0   0   0   0 
+# i :           6
+# 
+# out c:     0     0     0     0     0    48    12     0    77   114    69    20   174   201    84     0     0     0     0
+# out a:   0   0   0   0   0   4   4   0   7   5   3   0   8   6   0   0   0   0   0
+# out b:   0   0   0   0   0  12   0   0  11  14  10   0  13  16   0   0   0   0   0 
+# i :           7
+# 
+# out c:     0     0     0     0     0     0     0     0     0    84    48    66     0   189   174    69   318   201    84
+# out a:   0   0   0   0   0   0   0   0   0   7   5   3   0   8   6   0   9   0   0
+# out b:   0   0   0   0   0   0   0   0   0  12   0  18  11  14  10   0  16   0   0 
+# i :           8
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0    84   156     0   279   174
+# out a:   0   0   0   0   0   0   0   0   0   0   7   5   0   0   8   6   0   9   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0  12   0  18  14  10   0 
+# i :           9
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0   246
+# out a:   0   0   0   0   0   0   0   0   0   0   0   7   0   0   0   8   0   0   9
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  12   0  18 
+# i :          10
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          11
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          12
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          13
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          14
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          15
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          16
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          17
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          18
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# Results:
+# c1 =    84
+# c2 =    69
+# c3 =    66
+# c4 =   201
+# c5 =   174
+# c6 =   156
+# c7 =   318
+# c8 =   279
+# c9 =   246
+# i :          19
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(124)
+#    Time: 225 ps  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 124
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of pe_tb.v was successful.
+# Compile of systolic_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 23:15:10 on Dec 02,2024, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 23:15:10 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of pe_tb.v was successful.
+# Compile of systolic_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 23:15:20 on Dec 02,2024, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 23:15:20 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# i :           1
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           2
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           3
+# 
+# out c:    10     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   1   0   0   2   0   0   0   3   0   0   0   0   0   0   0   0   0   0   0
+# out b:  10  13  16   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           4
+# 
+# out c:     0    11     0    40    36     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   1   0   4   2   0   0   5   3   0   0   0   0   0   0   0   0   0   0
+# out b:   0  11  14  10  13  16   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           5
+# 
+# out c:     0     0    12     0    44    39    20    70   105    84     0     0     0     0     0     0     0     0     0
+# out a:   0   0   1   0   4   2   2   7   5   3   0   0   6   0   0   0   0   0   0
+# out b:   0   0  12   0  11  14  10  10  13  16   0   0   0   0   0   0   0   0   0 
+# i :           6
+# 
+# out c:     0     0     0     0     0    48    12     0    77   114    69    20   174   201    84     0     0     0     0
+# out a:   0   0   0   0   0   4   4   0   7   5   3   0   8   6   0   0   0   0   0
+# out b:   0   0   0   0   0  12   0   0  11  14  10   0  13  16   0   0   0   0   0 
+# i :           7
+# 
+# out c:     0     0     0     0     0     0     0     0     0    84    48    66     0   189   174    69   318   201    84
+# out a:   0   0   0   0   0   0   0   0   0   7   5   3   0   8   6   0   9   0   0
+# out b:   0   0   0   0   0   0   0   0   0  12   0  18  11  14  10   0  16   0   0 
+# i :           8
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0    84   156     0   279   174
+# out a:   0   0   0   0   0   0   0   0   0   0   7   5   0   0   8   6   0   9   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0  12   0  18  14  10   0 
+# i :           9
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0   246
+# out a:   0   0   0   0   0   0   0   0   0   0   0   7   0   0   0   8   0   0   9
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  12   0  18 
+# i :          10
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          11
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          12
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          13
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          14
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          15
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          16
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          17
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          18
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# Results:
+# c1 =    84
+# c2 =    69
+# c3 =    66
+# c4 =   201
+# c5 =   174
+# c6 =   156
+# c7 =   318
+# c8 =   279
+# c9 =   246
+# i :          19
+# 
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(124)
+#    Time: 225 ps  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 124
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of pe_tb.v was successful.
+# Compile of systolic_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 23:16:54 on Dec 02,2024, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 23:16:54 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# i :           1
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           2
+# 
+# a in:   1   2   3   0   0
+# b in:  10  13  16   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           3
+# 
+# a in:   0   4   5   6   0
+# b in:   0  11  14  17   0
+# out c:    10     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   1   0   0   2   0   0   0   3   0   0   0   0   0   0   0   0   0   0   0
+# out b:  10  13  16   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           4
+# 
+# a in:   0   0   7   8   9
+# b in:   0   0  12  15  18
+# out c:     0    11     0    40    36     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   1   0   4   2   0   0   5   3   0   0   0   0   0   0   0   0   0   0
+# out b:   0  11  14  10  13  16   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           5
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0    12     0    44    39    20    70   105    84     0     0     0     0     0     0     0     0     0
+# out a:   0   0   1   0   4   2   2   7   5   3   0   0   6   0   0   0   0   0   0
+# out b:   0   0  12   0  11  14  10  10  13  16   0   0   0   0   0   0   0   0   0 
+# i :           6
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0    48    12     0    77   114    69    20   174   201    84     0     0     0     0
+# out a:   0   0   0   0   0   4   4   0   7   5   3   0   8   6   0   0   0   0   0
+# out b:   0   0   0   0   0  12   0   0  11  14  10   0  13  16   0   0   0   0   0 
+# i :           7
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0    84    48    66     0   189   174    69   318   201    84
+# out a:   0   0   0   0   0   0   0   0   0   7   5   3   0   8   6   0   9   0   0
+# out b:   0   0   0   0   0   0   0   0   0  12   0  18  11  14  10   0  16   0   0 
+# i :           8
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0    84   156     0   279   174
+# out a:   0   0   0   0   0   0   0   0   0   0   7   5   0   0   8   6   0   9   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0  12   0  18  14  10   0 
+# i :           9
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0   246
+# out a:   0   0   0   0   0   0   0   0   0   0   0   7   0   0   0   8   0   0   9
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  12   0  18 
+# i :          10
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          11
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          12
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          13
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          14
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          15
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          16
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          17
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          18
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# Results:
+# c1 =    84
+# c2 =    69
+# c3 =    66
+# c4 =   201
+# c5 =   174
+# c6 =   156
+# c7 =   318
+# c8 =   279
+# c9 =   246
+# i :          19
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(124)
+#    Time: 225 ps  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 124
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of pe_tb.v was successful.
+# Compile of systolic_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 23:27:39 on Dec 02,2024, Elapsed time: 0:10:45
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 23:27:39 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# i :           1
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           2
+# 
+# a in:   0   4   5   6   0
+# b in:   0  11  14  17   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           3
+# 
+# a in:   0   0   7   8   9
+# b in:   0   0  12  15  18
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   4   0   0   0   5   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0  11  14   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           4
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0    44     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   4   0   0   7   5   0   0   0   6   0   0   0   0   0   0
+# out b:   0   0  12   0  11  14   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           5
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0    48     0     0    77   114     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   4   4   0   7   5   0   0   8   6   0   0   0   0   0
+# out b:   0   0   0   0   0  12   0   0  11  14   0   0   0   0   0   0   0   0   0 
+# i :           6
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0    84    48     0     0   189   114     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   7   5   0   0   8   6   0   9   0   0
+# out b:   0   0   0   0   0   0   0   0   0  12   0  18  11  14   0   0   0   0   0 
+# i :           7
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0    84   156     0   189   114
+# out a:   0   0   0   0   0   0   0   0   0   0   7   5   0   0   8   6   0   9   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0  12   0  18  14   0   0 
+# i :           8
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0   246
+# out a:   0   0   0   0   0   0   0   0   0   0   0   7   0   0   0   8   0   0   9
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  12   0  18 
+# i :           9
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          10
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          11
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          12
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          13
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          14
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          15
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          16
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          17
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          18
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# Results:
+# c1 =   114
+# c2 =   156
+# c3 =     0
+# c4 =   189
+# c5 =   246
+# c6 =     0
+# c7 =     0
+# c8 =     0
+# c9 =     0
+# i :          19
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(124)
+#    Time: 225 ps  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 124
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of pe_tb.v was successful.
+# Compile of systolic_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 23:28:21 on Dec 02,2024, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 23:28:21 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave 8
+# ** UI-Msg: (vish-4014) No objects found matching '8'.
+add wave *
+run
+# i :           1
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           2
+# 
+# a in:   1   2   3   0   0
+# b in:  10  13  16   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           3
+# 
+# a in:   0   4   5   6   0
+# b in:   0  11  14  17   0
+# out c:    10     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   1   0   0   2   0   0   0   3   0   0   0   0   0   0   0   0   0   0   0
+# out b:  10  13  16   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           4
+# 
+# a in:   0   0   7   8   9
+# b in:   0   0  12  15  18
+# out c:     0    11     0    40    36     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   1   0   4   2   0   0   5   3   0   0   0   0   0   0   0   0   0   0
+# out b:   0  11  14  10  13  16   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           5
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0    12     0    44    39    20    70   105    84     0     0     0     0     0     0     0     0     0
+# out a:   0   0   1   0   4   2   2   7   5   3   0   0   6   0   0   0   0   0   0
+# out b:   0   0  12   0  11  14  10  10  13  16   0   0   0   0   0   0   0   0   0 
+# i :           6
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0    48    12     0    77   114    69    20   174   201    84     0     0     0     0
+# out a:   0   0   0   0   0   4   4   0   7   5   3   0   8   6   0   0   0   0   0
+# out b:   0   0   0   0   0  12   0   0  11  14  10   0  13  16   0   0   0   0   0 
+# i :           7
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0    84    48    66     0   189   174    69   318   201    84
+# out a:   0   0   0   0   0   0   0   0   0   7   5   3   0   8   6   0   9   0   0
+# out b:   0   0   0   0   0   0   0   0   0  12   0  18  11  14  10   0  16   0   0 
+# i :           8
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0    84   156     0   279   174
+# out a:   0   0   0   0   0   0   0   0   0   0   7   5   0   0   8   6   0   9   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0  12   0  18  14  10   0 
+# i :           9
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0   246
+# out a:   0   0   0   0   0   0   0   0   0   0   0   7   0   0   0   8   0   0   9
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  12   0  18 
+# i :          10
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          11
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          12
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          13
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          14
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          15
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          16
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          17
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          18
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# Results:
+# c1 =    84
+# c2 =    69
+# c3 =    66
+# c4 =   201
+# c5 =   174
+# c6 =   156
+# c7 =   318
+# c8 =   279
+# c9 =   246
+# i :          19
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(124)
+#    Time: 225 ps  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 124
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of pe_tb.v was successful.
+# Compile of systolic_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 23:54:54 on Dec 02,2024, Elapsed time: 0:26:33
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 23:54:54 on Dec 02,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# i :           1
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           2
+# 
+# a in:   1   2   3   0   0
+# b in:  10  13  16   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           3
+# 
+# a in:   0   4   5   6   0
+# b in:   0  11  14  17   0
+# out c:    10     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   1   0   0   2   0   0   0   3   0   0   0   0   0   0   0   0   0   0   0
+# out b:  10  13  16   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           4
+# 
+# a in:   0   0   7   8   9
+# b in:   0   0  12  15  18
+# out c:     0    11     0    40    36     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   1   0   4   2   0   0   5   3   0   0   0   0   0   0   0   0   0   0
+# out b:   0  11  14  10  13  16   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           5
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0    12     0    44    39    34    70   105    84     0     0     0     0     0     0     0     0     0
+# out a:   0   0   1   0   4   2   2   7   5   3   0   0   6   0   0   0   0   0   0
+# out b:   0   0  12   0  11  14  17  10  13  16   0   0   0   0   0   0   0   0   0 
+# i :           6
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0    48    72     0    77   114    90    34   174   201    84     0     0     0     0
+# out a:   0   0   0   0   0   4   4   0   7   5   3   0   8   6   0   0   0   0   0
+# out b:   0   0   0   0   0  12  15   0  11  14  17   0  13  16   0   0   0   0   0 
+# i :           7
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0    84   123   126     0   189   216    90   318   201    84
+# out a:   0   0   0   0   0   0   0   0   0   7   5   3   0   8   6   0   9   0   0
+# out b:   0   0   0   0   0   0   0   0   0  12  15  18  11  14  17   0  16   0   0 
+# i :           8
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0   204   231     0   342   216
+# out a:   0   0   0   0   0   0   0   0   0   0   7   5   0   0   8   6   0   9   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0  12  15  18  14  17   0 
+# i :           9
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0   366
+# out a:   0   0   0   0   0   0   0   0   0   0   0   7   0   0   0   8   0   0   9
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  12  15  18 
+# i :          10
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          11
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          12
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          13
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          14
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          15
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          16
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          17
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          18
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# Results:
+# c1 =    84
+# c2 =    90
+# c3 =   126
+# c4 =   201
+# c5 =   216
+# c6 =   231
+# c7 =   318
+# c8 =   342
+# c9 =   366
+# i :          19
+# 
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(124)
+#    Time: 225 ps  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 124
+# Compile of de.v was successful.
+# Compile of pe.v was successful.
+# Compile of systolic.v was successful.
+# Compile of pe_tb.v was successful.
+# Compile of systolic_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.systolic_tb
+# End time: 00:17:35 on Dec 03,2024, Elapsed time: 0:22:41
+# Errors: 0, Warnings: 2
+# vsim -gui work.systolic_tb 
+# Start time: 00:17:35 on Dec 03,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# i :           1
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           2
+# a in:   1   2   3   0   0
+# b in:  10  13  16   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           3
+# a in:   0   4   5   6   0
+# b in:   0  11  14  17   0
+# out c:    10     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   1   0   0   2   0   0   0   3   0   0   0   0   0   0   0   0   0   0   0
+# out b:  10  13  16   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           4
+# a in:   0   0   7   8   9
+# b in:   0   0  12  15  18
+# out c:     0    11     0    40    36     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   1   0   4   2   0   0   5   3   0   0   0   0   0   0   0   0   0   0
+# out b:   0  11  14  10  13  16   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           5
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0    12     0    44    39     0    70   105    84     0     0     0     0     0     0     0     0     0
+# out a:   0   0   1   0   4   2   0   7   5   3   0   0   6   0   0   0   0   0   0
+# out b:   0   0  12   0  11  14  17  10  13  16   0   0   0   0   0   0   0   0   0 
+# i :           6
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0    48    42     0    77   114    90     0   174   201    84     0     0     0     0
+# out a:   0   0   0   0   0   4   2   0   7   5   3   0   8   6   0   0   0   0   0
+# out b:   0   0   0   0   0  12  15   0  11  14  17   0  13  16   0   0   0   0   0 
+# i :           7
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0    84   123    96     0   189   216    90   318   201    84
+# out a:   0   0   0   0   0   0   4   0   0   7   5   3   0   8   6   0   9   0   0
+# out b:   0   0   0   0   0   0   0   0   0  12  15  18  11  14  17   0  16   0   0 
+# i :           8
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0   204   231     0   342   216
+# out a:   0   0   0   0   0   0   0   0   0   0   7   5   0   0   8   6   0   9   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0  12  15  18  14  17   0 
+# i :           9
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0   366
+# out a:   0   0   0   0   0   0   0   0   0   0   0   7   0   0   0   8   0   0   9
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  12  15  18 
+# i :          10
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          11
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          12
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          13
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          14
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          15
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          16
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          17
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          18
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# Results:
+# c1 =    84
+# c2 =    90
+# c3 =    96
+# c4 =   201
+# c5 =   216
+# c6 =   231
+# c7 =   318
+# c8 =   342
+# c9 =   366
+# i :          19
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(124)
+#    Time: 225 ps  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 124
+vsim -gui work.systolic_tb
+# End time: 00:29:57 on Dec 03,2024, Elapsed time: 0:12:22
+# Errors: 0, Warnings: 1
+# vsim -gui work.systolic_tb 
+# Start time: 00:29:58 on Dec 03,2024
+# Loading work.systolic_tb
+# Loading work.systolic
+# Loading work.pe
+# Loading work.de
+add wave *
+run
+# i :           1
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           2
+# a in:   1   2   3   0   0
+# b in:  10  13  16   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           3
+# a in:   0   4   5   6   0
+# b in:   0  11  14  17   0
+# out c:    10     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   1   0   0   2   0   0   0   3   0   0   0   0   0   0   0   0   0   0   0
+# out b:  10  13  16   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           4
+# a in:   0   0   7   8   9
+# b in:   0   0  12  15  18
+# out c:     0    11     0    40    36     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   1   0   4   2   0   0   5   3   0   0   0   0   0   0   0   0   0   0
+# out b:   0  11  14  10  13  16   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :           5
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0    12     0    44    39     0    70   105    84     0     0     0     0     0     0     0     0     0
+# out a:   0   0   1   0   4   2   0   7   5   3   0   0   6   0   0   0   0   0   0
+# out b:   0   0  12   0  11  14  17  10  13  16   0   0   0   0   0   0   0   0   0 
+# i :           6
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0    48    42     0    77   114    90     0   174   201    84     0     0     0     0
+# out a:   0   0   0   0   0   4   2   0   7   5   3   0   8   6   0   0   0   0   0
+# out b:   0   0   0   0   0  12  15   0  11  14  17   0  13  16   0   0   0   0   0 
+# i :           7
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0    84   123    96     0   189   216    90   318   201    84
+# out a:   0   0   0   0   0   0   4   0   0   7   5   3   0   8   6   0   9   0   0
+# out b:   0   0   0   0   0   0   0   0   0  12  15  18  11  14  17   0  16   0   0 
+# i :           8
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0   204   231     0   342   216
+# out a:   0   0   0   0   0   0   0   0   0   0   7   5   0   0   8   6   0   9   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0  12  15  18  14  17   0 
+# i :           9
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0   366
+# out a:   0   0   0   0   0   0   0   0   0   0   0   7   0   0   0   8   0   0   9
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  12  15  18 
+# i :          10
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          11
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          12
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          13
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          14
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          15
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          16
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          17
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# i :          18
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# Results:
+# c1 =    84
+# c2 =    90
+# c3 =    96
+# c4 =   201
+# c5 =   216
+# c6 =   231
+# c7 =   318
+# c8 =   342
+# c9 =   366
+# i :          19
+# a in:   0   0   0   0   0
+# b in:   0   0   0   0   0
+# out c:     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+# out a:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+# out b:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+# ** Note: $stop    : D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v(124)
+#    Time: 225 ps  Iteration: 0  Instance: /systolic_tb
+# Break in Module systolic_tb at D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v line 124
+# End time: 00:31:32 on Dec 03,2024, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 1

@@ -1,121 +1,36 @@
-/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Datapath.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package MyLib
--- Compiling entity Datapath
--- Compiling architecture rtl of Datapath
+D:/Code/FPGADesign/MatrixMul/test_benches/systolic/pe_tb.v {1 {vlog -work work -stats=none D:/Code/FPGADesign/MatrixMul/test_benches/systolic/pe_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pe_tb
 
-} {} {}} D:/Code/VHDL/MatrixMul/MatrixMul.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Code/VHDL/MatrixMul/MatrixMul.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package MyLib
--- Compiling entity MatrixMul
--- Compiling architecture rtl of MatrixMul
+Top level modules:
+	pe_tb
 
-} {} {}} D:/Code/VHDL/MatrixMul/Controller.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Code/VHDL/MatrixMul/Controller.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity Controller
--- Compiling architecture rtl of Controller
+} {} {}} D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v {1 {vlog -work work -stats=none D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pe
 
-} {} {}} /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Memory.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Memory.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity Memory
--- Compiling architecture rtl of Memory
+Top level modules:
+	pe
 
-} {} {}} D:/Code/VHDL/MatrixMul/Memory.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Code/VHDL/MatrixMul/Memory.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity Memory
--- Compiling architecture rtl of Memory
+} {} {}} D:/Code/FPGADesign/MatrixMul/modules/systolic/de.v {1 {vlog -work work -stats=none D:/Code/FPGADesign/MatrixMul/modules/systolic/de.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module de
 
-} {} {}} /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MyLib.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MyLib.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling package MyLib
+Top level modules:
+	de
 
-} {} {}} /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MatrixMul_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MatrixMul_tb.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package MyLib
--- Compiling entity MatrixMul_tb
--- Compiling architecture behavioral of MatrixMul_tb
+} {} {}} D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v {1 {vlog -work work -stats=none D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module systolic_tb
 
-} {} {}} /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Counter.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Counter.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity Counter
--- Compiling architecture rtl of Counter
+Top level modules:
+	systolic_tb
 
-} {} {}} D:/Code/VHDL/MatrixMul/MyLib.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Code/VHDL/MatrixMul/MyLib.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling package MyLib
+} {} {}} D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v {1 {vlog -work work -stats=none D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module systolic
 
-} {} {}} /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MatrixMul.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MatrixMul.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package MyLib
--- Compiling entity MatrixMul
--- Compiling architecture rtl of MatrixMul
-
-} {} {}} D:/Code/VHDL/MatrixMul/MatrixMul_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Code/VHDL/MatrixMul/MatrixMul_tb.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package MyLib
--- Compiling entity MatrixMul_tb
--- Compiling architecture behavioral of MatrixMul_tb
-
-} {} {}} D:/Code/VHDL/MatrixMul/Counter.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Code/VHDL/MatrixMul/Counter.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity Counter
--- Compiling architecture rtl of Counter
-
-} {} {}} /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Controller.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/Controller.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity Controller
--- Compiling architecture rtl of Controller
+Top level modules:
+	systolic
 
 } {} {}}

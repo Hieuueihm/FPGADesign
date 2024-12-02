@@ -1,0 +1,31 @@
+module pe (
+    input clk,
+    input rst,
+    input [7:0] a,
+    b,
+    c,
+    output [7:0] a_o,
+    b_o,
+    output [15:0] cab_o
+);
+
+  reg [7:0] _a, _b, _cab;
+  assign a_o = _a;
+  assign b_o = _b;
+  assign c_o = _cab;
+  always @(posedge clk) begin
+    if (rst) begin
+
+      _a   <= 0;
+      _b   <= 0;
+      _cab <= 0;
+    end else begin
+      _a   = a;
+      _a   = b;
+      _cab = _cab + _a * b_a;
+
+    end
+
+  end
+
+endmodule

@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11f MIXED_VERSIONS
 !s11e vcom 2020.1 2020.02, Feb 28 2020
 13
 !s112 1.1
@@ -140,6 +141,29 @@ R23
 !i113 1
 R12
 R13
+vde
+Z24 !s110 1733159851
+!i10b 1
+!s100 IYbiD6c8gWCRj2eBc0eP@0
+Z25 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I4VCdDVDFVl_;UQaFojfHA2
+Z26 VDg1SIo80bB@j0V0VzS_@n1
+Z27 dD:/Code/FPGADesign/MatrixMul
+w1733156078
+8D:/Code/FPGADesign/MatrixMul/modules/systolic/de.v
+FD:/Code/FPGADesign/MatrixMul/modules/systolic/de.v
+!i122 862
+L0 1 20
+Z28 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z29 !s108 1733159851.000000
+!s107 D:/Code/FPGADesign/MatrixMul/modules/systolic/de.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/FPGADesign/MatrixMul/modules/systolic/de.v|
+!i113 1
+Z30 o-work work
+Z31 tCvgOpt 0
 Ematrixmul
 R0
 R19
@@ -148,19 +172,19 @@ R2
 R3
 !i122 657
 R4
-Z24 8D:/Code/VHDL/MatrixMul/MatrixMul.vhd
-Z25 FD:/Code/VHDL/MatrixMul/MatrixMul.vhd
+Z32 8D:/Code/VHDL/MatrixMul/MatrixMul.vhd
+Z33 FD:/Code/VHDL/MatrixMul/MatrixMul.vhd
 l0
 L5 1
 V0C46;K0YB@]ZEOk6]6P?b2
 !s100 NHBYU?U4LXO@miS?z?3??0
 R7
 32
-Z26 !s110 1726612313
+Z34 !s110 1726612313
 !i10b 1
 R9
-Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Code/VHDL/MatrixMul/MatrixMul.vhd|
-Z28 !s107 D:/Code/VHDL/MatrixMul/MatrixMul.vhd|
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Code/VHDL/MatrixMul/MatrixMul.vhd|
+Z36 !s107 D:/Code/VHDL/MatrixMul/MatrixMul.vhd|
 !i113 1
 R12
 R13
@@ -177,11 +201,11 @@ V=0zFf]n?AkQ:JkRc9j;5]2
 !s100 DOKBOO<;Xbab;`;a1Qa0O3
 R7
 32
-R26
+R34
 !i10b 1
 R9
-R27
-R28
+R35
+R36
 !i113 1
 R12
 R13
@@ -193,19 +217,19 @@ R2
 R3
 !i122 658
 R4
-Z29 8D:/Code/VHDL/MatrixMul/MatrixMul_tb.vhd
-Z30 FD:/Code/VHDL/MatrixMul/MatrixMul_tb.vhd
+Z37 8D:/Code/VHDL/MatrixMul/MatrixMul_tb.vhd
+Z38 FD:/Code/VHDL/MatrixMul/MatrixMul_tb.vhd
 l0
 L8 1
 VM[RcA[KhHA7A=D?Kjn05M1
 !s100 B:IAkWn9jY;EnPCUMOcWm3
 R7
 32
-R26
+R34
 !i10b 1
-Z31 !s108 1726612313.000000
-Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Code/VHDL/MatrixMul/MatrixMul_tb.vhd|
-Z33 !s107 D:/Code/VHDL/MatrixMul/MatrixMul_tb.vhd|
+Z39 !s108 1726612313.000000
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Code/VHDL/MatrixMul/MatrixMul_tb.vhd|
+Z41 !s107 D:/Code/VHDL/MatrixMul/MatrixMul_tb.vhd|
 !i113 1
 R12
 R13
@@ -222,11 +246,11 @@ VA[jd<PzM=PWTnNYB3]o>>2
 !s100 [>DSW^Z7DDNkmJG6VAK240
 R7
 32
-R26
+R34
 !i10b 1
-R31
-R32
-R33
+R39
+R40
+R41
 !i113 1
 R12
 R13
@@ -256,25 +280,25 @@ d/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul
 F/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MatrixMul_tb.vhd
 8/home/hieu/Documents/Workspace/VHDL_prj/MatrixMul/MatrixMul_tb.vhd
 Ememory
-Z34 w1726612147
+Z42 w1726612147
 R1
 R2
 R3
 !i122 659
 R4
-Z35 8D:/Code/VHDL/MatrixMul/Memory.vhd
-Z36 FD:/Code/VHDL/MatrixMul/Memory.vhd
+Z43 8D:/Code/VHDL/MatrixMul/Memory.vhd
+Z44 FD:/Code/VHDL/MatrixMul/Memory.vhd
 l0
 L5 1
 V;gh=^W`V[aD;`9VVBE4PQ2
 !s100 @ioX_mZd__kN?zMX5F?1A0
 R7
 32
-R26
+R34
 !i10b 1
-R31
-Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Code/VHDL/MatrixMul/Memory.vhd|
-Z38 !s107 D:/Code/VHDL/MatrixMul/Memory.vhd|
+R39
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Code/VHDL/MatrixMul/Memory.vhd|
+Z46 !s107 D:/Code/VHDL/MatrixMul/Memory.vhd|
 !i113 1
 R12
 R13
@@ -290,11 +314,11 @@ VWb7FTRk_;>L_PMjCU?IXk3
 !s100 UKMm1SV2Y1=TG;0<zPQ=H0
 R7
 32
-R26
+R34
 !i10b 1
-R31
-R37
-R38
+R39
+R45
+R46
 !i113 1
 R12
 R13
@@ -313,11 +337,103 @@ V]kk;;Xk=K=8^JCb2NQX5c3
 !s100 0ZkR]GMRmJkSC5j>5X[Ed1
 R7
 32
-R26
+R34
 !i10b 1
-R31
+R39
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Code/VHDL/MatrixMul/MyLib.vhd|
 !s107 D:/Code/VHDL/MatrixMul/MyLib.vhd|
 !i113 1
 R12
 R13
+vpe
+R24
+!i10b 1
+!s100 c?V5GT[fVkbMS9zh=0`Eg2
+R25
+IaaX_I>54_fLAMhfVdU?W`3
+R26
+R27
+w1733156098
+8D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v
+FD:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v
+!i122 863
+L0 1 25
+R28
+r1
+!s85 0
+31
+R29
+!s107 D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v|
+!i113 1
+R30
+R31
+vpe_tb
+Z47 !s110 1733159852
+!i10b 1
+!s100 C=jgOb_Bg`h2ChEYGT>HU3
+R25
+I6<R?9kWdT7Y;D6OMamXbk2
+R26
+R27
+w1733151511
+8D:/Code/FPGADesign/MatrixMul/test_benches/systolic/pe_tb.v
+FD:/Code/FPGADesign/MatrixMul/test_benches/systolic/pe_tb.v
+!i122 865
+L0 3 63
+R28
+r1
+!s85 0
+31
+R29
+!s107 D:/Code/FPGADesign/MatrixMul/test_benches/systolic/pe_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/FPGADesign/MatrixMul/test_benches/systolic/pe_tb.v|
+!i113 1
+R30
+R31
+vsystolic
+R24
+!i10b 1
+!s100 24gBB60Xn2N5VhLFQ`fDD2
+R25
+I1_id5oQf2Ec]V]G9D<^C20
+R26
+R27
+w1733159838
+8D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v
+FD:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v
+!i122 864
+L0 1 441
+R28
+r1
+!s85 0
+31
+R29
+!s107 D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v|
+!i113 1
+R30
+R31
+vsystolic_tb
+R47
+!i10b 1
+!s100 14Ta8^5mWGzR;hS8oZ[CR0
+R25
+I<?QJ<MeIFEkE<9DRi=Io]3
+R26
+R27
+w1733155984
+8D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v
+FD:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v
+!i122 866
+L0 1 127
+R28
+r1
+!s85 0
+31
+!s108 1733159852.000000
+!s107 D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v|
+!i113 1
+R30
+R31
