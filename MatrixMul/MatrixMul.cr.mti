@@ -5,13 +5,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	pe_tb
 
-} {} {}} D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v {1 {vlog -work work -stats=none D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module pe
-
-Top level modules:
-	pe
-
 } {} {}} D:/Code/FPGADesign/MatrixMul/modules/systolic/de.v {1 {vlog -work work -stats=none D:/Code/FPGADesign/MatrixMul/modules/systolic/de.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module de
@@ -19,18 +12,11 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	de
 
-} {} {}} D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v {1 {vlog -work work -stats=none D:/Code/FPGADesign/MatrixMul/test_benches/systolic/systolic_tb.v
+} {} {}} D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v {1 {vlog -work work -stats=none D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module systolic_tb
+-- Compiling module pe
 
 Top level modules:
-	systolic_tb
-
-} {} {}} D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v {1 {vlog -work work -stats=none D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module systolic
-
-Top level modules:
-	systolic
+	pe
 
 } {} {}}

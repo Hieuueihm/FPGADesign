@@ -1,0 +1,22 @@
+D:/Code/FPGADesign/Convolution/test_benches/Convolution_tb.v {1 {vlog -work work -stats=none D:/Code/FPGADesign/Convolution/test_benches/Convolution_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Convolution_tb
+
+Top level modules:
+	Convolution_tb
+
+} {} {}} D:/Code/FPGADesign/Convolution/modules/Convolution.v {1 {vlog -work work -stats=none D:/Code/FPGADesign/Convolution/modules/Convolution.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Convolution
+
+Top level modules:
+	Convolution
+
+} {} {}} D:/Code/FPGADesign/Convolution/modules/PE.v {1 {vlog -work work -stats=none D:/Code/FPGADesign/Convolution/modules/PE.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PE
+
+Top level modules:
+	PE
+
+} {} {}}

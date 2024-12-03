@@ -335,9 +335,6 @@ module systolic (
   );
 
 
-  // c11 c12 c13
-  // c21 c22 c23
-  // c31 c32 c33
   always @(posedge clk) begin
     if (start_i) begin
       i = i + 1;

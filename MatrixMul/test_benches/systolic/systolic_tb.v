@@ -94,6 +94,7 @@ module systolic_tb;
     a7 = 8'd7;
     a8 = 8'd8;
     a9 = 8'd9;
+    
     b1 = 8'd10;
     b2 = 8'd11;
     b3 = 8'd12;
