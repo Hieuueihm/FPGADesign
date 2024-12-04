@@ -43,7 +43,6 @@ ARCHITECTURE rtl OF UART_Transmitter IS
     END COMPONENT;
 
     COMPONENT BaudClkGenerator IS
-
         GENERIC (
             SYS_CLK_FREQ : INTEGER;
             BAUD_RATE : INTEGER;

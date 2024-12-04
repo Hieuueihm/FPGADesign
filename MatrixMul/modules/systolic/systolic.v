@@ -35,31 +35,6 @@ module systolic (
   // input
   integer i;
   reg [7:0] ai[0:4], bi[0:4];
-  always @(posedge clk) begin
-    if (rst) begin
-      i <= 0;
-      ai[0] = 0;
-      ai[1] = 0;
-      ai[2] = 0;
-      ai[3] = 0;
-      ai[4] = 0;
-      bi[0] = 0;
-      bi[1] = 0;
-      bi[2] = 0;
-      bi[3] = 0;
-      bi[4] = 0;
-      c1 = 0;
-      c2 = 0;
-      c3 = 0;
-      c4 = 0;
-      c5 = 0;
-      c6 = 0;
-      c7 = 0;
-      c8 = 0;
-      c9 = 0;
-      done_o = 0;
-    end
-  end
   wire [ 7:0] pe_a_o  [18:0];
   wire [ 7:0] pe_b_o  [18:0];
   wire [15:0] pe_cab_o[18:0];
@@ -336,28 +311,50 @@ module systolic (
 
 
   always @(posedge clk) begin
+  if (rst) begin
+      ai[0] <= 0;
+      ai[1] <= 0;
+      ai[2] <= 0;
+      ai[3] <= 0;
+      ai[4] <= 0;
+      bi[0] <= 0;
+      bi[1] <= 0;
+      bi[2] <= 0;
+      bi[3] <= 0;
+      bi[4] <= 0;
+      c1 <= 0;
+      c2 <= 0;
+      c3 <= 0;
+      c4 <= 0;
+      c5 <= 0;
+      c6 <= 0;
+      c7 <= 0;
+      c8 <= 0;
+      c9 <= 0;
+      done_o <= 0;
+	end else 
     if (start_i) begin
       i = i + 1;
-      $display("i : %d", i);
+//      $display("i : %d", i);
       // Display for pe_cab_o
-      $display("a in: %d %d %d %d %d", ai[0], ai[1], ai[2], ai[3], ai[4]);
-      $display("b in: %d %d %d %d %d", bi[0], bi[1], bi[2], bi[3], bi[4]);
-      $display("out c: %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d", pe_cab_o[0],
-               pe_cab_o[1], pe_cab_o[2], pe_cab_o[3], pe_cab_o[4], pe_cab_o[5], pe_cab_o[6],
-               pe_cab_o[7], pe_cab_o[8], pe_cab_o[9], pe_cab_o[10], pe_cab_o[11], pe_cab_o[12],
-               pe_cab_o[13], pe_cab_o[14], pe_cab_o[15], pe_cab_o[16], pe_cab_o[17], pe_cab_o[18]);
-
-      // Display for pe_a_o
-      $display("out a: %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d", pe_a_o[0],
-               pe_a_o[1], pe_a_o[2], pe_a_o[3], pe_a_o[4], pe_a_o[5], pe_a_o[6], pe_a_o[7],
-               pe_a_o[8], pe_a_o[9], pe_a_o[10], pe_a_o[11], pe_a_o[12], pe_a_o[13], pe_a_o[14],
-               pe_a_o[15], pe_a_o[16], pe_a_o[17], pe_a_o[18]);
-
-      // Display for pe_b_o
-      $display("out b: %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d ", pe_b_o[0],
-               pe_b_o[1], pe_b_o[2], pe_b_o[3], pe_b_o[4], pe_b_o[5], pe_b_o[6], pe_b_o[7],
-               pe_b_o[8], pe_b_o[9], pe_b_o[10], pe_b_o[11], pe_b_o[12], pe_b_o[13], pe_b_o[14],
-               pe_b_o[15], pe_b_o[16], pe_b_o[17], pe_b_o[18]);
+//      $display("a in: %d %d %d %d %d", ai[0], ai[1], ai[2], ai[3], ai[4]);
+//      $display("b in: %d %d %d %d %d", bi[0], bi[1], bi[2], bi[3], bi[4]);
+//      $display("out c: %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d", pe_cab_o[0],
+//               pe_cab_o[1], pe_cab_o[2], pe_cab_o[3], pe_cab_o[4], pe_cab_o[5], pe_cab_o[6],
+//               pe_cab_o[7], pe_cab_o[8], pe_cab_o[9], pe_cab_o[10], pe_cab_o[11], pe_cab_o[12],
+//               pe_cab_o[13], pe_cab_o[14], pe_cab_o[15], pe_cab_o[16], pe_cab_o[17], pe_cab_o[18]);
+//
+//      // Display for pe_a_o
+//      $display("out a: %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d", pe_a_o[0],
+//               pe_a_o[1], pe_a_o[2], pe_a_o[3], pe_a_o[4], pe_a_o[5], pe_a_o[6], pe_a_o[7],
+//               pe_a_o[8], pe_a_o[9], pe_a_o[10], pe_a_o[11], pe_a_o[12], pe_a_o[13], pe_a_o[14],
+//               pe_a_o[15], pe_a_o[16], pe_a_o[17], pe_a_o[18]);
+//
+//      // Display for pe_b_o
+//      $display("out b: %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d ", pe_b_o[0],
+//               pe_b_o[1], pe_b_o[2], pe_b_o[3], pe_b_o[4], pe_b_o[5], pe_b_o[6], pe_b_o[7],
+//               pe_b_o[8], pe_b_o[9], pe_b_o[10], pe_b_o[11], pe_b_o[12], pe_b_o[13], pe_b_o[14],
+//               pe_b_o[15], pe_b_o[16], pe_b_o[17], pe_b_o[18]);
 
 
     end else begin
@@ -404,20 +401,20 @@ module systolic (
 
 
       7: begin
-        c1 = pe_cab_o[18];
-        c2 = pe_cab_o[15];
-        c3 = pe_cab_o[11];
-        c4 = pe_cab_o[17];
-        c7 = pe_cab_o[16];
+        c1 <= pe_cab_o[18];
+        c2 <= pe_cab_o[15];
+        c3 <= pe_cab_o[11];
+        c4 <= pe_cab_o[17];
+        c7 <= pe_cab_o[16];
       end
       8: begin
-        c5 = pe_cab_o[18];
-        c6 = pe_cab_o[15];
-        c8 = pe_cab_o[17];
+        c5 <= pe_cab_o[18];
+        c6 <= pe_cab_o[15];
+        c8 <= pe_cab_o[17];
       end
       9: begin
-        c9 = pe_cab_o[18];
-        done_o = 1;
+        c9 <= pe_cab_o[18];
+        done_o <= 1;
       end
       default: begin
         ai[0] <= 0;

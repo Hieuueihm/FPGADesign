@@ -77,6 +77,7 @@ BEGIN
     Sync_Rx_ins : Synchronizer
     GENERIC MAP(IDLE_STATE => '1')
     PORT MAP(clk, rst, async => RxSignal, synced => synced_rx);
+    
     BaudClk_Rx : BaudClkGenerator
     GENERIC MAP(
         NUMBER_OF_CLOCKS => DATA_WIDTH + 1,

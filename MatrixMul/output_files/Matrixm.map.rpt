@@ -1,5 +1,5 @@
-Analysis & Synthesis report for Matrixm
-Tue Dec 03 00:45:45 2024
+Analysis & Elaboration report for Matrixm
+Wed Dec 04 07:02:17 2024
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -7,11 +7,26 @@ Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 ; Table of Contents ;
 ---------------------
   1. Legal Notice
-  2. Analysis & Synthesis Summary
-  3. Analysis & Synthesis Settings
-  4. Parallel Compilation
-  5. Analysis & Synthesis Messages
-  6. Analysis & Synthesis Suppressed Messages
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Analysis & Elaboration Settings
+  5. Port Connectivity Checks: "pe:pe18"
+  6. Port Connectivity Checks: "pe:pe17"
+  7. Port Connectivity Checks: "pe:pe16"
+  8. Port Connectivity Checks: "de:de5"
+  9. Port Connectivity Checks: "de:de4"
+ 10. Port Connectivity Checks: "pe:pe15"
+ 11. Port Connectivity Checks: "pe:pe11"
+ 12. Port Connectivity Checks: "pe:pe7"
+ 13. Port Connectivity Checks: "de:de2"
+ 14. Port Connectivity Checks: "pe:pe6"
+ 15. Port Connectivity Checks: "pe:pe3"
+ 16. Port Connectivity Checks: "de:de1"
+ 17. Port Connectivity Checks: "pe:pe2"
+ 18. Port Connectivity Checks: "pe:pe1"
+ 19. Port Connectivity Checks: "pe:pe0"
+ 20. Analysis & Elaboration Messages
+ 21. Analysis & Elaboration Suppressed Messages
 
 
 
@@ -35,26 +50,42 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-+---------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                              ;
-+-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Failed - Tue Dec 03 00:45:45 2024           ;
-; Quartus Prime Version       ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
-; Revision Name               ; Matrixm                                     ;
-; Top-level Entity Name       ; systolic                                    ;
-; Family                      ; Cyclone V                                   ;
-; Logic utilization (in ALMs) ; N/A until Partition Merge                   ;
-; Total registers             ; N/A until Partition Merge                   ;
-; Total pins                  ; N/A until Partition Merge                   ;
-; Total virtual pins          ; N/A until Partition Merge                   ;
-; Total block memory bits     ; N/A until Partition Merge                   ;
-; Total PLLs                  ; N/A until Partition Merge                   ;
-; Total DLLs                  ; N/A until Partition Merge                   ;
-+-----------------------------+---------------------------------------------+
++-----------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                              ;
++-------------------------------+---------------------------------------------+
+; Analysis & Elaboration Status ; Successful - Wed Dec 04 07:02:17 2024       ;
+; Quartus Prime Version         ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Revision Name                 ; Matrixm                                     ;
+; Top-level Entity Name         ; systolic                                    ;
+; Family                        ; Cyclone V                                   ;
+; Logic utilization (in ALMs)   ; N/A until Partition Merge                   ;
+; Total registers               ; N/A until Partition Merge                   ;
+; Total pins                    ; N/A until Partition Merge                   ;
+; Total virtual pins            ; N/A until Partition Merge                   ;
+; Total block memory bits       ; N/A until Partition Merge                   ;
+; Total PLLs                    ; N/A until Partition Merge                   ;
+; Total DLLs                    ; N/A until Partition Merge                   ;
++-------------------------------+---------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Settings                                                                                             ;
+; Analysis & Elaboration Settings                                                                                           ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
@@ -140,71 +171,173 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 8           ;
-; Maximum allowed            ; 4           ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-+----------------------------+-------------+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "pe:pe18"                                                                            ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; a_o  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; b_o  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+-------------------------------+
-; Analysis & Synthesis Messages ;
-+-------------------------------+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "pe:pe17"                                                                            ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; b_o  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "pe:pe16"                                                                            ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; b_o  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "de:de5"                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; b_o  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "de:de4"                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; b_o  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "pe:pe15"                                                                            ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; a_o  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "pe:pe11"                                                                            ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; a_o  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------+
+; Port Connectivity Checks: "pe:pe7"     ;
++------+-------+----------+--------------+
+; Port ; Type  ; Severity ; Details      ;
++------+-------+----------+--------------+
+; c    ; Input ; Info     ; Stuck at GND ;
++------+-------+----------+--------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "de:de2"                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; a_o  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "pe:pe6"                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; a_o  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------+
+; Port Connectivity Checks: "pe:pe3"     ;
++------+-------+----------+--------------+
+; Port ; Type  ; Severity ; Details      ;
++------+-------+----------+--------------+
+; c    ; Input ; Info     ; Stuck at GND ;
++------+-------+----------+--------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "de:de1"                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; a_o  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------+
+; Port Connectivity Checks: "pe:pe2"     ;
++------+-------+----------+--------------+
+; Port ; Type  ; Severity ; Details      ;
++------+-------+----------+--------------+
+; c    ; Input ; Info     ; Stuck at GND ;
++------+-------+----------+--------------+
+
+
++----------------------------------------+
+; Port Connectivity Checks: "pe:pe1"     ;
++------+-------+----------+--------------+
+; Port ; Type  ; Severity ; Details      ;
++------+-------+----------+--------------+
+; c    ; Input ; Info     ; Stuck at GND ;
++------+-------+----------+--------------+
+
+
++----------------------------------------+
+; Port Connectivity Checks: "pe:pe0"     ;
++------+-------+----------+--------------+
+; Port ; Type  ; Severity ; Details      ;
++------+-------+----------+--------------+
+; c    ; Input ; Info     ; Stuck at GND ;
++------+-------+----------+--------------+
+
+
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
 Info: *******************************************************************
-Info: Running Quartus Prime Analysis & Synthesis
+Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Tue Dec 03 00:45:38 2024
-Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Matrixm -c Matrixm
+    Info: Processing started: Wed Dec 04 07:02:09 2024
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Matrixm -c Matrixm --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file modules/systolic/de.v
-    Info (12023): Found entity 1: de File: D:/Code/FPGADesign/MatrixMul/modules/systolic/de.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file modules/systolic/pe.v
-    Info (12023): Found entity 1: pe File: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file modules/systolic/systolic.v
     Info (12023): Found entity 1: systolic File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file modules/systolic/pe.v
+    Info (12023): Found entity 1: pe File: D:/Code/FPGADesign/MatrixMul/modules/systolic/pe.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file modules/systolic/de.v
+    Info (12023): Found entity 1: de File: D:/Code/FPGADesign/MatrixMul/modules/systolic/de.v Line: 1
 Info (12127): Elaborating entity "systolic" for the top level hierarchy
-Warning (10762): Verilog HDL Case Statement warning at systolic.v(366): can't check case statement for completeness because the case expression has too many possible states File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 366
-Error (10028): Can't resolve multiple constant drivers for net "done_o" at systolic.v(338) File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 338
-Error (10029): Constant driver at systolic.v(38) File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 38
-Error (10028): Can't resolve multiple constant drivers for net "c1[15]" at systolic.v(338) File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 338
-Error (10028): Can't resolve multiple constant drivers for net "c1[14]" at systolic.v(338) File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 338
-Error (10028): Can't resolve multiple constant drivers for net "c1[13]" at systolic.v(338) File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 338
-Error (10028): Can't resolve multiple constant drivers for net "c1[12]" at systolic.v(338) File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 338
-Error (10028): Can't resolve multiple constant drivers for net "c1[11]" at systolic.v(338) File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 338
-Error (10028): Can't resolve multiple constant drivers for net "c1[10]" at systolic.v(338) File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 338
-Error (10028): Can't resolve multiple constant drivers for net "c1[9]" at systolic.v(338) File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 338
-Error (10028): Can't resolve multiple constant drivers for net "c1[8]" at systolic.v(338) File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 338
-Error (10028): Can't resolve multiple constant drivers for net "c1[7]" at systolic.v(338) File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 338
-Error (10028): Can't resolve multiple constant drivers for net "c1[6]" at systolic.v(338) File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 338
-Error (10028): Can't resolve multiple constant drivers for net "c1[5]" at systolic.v(338) File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 338
-Error (10028): Can't resolve multiple constant drivers for net "c1[4]" at systolic.v(338) File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 338
-Error (10028): Can't resolve multiple constant drivers for net "c1[3]" at systolic.v(338) File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 338
-Error (10028): Can't resolve multiple constant drivers for net "c1[2]" at systolic.v(338) File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 338
-Error (10028): Can't resolve multiple constant drivers for net "c1[1]" at systolic.v(338) File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 338
-Error (10028): Can't resolve multiple constant drivers for net "c1[0]" at systolic.v(338) File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 338
-Error (10028): Can't resolve multiple constant drivers for net "c2[15]" at systolic.v(338) File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 338
-Error (12153): Can't elaborate top-level user hierarchy
+Warning (10762): Verilog HDL Case Statement warning at systolic.v(363): can't check case statement for completeness because the case expression has too many possible states File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 363
+Info (12128): Elaborating entity "pe" for hierarchy "pe:pe0" File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 54
+Info (12128): Elaborating entity "de" for hierarchy "de:de0" File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 85
 Info (144001): Generated suppressed messages file D:/Code/FPGADesign/MatrixMul/output_files/Matrixm.map.smsg
-Error: Quartus Prime Analysis & Synthesis was unsuccessful. 20 errors, 2 warnings
-    Error: Peak virtual memory: 4766 megabytes
-    Error: Processing ended: Tue Dec 03 00:45:45 2024
-    Error: Elapsed time: 00:00:07
-    Error: Total CPU time (on all processors): 00:00:17
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4769 megabytes
+    Info: Processing ended: Wed Dec 04 07:02:17 2024
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:20
 
 
-+------------------------------------------+
-; Analysis & Synthesis Suppressed Messages ;
-+------------------------------------------+
++--------------------------------------------+
+; Analysis & Elaboration Suppressed Messages ;
++--------------------------------------------+
 The suppressed messages can be found in D:/Code/FPGADesign/MatrixMul/output_files/Matrixm.map.smsg.
 
 

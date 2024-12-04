@@ -1,8 +1,11 @@
 # UART Modules
 
-# Top Level
+## About UART
+Baud rate là tốc độ mà dữ liệu được gửi. Ví dụ, baudrate = 9600 -> nghĩa là 9600 bits mỗi giây. 
 
-Top level hay nói cách khác là module UART dạng Blackbox, biết đầu vào và đầu ra mong muốn của UART.
+## Top Level
+
+Top level cho biết đầu vào và đầu ra mong muốn của UART.
 
 | Chân | IO | Kiểu dữ liệu | Chi tiết |
 | --- | --- | --- | --- |

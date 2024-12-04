@@ -1,2 +1,1 @@
-Warning (10268): Verilog HDL information at systolic.v(38): always construct contains both blocking and non-blocking assignments File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 38
-Warning (10268): Verilog HDL information at systolic.v(338): always construct contains both blocking and non-blocking assignments File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 338
+Warning (10268): Verilog HDL information at systolic.v(313): always construct contains both blocking and non-blocking assignments File: D:/Code/FPGADesign/MatrixMul/modules/systolic/systolic.v Line: 313
