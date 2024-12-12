@@ -86,6 +86,7 @@ module sobel_calc (
     end
   end
 
+  // shift 3 clk cycles
   always @(posedge clk) begin
     if (rst) begin
       done_shift <= 0;

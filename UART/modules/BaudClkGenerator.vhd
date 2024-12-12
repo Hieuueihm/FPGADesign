@@ -44,8 +44,6 @@ BEGIN
 				baudClk <= '0';
 				IF IS_RX = true THEN
 					BitPeriodCounter <= HALF_BIT_PERIOD;
-					-- Tx module case, load bit_counter with 0 so that
-					-- the first baud_clk pulse occures 1 bit period after assering the start.
 				ELSE
 					BitPeriodCounter <= 0;
 				END IF;
