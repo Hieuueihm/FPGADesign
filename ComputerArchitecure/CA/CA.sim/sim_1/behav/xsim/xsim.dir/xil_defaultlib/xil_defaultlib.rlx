@@ -1,0 +1,11 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+D:/Code/FPGADesign/ComputerArchitecure/CA/CA.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,uvm,,,,,,
+D:/Code/FPGADesign/ComputerArchitecure/modules/alu.sv,1734267912,systemVerilog,,D:/Code/FPGADesign/ComputerArchitecure/modules/carry_look_ahead_adder_32_bit.sv,,alu,,uvm,,,,,,
+D:/Code/FPGADesign/ComputerArchitecure/modules/carry_look_ahead_adder_32_bit.sv,1734263924,systemVerilog,,D:/Code/FPGADesign/ComputerArchitecure/modules/carry_look_ahead_adder_4_bit.sv,,carry_look_ahead_adder_32_bit,,uvm,,,,,,
+D:/Code/FPGADesign/ComputerArchitecure/modules/carry_look_ahead_adder_4_bit.sv,1734252143,systemVerilog,,D:/Code/FPGADesign/ComputerArchitecure/test_benches/alu_tb.sv,,carry_look_ahead_adder_4_bit,,uvm,,,,,,
+D:/Code/FPGADesign/ComputerArchitecure/test_benches/alu_tb.sv,1734268081,systemVerilog,,,,alu_tb,,uvm,,,,,,
+D:/Code/FPGADesign/ComputerArchitecure/test_benches/carry_look_ahead_adder_32_bit_tb.sv,1734253343,systemVerilog,,,,carry_look_ahead_adder_32_bit_tb,,uvm,,,,,,
+D:/Code/FPGADesign/ComputerArchitecure/test_benches/carry_look_ahead_adder_4_bit_tb.sv,1734252024,systemVerilog,,,,carry_look_ahead_adder_4_bit_tb,,uvm,,,,,,

@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../modules/alu.sv" \
+"../../../../../modules/carry_look_ahead_adder_32_bit.sv" \
+"../../../../../modules/carry_look_ahead_adder_4_bit.sv" \
+"../../../../../test_benches/alu_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Code/FPGADesign/ComputerArchitecure/modules/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Code/FPGADesign/ComputerArchitecure/modules/carry_look_ahead_adder_32_bit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module carry_look_ahead_adder_32_bit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Code/FPGADesign/ComputerArchitecure/modules/carry_look_ahead_adder_4_bit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module carry_look_ahead_adder_4_bit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Code/FPGADesign/ComputerArchitecure/test_benches/alu_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_tb

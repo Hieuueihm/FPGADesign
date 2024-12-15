@@ -1,0 +1,113 @@
+$date
+   Sun Dec 15 18:50:28 2024
+$end
+
+$version
+  2024.1
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module alu_tb.uut $end
+$var port [31:0] <0 A $end
+$var port [31:0] <1 B $end
+$var port [2:0] <2 F $end
+$var port [31:0] <3 Y $end
+$scope module alu_tb.uut.ADDER $end
+$var port [31:0] <0 A $end
+$var port [31:0] <4 B $end
+$var port 1 <2 Cin $end
+$var port [31:0] <5 S $end
+$var port 1 <6 Cout $end
+$scope module alu_tb.uut.ADDER.F0 $end
+$var port [3:0] <0 A $end
+$var port [3:0] <4 B $end
+$var port 1 <2 Cin $end
+$var port [31:28] <7 S $end
+$var port 1 <8 Cout $end
+$upscope $end
+$scope module alu_tb.uut.ADDER.F1 $end
+$var port 1 <9 Cout $end
+$var port [27:24] <7 S $end
+$var port 1 <10 Cin $end
+$var port [7:4] <4 B $end
+$var port [7:4] <0 A $end
+$upscope $end
+$scope module alu_tb.uut.ADDER.F2 $end
+$var port 1 <11 Cout $end
+$var port [23:20] <7 S $end
+$var port 1 <12 Cin $end
+$var port [11:8] <4 B $end
+$var port [11:8] <0 A $end
+$upscope $end
+$scope module alu_tb.uut.ADDER.F3 $end
+$var port 1 <13 Cout $end
+$var port [19:16] <7 S $end
+$var port 1 <14 Cin $end
+$var port [15:12] <4 B $end
+$var port [15:12] <0 A $end
+$upscope $end
+$scope module alu_tb.uut.ADDER.F4 $end
+$var port 1 <15 Cout $end
+$var port [15:12] <7 S $end
+$var port 1 <16 Cin $end
+$var port [19:16] <4 B $end
+$var port [19:16] <0 A $end
+$upscope $end
+$scope module alu_tb.uut.ADDER.F5 $end
+$var port 1 <17 Cout $end
+$var port [11:8] <7 S $end
+$var port 1 <18 Cin $end
+$var port [23:20] <4 B $end
+$var port [23:20] <0 A $end
+$upscope $end
+$scope module alu_tb.uut.ADDER.F6 $end
+$var port 1 <19 Cout $end
+$var port [7:4] <7 S $end
+$var port 1 <20 Cin $end
+$var port [27:24] <4 B $end
+$var port [27:24] <0 A $end
+$upscope $end
+$scope module alu_tb.uut.ADDER.F7 $end
+$var port 1 <21 Cout $end
+$var port [3:0] <7 S $end
+$var port 1 <22 Cin $end
+$var port [31:28] <4 B $end
+$var port [31:28] <0 A $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#100000
+$dumpports
+pDDDDDDDDDDDDDDDDDDDDDDDDDDDDUDUD 66666666666666666666666666660606 00000000000000000000000000006060 <0
+pDDDDDDDDDDDDDDDDDDDDDDDDDDDDUUUU 66666666666666666666666666660000 00000000000000000000000000006666 <1
+pN 6 6 <10
+pX 6 6 <11
+pN 6 6 <12
+pX 6 6 <13
+pN 6 6 <14
+pX 6 6 <15
+pN 6 6 <16
+pX 6 6 <17
+pN 6 6 <18
+pX 6 6 <19
+pUUU 000 666 <2
+pN 6 6 <20
+pX 6 6 <21
+pN 6 6 <22
+pLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL 66666666666666666666666666666666 00000000000000000000000000000000 <3
+pZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZD 00000000000000000000000000000006 00000000000000000000000000000000 <4
+pXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXH 66666666666666666666666666666660 66666666666666666666666666666666 <5
+pX 6 6 <6
+pXXX1 6660 6666 <7
+pX 6 6 <8
+pX 6 6 <9
+$end
+
+$vcdclose
+#100000
+$end

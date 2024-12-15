@@ -1,0 +1,34 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot alu_tb_behav xil_defaultlib.alu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Cout' [D:/Code/FPGADesign/ComputerArchitecure/modules/carry_look_ahead_adder_32_bit.sv:15]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Cin' [D:/Code/FPGADesign/ComputerArchitecure/modules/carry_look_ahead_adder_32_bit.sv:20]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Cout' [D:/Code/FPGADesign/ComputerArchitecure/modules/carry_look_ahead_adder_32_bit.sv:22]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Cin' [D:/Code/FPGADesign/ComputerArchitecure/modules/carry_look_ahead_adder_32_bit.sv:27]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Cout' [D:/Code/FPGADesign/ComputerArchitecure/modules/carry_look_ahead_adder_32_bit.sv:29]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Cin' [D:/Code/FPGADesign/ComputerArchitecure/modules/carry_look_ahead_adder_32_bit.sv:34]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Cout' [D:/Code/FPGADesign/ComputerArchitecure/modules/carry_look_ahead_adder_32_bit.sv:36]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Cin' [D:/Code/FPGADesign/ComputerArchitecure/modules/carry_look_ahead_adder_32_bit.sv:41]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Cout' [D:/Code/FPGADesign/ComputerArchitecure/modules/carry_look_ahead_adder_32_bit.sv:43]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Cin' [D:/Code/FPGADesign/ComputerArchitecure/modules/carry_look_ahead_adder_32_bit.sv:48]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Cout' [D:/Code/FPGADesign/ComputerArchitecure/modules/carry_look_ahead_adder_32_bit.sv:50]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Cin' [D:/Code/FPGADesign/ComputerArchitecure/modules/carry_look_ahead_adder_32_bit.sv:55]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Cout' [D:/Code/FPGADesign/ComputerArchitecure/modules/carry_look_ahead_adder_32_bit.sv:57]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Cin' [D:/Code/FPGADesign/ComputerArchitecure/modules/carry_look_ahead_adder_32_bit.sv:62]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Cout' [D:/Code/FPGADesign/ComputerArchitecure/modules/carry_look_ahead_adder_32_bit.sv:64]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/Code/FPGADesign/ComputerArchitecure/CA/CA.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Code/FPGADesign/ComputerArchitecure/CA/CA.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.carry_look_ahead_adder_4_bit
+Compiling module xil_defaultlib.carry_look_ahead_adder_32_bit
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.alu_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot alu_tb_behav
