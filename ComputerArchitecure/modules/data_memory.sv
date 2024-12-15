@@ -7,11 +7,15 @@ module data_memory (
     output [31:0] RD
 
 );
-  reg [31:0] memory[1023:0];
+  reg [31:0] mem[1023:0];
   always @(posedge clk) begin
-    if (WE) mem[A] <= WD;
+    if (rst) begin
+      mem[2]  = 32'h0fffffff;
+      mem[3]  = 32'h0000000f;
+      mem[32] = 32'h0000000f;
+    end else if (WE) mem[A] <= WD;
   end
-  assign RD = (~rst) ? 32'd0 : mem[A];
+  assign RD = (rst == 1'b1) ? 32'd0 : mem[A];
 
 
 

@@ -3,7 +3,7 @@
 module alu_tb;
 
   reg [31:0] A, B;
-  reg  [ 2:0] ALUControl;
+  reg [2:0] ALUControl;
   wire [31:0] Result;
   wire Z;
 
@@ -13,7 +13,7 @@ module alu_tb;
       .B(B),
       .ALUControl(ALUControl),
       .Result(Result),
-      .Z(Z)
+      .Zero(Z)
   );
 
   initial begin

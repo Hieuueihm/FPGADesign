@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../modules/PC.sv" \
+"../../../../../modules/alu.sv" \
+"../../../../../modules/alu_decoder.sv" \
+"../../../../../modules/cla_32_bit.sv" \
+"../../../../../modules/cla_4_bit.sv" \
+"../../../../../modules/control_unit.sv" \
+"../../../../../modules/data_memory.sv" \
+"../../../../../modules/instruction_memory.sv" \
+"../../../../../modules/main_decoder.sv" \
+"../../../../../modules/mips_top.sv" \
+"../../../../../modules/register_file.sv" \
+"../../../../../modules/sign_extend.sv" \
+"../../../../../test_benches/mips_top_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

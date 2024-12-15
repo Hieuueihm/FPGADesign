@@ -3,7 +3,7 @@ module alu (
     input [31:0] B,
     input [2:0] ALUControl,
     output [31:0] Result,
-    output Z
+    output Zero
 );
 
   wire [31:0] a_and_b;
@@ -21,7 +21,7 @@ module alu (
 
 
   assign mux_1   = (ALUControl[2] == 0) ? B : not_b;
-  carry_look_ahead_adder_32_bit ADDER (
+  cla_32_bit ADDER (
       .A(A),
       .B(mux_1),
       .Cin(ALUControl[2]),
@@ -36,7 +36,7 @@ module alu (
 
   assign Result = mux_2;
 
-  assign Z = &(~Result);
+  assign Zero = &(~Result);
 
 
 

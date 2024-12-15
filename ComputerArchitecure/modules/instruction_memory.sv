@@ -3,12 +3,12 @@ module instruction_memory (
     input rst,
     output [31:0] RD
 );
-  logic [31:0] ins[1023:0];
+  logic [31:0] mem[1023:0];
 
   initial begin
-    $readmemh("D:\\Code\\FPGADesign\\ComputerArchitecure\\mem\\mem.dump", ins);
+    $readmemh("D:\\Code\\FPGADesign\\ComputerArchitecure\\mem\\mem.dump", mem);
   end
 
-  assign RD = (rst == 1'b0) ? ins[A] : 32'b0;
+  assign RD = (rst == 1'b0) ? mem[A>>2] : 32'b0;
 
 endmodule
