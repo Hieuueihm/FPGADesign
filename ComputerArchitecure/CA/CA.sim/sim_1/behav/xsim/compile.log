@@ -12,15 +12,25 @@ INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Code/FPGADesign/ComputerAr
 INFO: [VRFC 10-311] analyzing module control_unit
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Code/FPGADesign/ComputerArchitecure/modules/data_memory.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Code/FPGADesign/ComputerArchitecure/modules/pipelined/decode_cycle.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_cycle
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Code/FPGADesign/ComputerArchitecure/modules/pipelined/execute_cycle.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module execute_cycle
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Code/FPGADesign/ComputerArchitecure/modules/pipelined/fetch_cycle.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fetch_cycle
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Code/FPGADesign/ComputerArchitecure/modules/instruction_memory.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module instruction_memory
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Code/FPGADesign/ComputerArchitecure/modules/main_decoder.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module main_decoder
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Code/FPGADesign/ComputerArchitecure/modules/mips_top.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module mips_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Code/FPGADesign/ComputerArchitecure/modules/pipelined/memory_cycle.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory_cycle
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Code/FPGADesign/ComputerArchitecure/modules/pipelined/pipelined_mips.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipelined_mips
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Code/FPGADesign/ComputerArchitecure/modules/register_file.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module register_file
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Code/FPGADesign/ComputerArchitecure/modules/sign_extend.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module sign_extend
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Code/FPGADesign/ComputerArchitecure/test_benches/mips_top_tb.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module mips_tops_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Code/FPGADesign/ComputerArchitecure/modules/pipelined/writeback_cycle.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module writeback_cycle
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Code/FPGADesign/ComputerArchitecure/test_benches/pipelined_mips_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipelined_mips_tb

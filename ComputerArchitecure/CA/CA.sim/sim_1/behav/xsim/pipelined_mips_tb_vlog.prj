@@ -7,12 +7,17 @@ sv xil_defaultlib  \
 "../../../../../modules/cla_4_bit.sv" \
 "../../../../../modules/control_unit.sv" \
 "../../../../../modules/data_memory.sv" \
+"../../../../../modules/pipelined/decode_cycle.sv" \
+"../../../../../modules/pipelined/execute_cycle.sv" \
+"../../../../../modules/pipelined/fetch_cycle.sv" \
 "../../../../../modules/instruction_memory.sv" \
 "../../../../../modules/main_decoder.sv" \
-"../../../../../modules/mips_top.sv" \
+"../../../../../modules/pipelined/memory_cycle.sv" \
+"../../../../../modules/pipelined/pipelined_mips.sv" \
 "../../../../../modules/register_file.sv" \
 "../../../../../modules/sign_extend.sv" \
-"../../../../../test_benches/mips_top_tb.sv" \
+"../../../../../modules/pipelined/writeback_cycle.sv" \
+"../../../../../test_benches/pipelined_mips_tb.sv" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"

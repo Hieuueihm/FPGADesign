@@ -1,7 +1,7 @@
 Vivado Simulator v2024.1
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot mips_tops_tb_behav xil_defaultlib.mips_tops_tb xil_defaultlib.glbl -log elaborate.log 
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot pipelined_mips_tb_behav xil_defaultlib.pipelined_mips_tb xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
@@ -22,14 +22,17 @@ WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for
 WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'Cout' [D:/Code/FPGADesign/ComputerArchitecure/modules/cla_32_bit.sv:64]
 Completed static elaboration
 Starting simulation data flow analysis
-WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/mips_top.sv" Line 1. Module mips_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/pipelined/pipelined_mips.sv" Line 1. Module pipelined_mips doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/pipelined/fetch_cycle.sv" Line 1. Module fetch_cycle doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/PC.sv" Line 1. Module PC doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/instruction_memory.sv" Line 1. Module instruction_memory doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/pipelined/decode_cycle.sv" Line 1. Module decode_cycle doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/register_file.sv" Line 1. Module register_file doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/sign_extend.sv" Line 1. Module sign_extend doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/control_unit.sv" Line 1. Module control_unit doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/main_decoder.sv" Line 1. Module main_decoder doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/alu_decoder.sv" Line 1. Module alu_decoder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/register_file.sv" Line 1. Module register_file doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/sign_extend.sv" Line 1. Module sign_extend doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/pipelined/execute_cycle.sv" Line 1. Module execute_cycle doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/alu.sv" Line 1. Module alu doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/cla_32_bit.sv" Line 1. Module cla_32_bit doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/cla_4_bit.sv" Line 1. Module cla_4_bit doesn't have a timescale but at least one module in design has a timescale.
@@ -40,15 +43,20 @@ WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/cla_4_bi
 WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/cla_4_bit.sv" Line 1. Module cla_4_bit doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/cla_4_bit.sv" Line 1. Module cla_4_bit doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/cla_4_bit.sv" Line 1. Module cla_4_bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/pipelined/memory_cycle.sv" Line 1. Module memory_cycle doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/data_memory.sv" Line 1. Module data_memory doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/mips_top.sv" Line 1. Module mips_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/pipelined/writeback_cycle.sv" Line 1. Module writeback_cycle doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/pipelined/pipelined_mips.sv" Line 1. Module pipelined_mips doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/pipelined/fetch_cycle.sv" Line 1. Module fetch_cycle doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/PC.sv" Line 1. Module PC doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/instruction_memory.sv" Line 1. Module instruction_memory doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/pipelined/decode_cycle.sv" Line 1. Module decode_cycle doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/register_file.sv" Line 1. Module register_file doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/sign_extend.sv" Line 1. Module sign_extend doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/control_unit.sv" Line 1. Module control_unit doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/main_decoder.sv" Line 1. Module main_decoder doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/alu_decoder.sv" Line 1. Module alu_decoder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/register_file.sv" Line 1. Module register_file doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/sign_extend.sv" Line 1. Module sign_extend doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/pipelined/execute_cycle.sv" Line 1. Module execute_cycle doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/alu.sv" Line 1. Module alu doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/cla_32_bit.sv" Line 1. Module cla_32_bit doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/cla_4_bit.sv" Line 1. Module cla_4_bit doesn't have a timescale but at least one module in design has a timescale.
@@ -59,21 +67,28 @@ WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/cla_4_bi
 WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/cla_4_bit.sv" Line 1. Module cla_4_bit doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/cla_4_bit.sv" Line 1. Module cla_4_bit doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/cla_4_bit.sv" Line 1. Module cla_4_bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/pipelined/memory_cycle.sv" Line 1. Module memory_cycle doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/data_memory.sv" Line 1. Module data_memory doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Code/FPGADesign/ComputerArchitecure/modules/pipelined/writeback_cycle.sv" Line 1. Module writeback_cycle doesn't have a timescale but at least one module in design has a timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.PC
 Compiling module xil_defaultlib.instruction_memory
+Compiling module xil_defaultlib.fetch_cycle
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.sign_extend
 Compiling module xil_defaultlib.main_decoder
 Compiling module xil_defaultlib.alu_decoder
 Compiling module xil_defaultlib.control_unit
-Compiling module xil_defaultlib.register_file
-Compiling module xil_defaultlib.sign_extend
+Compiling module xil_defaultlib.decode_cycle
 Compiling module xil_defaultlib.cla_4_bit
 Compiling module xil_defaultlib.cla_32_bit
 Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.execute_cycle
 Compiling module xil_defaultlib.data_memory
-Compiling module xil_defaultlib.mips_top
-Compiling module xil_defaultlib.mips_tops_tb
+Compiling module xil_defaultlib.memory_cycle
+Compiling module xil_defaultlib.writeback_cycle
+Compiling module xil_defaultlib.pipelined_mips
+Compiling module xil_defaultlib.pipelined_mips_tb
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot mips_tops_tb_behav
+Built simulation snapshot pipelined_mips_tb_behav
