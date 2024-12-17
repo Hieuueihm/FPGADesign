@@ -10,8 +10,9 @@ module data_memory (
   reg [31:0] mem[1023:0];
   always @(posedge clk) begin
     if (rst) begin
-      mem[2]  = 32'h0fffffff;
-      mem[3]  = 32'h0000000f;
+      mem[0]  = 32'd0;
+      mem[2]  = 32'h0f0f0f0f;
+      mem[3]  = 32'h000000f0;
       mem[32] = 32'h0000000f;
     end else if (WE) mem[A] <= WD;
   end

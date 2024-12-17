@@ -1,5 +1,5 @@
 Flow report for Matrixm
-Thu Dec 12 06:06:53 2024
+Tue Dec 17 09:40:53 2024
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -41,10 +41,10 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------+
 ; Flow Summary                                                              ;
 +-----------------------------+---------------------------------------------+
-; Flow Status                 ; Successful - Thu Dec 12 06:06:53 2024       ;
+; Flow Status                 ; Successful - Tue Dec 17 09:40:53 2024       ;
 ; Quartus Prime Version       ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name               ; Matrixm                                     ;
-; Top-level Entity Name       ; instruction_memory                          ;
+; Top-level Entity Name       ; test                                        ;
 ; Family                      ; Cyclone V                                   ;
 ; Device                      ; 5CGXFC7C7F23C8                              ;
 ; Timing Models               ; Final                                       ;
@@ -63,28 +63,28 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/12/2024 06:06:46 ;
+; Start date & time ; 12/17/2024 09:40:46 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Matrixm             ;
 +-------------------+---------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                               ;
-+-------------------------------------+----------------------------------------+---------------+--------------------+------------+
-; Assignment Name                     ; Value                                  ; Default Value ; Entity Name        ; Section Id ;
-+-------------------------------------+----------------------------------------+---------------+--------------------+------------+
-; COMPILER_SIGNATURE_ID               ; 9413545836337.173395840617860          ; --            ; --                 ; --         ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --                 ; --         ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --                 ; --         ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; instruction_memory ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; instruction_memory ; Top        ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; instruction_memory ; Top        ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --                 ; --         ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --                 ; --         ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --                 ; --         ;
-; TOP_LEVEL_ENTITY                    ; instruction_memory                     ; Matrixm       ; --                 ; --         ;
-+-------------------------------------+----------------------------------------+---------------+--------------------+------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                        ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+; COMPILER_SIGNATURE_ID               ; 9413545836337.173440324617620          ; --            ; --          ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; test        ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; test        ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; test        ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --          ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --         ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --         ;
+; TOP_LEVEL_ENTITY                    ; test                                   ; Matrixm       ; --          ; --         ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------+
@@ -92,8 +92,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:07     ; 1.0                     ; 4775 MB             ; 00:00:17                           ;
-; Total                  ; 00:00:07     ; --                      ; --                  ; 00:00:17                           ;
+; Analysis & Elaboration ; 00:00:08     ; 1.0                     ; 4764 MB             ; 00:00:18                           ;
+; Total                  ; 00:00:08     ; --                      ; --                  ; 00:00:18                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

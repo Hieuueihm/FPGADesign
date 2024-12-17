@@ -1,23 +1,31 @@
 # compile verilog/system verilog design source files
 sv xil_defaultlib  \
-"../../../../../modules/PC.sv" \
-"../../../../../modules/alu.sv" \
-"../../../../../modules/alu_decoder.sv" \
-"../../../../../modules/cla_32_bit.sv" \
-"../../../../../modules/cla_4_bit.sv" \
-"../../../../../modules/control_unit.sv" \
-"../../../../../modules/data_memory.sv" \
-"../../../../../modules/pipelined/decode_cycle.sv" \
-"../../../../../modules/pipelined/execute_cycle.sv" \
-"../../../../../modules/pipelined/fetch_cycle.sv" \
-"../../../../../modules/instruction_memory.sv" \
-"../../../../../modules/main_decoder.sv" \
-"../../../../../modules/pipelined/memory_cycle.sv" \
 "../../../../../modules/pipelined/pipelined_mips.sv" \
-"../../../../../modules/register_file.sv" \
-"../../../../../modules/sign_extend.sv" \
+"../../../../../modules/pipelined/hazard_unit.sv" \
+"../../../../../modules/pipelined/execute_cycle.sv" \
 "../../../../../modules/pipelined/writeback_cycle.sv" \
+"../../../../../modules/pipelined/fetch_cycle.sv" \
+"../../../../../modules/pipelined/decode_cycle.sv" \
+"../../../../../modules/pipelined/memory_cycle.sv" \
+"../../../../../modules/alu.sv" \
+"../../../../../modules/mips_top.sv" \
+"../../../../../modules/cla_32_bit.sv" \
+"../../../../../modules/sign_extend.sv" \
+"../../../../../modules/instruction_memory.sv" \
+"../../../../../modules/data_memory.sv" \
+"../../../../../modules/cla_4_bit.sv" \
+"../../../../../modules/main_decoder.sv" \
+"../../../../../modules/control_unit.sv" \
+"../../../../../modules/PC.sv" \
+"../../../../../modules/alu_decoder.sv" \
+"../../../../../modules/register_file.sv" \
+"../../../../../test_benches/carry_look_ahead_adder_32_bit_tb.sv" \
+"../../../../../test_benches/fetch_cycle_tb.sv" \
+"../../../../../test_benches/carry_look_ahead_adder_4_bit_tb.sv" \
+"../../../../../test_benches/alu_tb.sv" \
+"../../../../../test_benches/instruction_memory_tb.sv" \
 "../../../../../test_benches/pipelined_mips_tb.sv" \
+"../../../../../test_benches/mips_top_tb.sv" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"

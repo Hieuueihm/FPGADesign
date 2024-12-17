@@ -23,10 +23,14 @@ module register_file (
       for (i = 0; i < 32; i = i + 1) begin
         Registers[i] = 32'd0;
       end
+      // Registers[16] = 32'd10;
+      // Registers[17] = 32'd20;
     end else if (WE3) begin
       Registers[A3] <= WD3;
     end
   end
+
+
 
 
 
