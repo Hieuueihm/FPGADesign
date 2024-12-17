@@ -6,7 +6,7 @@ module instruction_memory (
   logic [31:0] mem[1023:0];
 
   initial begin
-    $readmemh("D:\\Code\\FPGADesign\\ComputerArchitecure\\mem\\mem.dump", mem);
+    $readmemh("D:\\Code\\FPGADesign\\MIPS\\mem\\mem.dump", mem);
   end
 
   assign RD = (rst == 1'b0) ? mem[A>>2] : 32'b0;
